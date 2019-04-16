@@ -1,0 +1,251 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Frisch2004}
+A.~Frisch, L.~Cardelli, {Greedy Regular Expression Matching}, ICALP 2004 -
+  International Colloquium on Automata, Languages and Programming 3142 (2004)
+  618--629.
+
+\bibitem{Firsov13}
+D.~Firsov, T.~Uustalu,
+  \href{http://dx.doi.org/10.1007/978-3-319-03545-1_7}{Certified parsing of
+  regular languages}, in: Proceedings of the Third International Conference on
+  Certified Programs and Proofs - Volume 8307, Springer-Verlag New York, Inc.,
+  New York, NY, USA, 2013, pp. 98--113.
+\newblock \href {http://dx.doi.org/10.1007/978-3-319-03545-1_7}
+  {\path{doi:10.1007/978-3-319-03545-1_7}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1007/978-3-319-03545-1_7}
+
+\bibitem{Ribeiro2017}
+R.~Ribeiro, A.~D. Bois,
+  \href{http://dl.acm.org/citation.cfm?doid=3125374.3125381}{{Certified
+  Bit-Coded Regular Expression Parsing}}, Proceedings of the 21st Brazilian
+  Symposium on Programming Languages - SBLP 2017 (2017) 1--8.
+\newline\urlprefix\url{http://dl.acm.org/citation.cfm?doid=3125374.3125381}
+
+\bibitem{Lopes2016}
+R.~Lopes, R.~Ribeiro, C.~Camar{\~{a}}o, Certified derivative-based parsing of
+  regular expressions, in: Programming Languages --- Lecture Notes in Computer
+  Science 9889, Springer, 2016, pp. 95--109.
+
+\bibitem{Asperti10}
+A.~Asperti, C.~S. Coen, E.~Tassi, \href{http://arxiv.org/abs/1010.2604}{Regular
+  expressions, au point}, CoRR abs/1010.2604.
+\newblock \href {http://arxiv.org/abs/1010.2604} {\path{arXiv:1010.2604}}.
+\newline\urlprefix\url{http://arxiv.org/abs/1010.2604}
+
+\bibitem{Lopes2018}
+R.~F.~P. Lopes, {Certified Derivative-based Parsing of Regular Expressions ---
+  Master Thesis.}
+
+\bibitem{Fischer2010}
+S.~Fischer, F.~Huch, T.~Wilke,
+  \href{papers2://publication/uuid/CE64D2A8-5A9F-444C-A677-EE49DFF386D2{\%}5Cnhttp://portal.acm.org/citation.cfm?doid=1932681.1863594}{{A
+  play on regular expressions}}, ACM SIGPLAN Notices 45~(9) (2010) 357.
+\newblock \href {http://dx.doi.org/10.1145/1932681.1863594}
+  {\path{doi:10.1145/1932681.1863594}}.
+\newline\urlprefix\url{papers2://publication/uuid/CE64D2A8-5A9F-444C-A677-EE49DFF386D2{\%}5Cnhttp://portal.acm.org/citation.cfm?doid=1932681.1863594}
+
+\bibitem{Knuth71}
+D.~E. Knuth, \href{http://dx.doi.org/10.1007/BF00289517}{Top-down syntax
+  analysis}, Acta Inf. 1~(2) (1971) 79--110.
+\newblock \href {http://dx.doi.org/10.1007/BF00289517}
+  {\path{doi:10.1007/BF00289517}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1007/BF00289517}
+
+\bibitem{Cox2009}
+R.~Cox, \href{https://swtch.com/{~}rsc/regexp/regexp2.html}{{Regular Expression
+  Matching: the Virtual Machine Approach}}.
+\newline\urlprefix\url{https://swtch.com/{~}rsc/regexp/regexp2.html}
+
+\bibitem{Ierusalimschy2009}
+R.~Ierusalimschy, {A text patternmatching tool based on parsing expression
+  grammars}, Software - Practice and Experience\href
+  {http://dx.doi.org/10.1002/spe.892} {\path{doi:10.1002/spe.892}}.
+
+\bibitem{Ford04}
+B.~Ford, \href{http://doi.acm.org/10.1145/964001.964011}{Parsing expression
+  grammars: A recognition-based syntactic foundation}, in: Proceedings of the
+  31st ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages,
+  POPL '04, ACM, New York, NY, USA, 2004, pp. 111--122.
+\newblock \href {http://dx.doi.org/10.1145/964001.964011}
+  {\path{doi:10.1145/964001.964011}}.
+\newline\urlprefix\url{http://doi.acm.org/10.1145/964001.964011}
+
+\bibitem{Sulzmann14}
+M.~Sulzmann, K.~Z.~M. Lu, Posix regular expression parsing with derivatives,
+  in: M.~Codish, E.~Sumii (Eds.), Functional and Logic Programming, Springer
+  International Publishing, Cham, 2014, pp. 203--220.
+
+\bibitem{Lasse2011}
+L.~Nielsen, F.~Henglein, Bit-coded regular expression parsing, in: A.-H. Dediu,
+  S.~Inenaga, C.~Mart{\'i}n-Vide (Eds.), Language and Automata Theory and
+  Applications, Springer Berlin Heidelberg, Berlin, Heidelberg, 2011, pp.
+  402--413.
+
+\bibitem{Krivine07}
+J.-L. Krivine, \href{http://dx.doi.org/10.1007/s10990-007-9018-9}{A
+  call-by-name lambda-calculus machine}, Higher Order Symbol. Comput. 20~(3)
+  (2007) 199--207.
+\newblock \href {http://dx.doi.org/10.1007/s10990-007-9018-9}
+  {\path{doi:10.1007/s10990-007-9018-9}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1007/s10990-007-9018-9}
+
+\bibitem{Landin64}
+P.~J. Landin, \href{http://dx.doi.org/10.1093/comjnl/6.4.308}{The mechanical
+  evaluation of expressions}, The Computer Journal 6~(4) (1964) 308--320.
+\newblock \href
+  {http://arxiv.org/abs//oup/backfile/content_public/journal/comjnl/6/4/10.1093/comjnl/6.4.308/2/6-4-308.pdf}
+  {\path{arXiv:/oup/backfile/content_public/journal/comjnl/6/4/10.1093/comjnl/6.4.308/2/6-4-308.pdf}},
+  \href {http://dx.doi.org/10.1093/comjnl/6.4.308}
+  {\path{doi:10.1093/comjnl/6.4.308}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1093/comjnl/6.4.308}
+
+\bibitem{Medeiros14}
+S.~Medeiros, F.~Mascarenhas, R.~Ierusalimschy,
+  \href{http://dx.doi.org/10.1016/j.scico.2012.11.006}{From regexes to parsing
+  expression grammars}, Sci. Comput. Program. 93 (2014) 3--18.
+\newblock \href {http://dx.doi.org/10.1016/j.scico.2012.11.006}
+  {\path{doi:10.1016/j.scico.2012.11.006}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1016/j.scico.2012.11.006}
+
+\bibitem{Delfino18}
+T.~A. Delfino, R.~Ribeiro,
+  \href{http://doi.acm.org/10.1145/3264637.3264646}{Towards certified virtual
+  machine-based regular expression parsing}, in: Proceedings of the XXII
+  Brazilian Symposium on Programming Languages, SBLP '18, ACM, New York, NY,
+  USA, 2018, pp. 67--74.
+\newblock \href {http://dx.doi.org/10.1145/3264637.3264646}
+  {\path{doi:10.1145/3264637.3264646}}.
+\newline\urlprefix\url{http://doi.acm.org/10.1145/3264637.3264646}
+
+\bibitem{regexvm-rep}
+T.~Delfino, R.~Ribeiro, Towards certified virtual machine-based regular
+  expression parsing --- on-line repository,
+  https://github.com/thalesad/regexvm (2018).
+
+\bibitem{Bertot2010}
+Y.~Bertot, P.~Castran, Interactive Theorem Proving and Program Development:
+  Coq'Art The Calculus of Inductive Constructions, 1st Edition, Springer
+  Publishing Company, Incorporated, 2010.
+
+\bibitem{Sorensen2006}
+M.~H. S{\o}rensen, P.~Urzyczyn, Lectures on the Curry-Howard Isomorphism,
+  Volume 149 (Studies in Logic and the Foundations of Mathematics), Elsevier
+  Science Inc., New York, NY, USA, 2006.
+
+\bibitem{Chlipala13}
+A.~Chlipala, Certified Programming with Dependent Types: A Pragmatic
+  Introduction to the Coq Proof Assistant, The MIT Press, 2013.
+
+\bibitem{Rathnayake2011}
+A.~Rathnayake, H.~Thielecke, \href{http://arxiv.org/abs/1108.3126}{{Regular
+  Expression Matching and Operational Semantics}}, Electronic Proceedings in
+  Theoretical Computer Science 62~(Sos) (2011) 31--45.
+\newblock \href {http://arxiv.org/abs/1108.3126} {\path{arXiv:1108.3126}},
+  \href {http://dx.doi.org/10.4204/EPTCS.62.3} {\path{doi:10.4204/EPTCS.62.3}}.
+\newline\urlprefix\url{http://arxiv.org/abs/1108.3126}
+
+\bibitem{Haskell98}
+S.~P. Jones (Ed.),
+  \href{http://haskell.org/definition/haskell98-report.pdf}{Haskell 98 Language
+  and Libraries: The Revised Report}, http://haskell.org/, 2002.
+\newline\urlprefix\url{http://haskell.org/definition/haskell98-report.pdf}
+
+\bibitem{regex-applicative}
+R.~Cheplyaka, regex-applicative: Regex based parsing with applicative interface
+  --- on-line repository, http://hackage.haskell.org/package/regex-applicative
+  (2018).
+
+\bibitem{Mcbride2008}
+C.~Mcbride, R.~Paterson,
+  \href{http://dx.doi.org/10.1017/S0956796807006326}{Applicative programming
+  with effects}, J. Funct. Program. 18~(1) (2008) 1--13.
+\newblock \href {http://dx.doi.org/10.1017/S0956796807006326}
+  {\path{doi:10.1017/S0956796807006326}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1017/S0956796807006326}
+
+\bibitem{Kirrage13}
+J.~Kirrage, A.~Rathnayake, H.~Thielecke, Static analysis for regular expression
+  denial-of-service attacks, in: J.~Lopez, X.~Huang, R.~Sandhu (Eds.), Network
+  and System Security, Springer Berlin Heidelberg, Berlin, Heidelberg, 2013,
+  pp. 135--148.
+
+\bibitem{Claessen2000}
+K.~Claessen, J.~Hughes, Quickcheck: A lightweight tool for random testing of
+  haskell programs, in: Proceedings of the Fifth ACM SIGPLAN International
+  Conference on Functional Programming, ICFP '00, ACM, New York, NY, USA, 2000,
+  pp. 268--279.
+
+\bibitem{Lipovaca2011}
+M.~Lipovaca, Learn You a Haskell for Great Good!: A Beginner's Guide, 1st
+  Edition, No Starch Press, San Francisco, CA, USA, 2011.
+
+\bibitem{Medeiros2008}
+S.~Medeiros, R.~Ierusalimschy,
+  \href{http://portal.acm.org/citation.cfm?doid=1408681.1408683}{{A parsing
+  machine for PEGs}}, Proceedings of the 2008 symposium on Dynamic languages -
+  DLS '08 (2008) 1--12\href {http://dx.doi.org/10.1145/1408681.1408683}
+  {\path{doi:10.1145/1408681.1408683}}.
+\newline\urlprefix\url{http://portal.acm.org/citation.cfm?doid=1408681.1408683}
+
+\bibitem{Dube2000}
+D.~Dub{\'e}, M.~Feeley,
+  \href{http://dx.doi.org/10.1007/s002360000037}{Efficiently building a parse
+  tree from a regular expression}, Acta Inf. 37~(2) (2000) 121--144.
+\newblock \href {http://dx.doi.org/10.1007/s002360000037}
+  {\path{doi:10.1007/s002360000037}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1007/s002360000037}
+
+\bibitem{Ausaf16}
+F.~Ausaf, R.~Dyckhoff, C.~Urban, Posix lexing with derivatives of regular
+  expressions (proof pearl), in: J.~C. Blanchette, S.~Merz (Eds.), Interactive
+  Theorem Proving, Springer International Publishing, Cham, 2016, pp. 69--86.
+
+\bibitem{Radanne2019}
+G.~Radanne, \href{http://doi.acm.org/10.1145/3294032.3294082}{Typed parsing and
+  unparsing for untyped regular expression engines}, in: Proceedings of the
+  2019 ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation,
+  PEPM 2019, ACM, New York, NY, USA, 2019, pp. 35--46.
+\newblock \href {http://dx.doi.org/10.1145/3294032.3294082}
+  {\path{doi:10.1145/3294032.3294082}}.
+\newline\urlprefix\url{http://doi.acm.org/10.1145/3294032.3294082}
+
+\bibitem{radanne:hal-01788827}
+G.~Radanne, P.~Thiemann,
+  \href{https://hal.archives-ouvertes.fr/hal-01788827}{{Regenerate: A Language
+  Generator for Extended Regular Expressions}}, working paper or preprint (May
+  2018).
+\newline\urlprefix\url{https://hal.archives-ouvertes.fr/hal-01788827}
+
+\bibitem{Groz2017}
+B.~Groz, S.~Maneth,
+  \href{http://dx.doi.org/10.1016/j.jcss.2017.05.013}{{Efficient testing and
+  matching of deterministic regular expressions}}, Journal of Computer and
+  System Sciences 89 (2017) 372--399.
+\newblock \href {http://dx.doi.org/10.1016/j.jcss.2017.05.013}
+  {\path{doi:10.1016/j.jcss.2017.05.013}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1016/j.jcss.2017.05.013}
+
+\bibitem{Doczkal2013}
+C.~Doczkal, J.~O. Kaiser, G.~Smolka, {A constructive theory of regular
+  languages in Coq}, Lecture Notes in Computer Science (including subseries
+  Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+  8307 LNCS (2013) 82--97.
+\newblock \href {http://dx.doi.org/10.1007/978-3-319-03545-1_6}
+  {\path{doi:10.1007/978-3-319-03545-1_6}}.
+
+\bibitem{Berglund2016}
+M.~Berglund, B.~V.~D. Merwe,
+  \href{http://dx.doi.org/10.1016/j.tcs.2016.09.006}{{On the semantics of
+  regular expression parsing in the wild}}, Theoretical Computer Science 1
+  (2016) 1--14.
+\newblock \href {http://dx.doi.org/10.1016/j.tcs.2016.09.006}
+  {\path{doi:10.1016/j.tcs.2016.09.006}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1016/j.tcs.2016.09.006}
+
+\end{thebibliography}

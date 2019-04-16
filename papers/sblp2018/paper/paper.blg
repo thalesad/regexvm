@@ -1,0 +1,30 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: paper.aux
+The style file: ACM-Reference-Format.bst
+Database file #1: references.bib
+A bad cross reference---entry "McBride08"
+refers to entry "DBLP:conf/popl/2008", which doesn't exist
+Warning--I didn't find a database entry for "DBLP:conf/popl/2008"
+Warning--empty address in AbbottAGM03
+Warning--page numbers missing in both pages and numpages fields in Asperti10
+Warning--empty address in Bertot2010
+Warning--numpages field, but no articleno or eid field, in Claessen2000
+Warning--no journal in Cox2009
+Warning--no number and no volume in Cox2009
+Warning--page numbers missing in both pages and numpages fields in Cox2009
+Warning--numpages field, but no articleno or eid field, in Dube2000
+Warning--empty address in Felleisen2009
+Warning--numpages field, but no articleno or eid field, in Firsov13
+Warning--numpages field, but no articleno or eid field, in Ford04
+Warning--numpages field, but no articleno or eid field, in Gill2007
+Warning--no number and no volume in Ierusalimschy2009
+Warning--page numbers missing in both pages and numpages fields in Ierusalimschy2009
+Warning--numpages field, but no articleno or eid field, in Knuth71
+Warning--empty year in Loh2005
+Warning--empty address in Lopes2016
+Warning--empty publisher in McBride08
+Warning--empty address in McBride08
+Warning--no number and no volume in Medeiros2008
+Warning--no number and no volume in Ribeiro2017
+Warning--empty address in Sulzmann14
+Warning--numpages field, but no articleno or eid field, in Thompson1968
+(There was 1 error message)

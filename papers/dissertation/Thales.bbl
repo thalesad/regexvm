@@ -1,0 +1,304 @@
+\begin{thebibliography}{10}
+
+\bibitem{AbbottAGM03}
+Michael~Gordon Abbott, Thorsten Altenkirch, Neil Ghani, and Conor McBride.
+\newblock Derivatives of containers.
+\newblock In {\em Typed Lambda Calculi and Applications, 6th International
+  Conference, {TLCA} 2003, Valencia, Spain, June 10-12, 2003, Proceedings.},
+  pages 16--30, 2003.
+
+\bibitem{Aho1986}
+Alfred~V. Aho, Ravi Sethi, and Jeffrey~D. Ullman.
+\newblock {\em Compilers: Principles, Techniques, and Tools}.
+\newblock Addison-Wesley Longman Publishing Co., Inc., Boston, MA, USA, 1986.
+
+\bibitem{Asperti10}
+Andrea Asperti, Claudio~Sacerdoti Coen, and Enrico Tassi.
+\newblock Regular expressions, au point.
+\newblock {\em CoRR}, abs/1010.2604, 2010.
+
+\bibitem{Ausaf16}
+Fahad Ausaf, Roy Dyckhoff, and Christian Urban.
+\newblock Posix lexing with derivatives of regular expressions (proof pearl).
+\newblock In Jasmin~Christian Blanchette and Stephan Merz, editors, {\em
+  Interactive Theorem Proving}, pages 69--86, Cham, 2016. Springer
+  International Publishing.
+
+\bibitem{Berglund2016}
+Martin Berglund and Brink Van~Der Merwe.
+\newblock {On the semantics of regular expression parsing in the wild}.
+\newblock {\em Theoretical Computer Science}, 1:1--14, 2016.
+
+\bibitem{Berry1986}
+Gerard Berry and Ravi Sethi.
+\newblock {From regular expressions to deterministic automata}.
+\newblock {\em Theoretical Computer Science}, 48(C):117--126, 1986.
+
+\bibitem{Bertot2010}
+Yves Bertot and Pierre Castran.
+\newblock {\em Interactive Theorem Proving and Program Development: Coq'Art The
+  Calculus of Inductive Constructions}.
+\newblock Springer Publishing Company, Incorporated, 1st edition, 2010.
+
+\bibitem{Bruggemann-Klein1992}
+Anne Br{\"{u}}ggemann-Klein.
+\newblock {Regular expressions into finite automata}.
+\newblock {\em Lecture Notes in Computer Science (including subseries Lecture
+  Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)}, 583
+  LNCS:87--98, 1992.
+
+\bibitem{regex-applicative}
+Roman Cheplyaka.
+\newblock regex-applicative: Regex based parsing with applicative interface ---
+  on-line repository.
+\newblock http://hackage.haskell.org/package/regex-applicative, 2018.
+
+\bibitem{Chlipala13}
+Adam Chlipala.
+\newblock {\em Certified Programming with Dependent Types: A Pragmatic
+  Introduction to the Coq Proof Assistant}.
+\newblock The MIT Press, 2013.
+
+\bibitem{Claessen2000}
+Koen Claessen and John Hughes.
+\newblock Quickcheck: A lightweight tool for random testing of haskell
+  programs.
+\newblock In {\em Proceedings of the Fifth ACM SIGPLAN International Conference
+  on Functional Programming}, ICFP '00, pages 268--279, New York, NY, USA,
+  2000. ACM.
+
+\bibitem{Cox2009}
+Russ Cox.
+\newblock {Regular Expression Matching: the Virtual Machine Approach}.
+\newblock 2009.
+
+\bibitem{regexvm-rep}
+Thales Delfino and Rodrigo Ribeiro.
+\newblock Towards certified virtual machine-based regular expression parsing
+  --- on-line repository.
+\newblock https://github.com/thalesad/regexvm, 2018.
+
+\bibitem{DelfinoRibeiro2018}
+Thales~Ant\^{o}nio Delfino and Rodrigo Ribeiro.
+\newblock Towards certified virtual machine-based regular expression parsing.
+\newblock In {\em Proceedings of the XXII Brazilian Symposium on Programming
+  Languages}, SBLP '18, pages 67--74, New York, NY, USA, 2018. ACM.
+
+\bibitem{Doczkal2013}
+Christian Doczkal, Jan~Oliver Kaiser, and Gert Smolka.
+\newblock {A constructive theory of regular languages in Coq}.
+\newblock {\em Lecture Notes in Computer Science (including subseries Lecture
+  Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)}, 8307
+  LNCS:82--97, 2013.
+
+\bibitem{Dube2000}
+Danny Dub{\'e} and Marc Feeley.
+\newblock Efficiently building a parse tree from a regular expression.
+\newblock {\em Acta Informatica}, 37(2):121--144, Sep 2000.
+
+\bibitem{Felleisen2009}
+Matthias Felleisen, Robert~Bruce Findler, and Matthew Flatt.
+\newblock {\em Semantics Engineering with PLT Redex}.
+\newblock The MIT Press, 1st edition, 2009.
+
+\bibitem{Firsov13}
+Denis Firsov and Tarmo Uustalu.
+\newblock Certified parsing of regular languages.
+\newblock In {\em Proceedings of the Third International Conference on
+  Certified Programs and Proofs - Volume 8307}, pages 98--113, New York, NY,
+  USA, 2013. Springer-Verlag New York, Inc.
+
+\bibitem{Fischer2010}
+Sebastian Fischer, Frank Huch, and Thomas Wilke.
+\newblock {A play on regular expressions}.
+\newblock {\em ACM SIGPLAN Notices}, 45(9):357, 2010.
+
+\bibitem{Ford04}
+Bryan Ford.
+\newblock Parsing expression grammars: A recognition-based syntactic
+  foundation.
+\newblock In {\em Proceedings of the 31st ACM SIGPLAN-SIGACT Symposium on
+  Principles of Programming Languages}, POPL '04, pages 111--122, New York, NY,
+  USA, 2004. ACM.
+
+\bibitem{Frisch2004}
+Alain Frisch and Luca Cardelli.
+\newblock {Greedy Regular Expression Matching}.
+\newblock {\em ICALP 2004$\backslash$ifnum$\backslash$shortbib=0{\{}: 31st
+  {\}}$\backslash$fi$\backslash$ifnum$\backslash$shortbib=0{\{}International
+  Colloquium on Automata, Languages and Programming{\}}$\backslash$fi},
+  3142:618--629, 2004.
+
+\bibitem{Garcia2011}
+Pedro Garc{\'{i}}a, Dami{\'{a}}n L{\'{o}}pez, Jos{\'{e}} Ruiz, and Gloria~I.
+  {\'{A}}lvarez.
+\newblock {From regular expressions to smaller NFAs}.
+\newblock {\em Theoretical Computer Science}, 412(41):5802--5807, 2011.
+
+\bibitem{Gill2007}
+Andy Gill and Colin Runciman.
+\newblock Haskell program coverage.
+\newblock In {\em Proceedings of the ACM SIGPLAN Workshop on Haskell Workshop},
+  Haskell '07, pages 1--12, New York, NY, USA, 2007. ACM.
+
+\bibitem{Groz2017}
+B.~Groz and S.~Maneth.
+\newblock {Efficient testing and matching of deterministic regular
+  expressions}.
+\newblock {\em Journal of Computer and System Sciences}, 89:372--399, 2017.
+
+\bibitem{Hopcroft2000}
+John~E. Hopcroft, Rajeev Motwani, Rotwani, and Jeffrey~D. Ullman.
+\newblock {\em Introduction to Automata Theory, Languages and Computability}.
+\newblock Addison-Wesley Longman Publishing Co., Inc., Boston, MA, USA, 2nd
+  edition, 2000.
+
+\bibitem{Hutton98}
+Graham Hutton.
+\newblock {Fold and Unfold for Program Semantics}.
+\newblock In {\em {Proceedings of the 3rd ACM SIGPLAN International Conference
+  on Functional Programming}}, Baltimore, Maryland, September 1998.
+
+\bibitem{Ierusalimschy2009}
+Roberto Ierusalimschy.
+\newblock {A text patternmatching tool based on parsing expression grammars}.
+\newblock {\em Software - Practice and Experience}, 2009.
+
+\bibitem{Ilie2003}
+Lucian Ilie and Sheng Yu.
+\newblock {Follow automata}.
+\newblock {\em Information and Computation}, 186(1):140--162, 2003.
+
+\bibitem{Haskell98}
+Simon~Peyton Jones, editor.
+\newblock {\em Haskell 98 Language and Libraries: The Revised Report}.
+\newblock http://haskell.org/, September 2002.
+
+\bibitem{Kirrage13}
+James Kirrage, Asiri Rathnayake, and Hayo Thielecke.
+\newblock Static analysis for regular expression denial-of-service attacks.
+\newblock In Javier Lopez, Xinyi Huang, and Ravi Sandhu, editors, {\em Network
+  and System Security}, pages 135--148, Berlin, Heidelberg, 2013. Springer
+  Berlin Heidelberg.
+
+\bibitem{Knuth71}
+Donald~E. Knuth.
+\newblock Top-down syntax analysis.
+\newblock {\em Acta Inf.}, 1(2):79--110, June 1971.
+
+\bibitem{Krivine07}
+Jean-Louis Krivine.
+\newblock A call-by-name lambda-calculus machine.
+\newblock {\em Higher Order Symbol. Comput.}, 20(3):199--207, September 2007.
+
+\bibitem{Landin64}
+P.~J. Landin.
+\newblock The mechanical evaluation of expressions.
+\newblock {\em The Computer Journal}, 6(4):308--320, 1964.
+
+\bibitem{Lipovaca2011}
+Miran Lipovaca.
+\newblock {\em Learn You a Haskell for Great Good!: A Beginner's Guide}.
+\newblock No Starch Press, San Francisco, CA, USA, 1st edition, 2011.
+
+\bibitem{Lopes2016}
+Raul Lopes, Rodrigo Ribeiro, and Carlos Camar{\~{a}}o.
+\newblock Certified derivative-based parsing of regular expressions.
+\newblock In {\em Programming Languages --- Lecture Notes in Computer Science
+  9889}, pages 95--109. Springer, 2016.
+
+\bibitem{Lopes2018}
+Raul Felipe~Pimenta Lopes.
+\newblock Certified derivative-based parsing of regular expressions.
+\newblock Master's thesis, Federal University of Ouro Preto, Ouro Preto, MG,
+  2018.
+
+\bibitem{Mascarenhas2011}
+Fabio Mascarenhas and Roberto Ierusalimschy.
+\newblock {From Regular Expressions to Parsing Expression Grammars}.
+\newblock {\em Brazilian Symposium on Programming Languages}, 2011.
+
+\bibitem{McBride08}
+Conor McBride.
+\newblock Clowns to the left of me, jokers to the right (pearl): dissecting
+  data structures.
+\newblock In {\em Proceedings of the 35th {ACM} {SIGPLAN-SIGACT} Symposium on
+  Principles of Programming Languages, {POPL} 2008, San Francisco, California,
+  USA, January 7-12, 2008}, pages 287--295, 2008.
+
+\bibitem{Mcbride2008}
+Conor Mcbride and Ross Paterson.
+\newblock Applicative programming with effects.
+\newblock {\em J. Funct. Program.}, 18(1):1--13, January 2008.
+
+\bibitem{Medeiros2008}
+S{\'{e}}rgio Medeiros and Roberto Ierusalimschy.
+\newblock {A parsing machine for PEGs}.
+\newblock {\em Proceedings of the 2008 symposium on Dynamic languages - DLS
+  '08}, pages 1--12, 2008.
+
+\bibitem{Medeiros14}
+S{\'e}rgio Medeiros, Fabio Mascarenhas, and Roberto Ierusalimschy.
+\newblock From regexes to parsing expression grammars.
+\newblock {\em Sci. Comput. Program.}, 93:3--18, November 2014.
+
+\bibitem{Lasse2011}
+Lasse Nielsen and Fritz Henglein.
+\newblock Bit-coded regular expression parsing.
+\newblock In Adrian-Horia Dediu, Shunsuke Inenaga, and Carlos Mart{\'i}n-Vide,
+  editors, {\em Language and Automata Theory and Applications}, pages 402--413,
+  Berlin, Heidelberg, 2011. Springer Berlin Heidelberg.
+
+\bibitem{Pierce2000}
+Benjamin Pierce.
+\newblock {\em {Types and Programming Languages}}, volume~35.
+\newblock 2000.
+
+\bibitem{Radanne2019}
+Gabriel Radanne.
+\newblock Typed parsing and unparsing for untyped regular expression engines.
+\newblock In {\em Proceedings of the 2019 ACM SIGPLAN Workshop on Partial
+  Evaluation and Program Manipulation}, PEPM 2019, pages 35--46, New York, NY,
+  USA, 2019. ACM.
+
+\bibitem{radanne:hal-01788827}
+Gabriel Radanne and Peter Thiemann.
+\newblock {Regenerate: A Language Generator for Extended Regular Expressions}.
+\newblock working paper or preprint, May 2018.
+
+\bibitem{Rathnayake2011}
+Asiri Rathnayake and Hayo Thielecke.
+\newblock {Regular Expression Matching and Operational Semantics}.
+\newblock {\em Electronic Proceedings in Theoretical Computer Science},
+  62(Sos):31--45, 2011.
+
+\bibitem{Ribeiro2017}
+Rodrigo Ribeiro and Andr{\'{e}}~Du Bois.
+\newblock {Certified Bit-Coded Regular Expression Parsing}.
+\newblock {\em Proceedings of the 21st Brazilian Symposium on Programming
+  Languages - SBLP 2017}, pages 1--8, 2017.
+
+\bibitem{Sorensen2006}
+Morten~Heine S{\o}rensen and Pawel Urzyczyn.
+\newblock {\em Lectures on the Curry-Howard Isomorphism, Volume 149 (Studies in
+  Logic and the Foundations of Mathematics)}.
+\newblock Elsevier Science Inc., New York, NY, USA, 2006.
+
+\bibitem{Spivey2012}
+Michael Spivey.
+\newblock {When Maybe is not good enough}.
+\newblock {\em Journal of Functional Programming}, 22(06):747--756, 2012.
+
+\bibitem{Sulzmann14}
+Martin Sulzmann and Kenny Zhuo~Ming Lu.
+\newblock Posix regular expression parsing with derivatives.
+\newblock In Michael Codish and Eijiro Sumii, editors, {\em Functional and
+  Logic Programming}, pages 203--220, Cham, 2014. Springer International
+  Publishing.
+
+\bibitem{Thompson1968}
+Ken Thompson.
+\newblock Programming techniques: Regular expression search algorithm.
+\newblock {\em Commun. ACM}, 11(6):419--422, June 1968.
+
+\end{thebibliography}

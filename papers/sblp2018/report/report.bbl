@@ -1,0 +1,494 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{31}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Abbott, Altenkirch, Ghani, and McBride}{Abbott
+  et~al\mbox{.}}{2003}]%
+        {AbbottAGM03}
+\bibfield{author}{\bibinfo{person}{Michael~Gordon Abbott},
+  \bibinfo{person}{Thorsten Altenkirch}, \bibinfo{person}{Neil Ghani}, {and}
+  \bibinfo{person}{Conor McBride}.} \bibinfo{year}{2003}\natexlab{}.
+\newblock \showarticletitle{Derivatives of Containers}. In
+  \bibinfo{booktitle}{\emph{Typed Lambda Calculi and Applications, 6th
+  International Conference, {TLCA} 2003, Valencia, Spain, June 10-12, 2003,
+  Proceedings.}} \emph{(\bibinfo{series}{Lecture Notes in Computer Science})},
+  \bibfield{editor}{\bibinfo{person}{Martin Hofmann}} (Ed.),
+  Vol.~\bibinfo{volume}{2701}. \bibinfo{publisher}{Springer},
+  \bibinfo{pages}{16--30}.
+\newblock
+\showISBNx{3-540-40332-9}
+\urldef\tempurl%
+\url{https://doi.org/10.1007/3-540-44904-3_2}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Aho, Sethi, and Ullman}{Aho
+  et~al\mbox{.}}{1986}]%
+        {Aho1986}
+\bibfield{author}{\bibinfo{person}{Alfred~V. Aho}, \bibinfo{person}{Ravi
+  Sethi}, {and} \bibinfo{person}{Jeffrey~D. Ullman}.}
+  \bibinfo{year}{1986}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Compilers: Principles, Techniques, and
+  Tools}}.
+\newblock \bibinfo{publisher}{Addison-Wesley Longman Publishing Co., Inc.},
+  \bibinfo{address}{Boston, MA, USA}.
+\newblock
+\showISBNx{0-201-10088-6}
+
+
+\bibitem[\protect\citeauthoryear{Asperti, Coen, and Tassi}{Asperti
+  et~al\mbox{.}}{2010}]%
+        {Asperti10}
+\bibfield{author}{\bibinfo{person}{Andrea Asperti},
+  \bibinfo{person}{Claudio~Sacerdoti Coen}, {and} \bibinfo{person}{Enrico
+  Tassi}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Regular Expressions, au point}.
+\newblock \bibinfo{journal}{\emph{CoRR}}  \bibinfo{volume}{abs/1010.2604}
+  (\bibinfo{year}{2010}).
+\newblock
+\showeprint[arxiv]{1010.2604}
+\urldef\tempurl%
+\url{http://arxiv.org/abs/1010.2604}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Bertot and Castran}{Bertot and
+  Castran}{2010}]%
+        {Bertot2010}
+\bibfield{author}{\bibinfo{person}{Yves Bertot} {and} \bibinfo{person}{Pierre
+  Castran}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Interactive Theorem Proving and Program
+  Development: Coq'Art The Calculus of Inductive Constructions}
+  (\bibinfo{edition}{1st} ed.)}.
+\newblock \bibinfo{publisher}{Springer Publishing Company, Incorporated}.
+\newblock
+\showISBNx{3642058809, 9783642058806}
+
+
+\bibitem[\protect\citeauthoryear{Bove, Krauss, and Sozeau}{Bove
+  et~al\mbox{.}}{2016}]%
+        {BoveKS16}
+\bibfield{author}{\bibinfo{person}{Ana Bove}, \bibinfo{person}{Alexander
+  Krauss}, {and} \bibinfo{person}{Matthieu Sozeau}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Partiality and recursion in interactive theorem
+  provers - an overview}.
+\newblock \bibinfo{journal}{\emph{Mathematical Structures in Computer Science}}
+  \bibinfo{volume}{26}, \bibinfo{number}{1} (\bibinfo{year}{2016}),
+  \bibinfo{pages}{38--88}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1017/S0960129514000115}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Claessen and Hughes}{Claessen and
+  Hughes}{2000}]%
+        {Claessen2000}
+\bibfield{author}{\bibinfo{person}{Koen Claessen} {and} \bibinfo{person}{John
+  Hughes}.} \bibinfo{year}{2000}\natexlab{}.
+\newblock \showarticletitle{QuickCheck: A Lightweight Tool for Random Testing
+  of Haskell Programs}. In \bibinfo{booktitle}{\emph{Proceedings of the Fifth
+  ACM SIGPLAN International Conference on Functional Programming}}
+  \emph{(\bibinfo{series}{ICFP '00})}. \bibinfo{publisher}{ACM},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{268--279}.
+\newblock
+\showISBNx{1-58113-202-6}
+
+
+\bibitem[\protect\citeauthoryear{Cox}{Cox}{2009}]%
+        {Cox2009}
+\bibfield{author}{\bibinfo{person}{Russ Cox}.} \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{{Regular Expression Matching: the Virtual Machine
+  Approach}}.
+\newblock  (\bibinfo{year}{2009}).
+\newblock
+\urldef\tempurl%
+\url{https://swtch.com/{~}rsc/regexp/regexp2.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Delfino and Ribeiro}{Delfino and
+  Ribeiro}{2018}]%
+        {regexvm-rep}
+\bibfield{author}{\bibinfo{person}{Thales Delfino} {and}
+  \bibinfo{person}{Rodrigo Ribeiro}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{Towards certified virtual machine-based regular
+  expression parsing --- On-line repository}.
+\newblock \bibinfo{howpublished}{https://github.com/thalesad/regexvm}.
+  (\bibinfo{year}{2018}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Dub{\'e} and Feeley}{Dub{\'e} and
+  Feeley}{2000}]%
+        {Dube2000}
+\bibfield{author}{\bibinfo{person}{Danny Dub{\'e}} {and} \bibinfo{person}{Marc
+  Feeley}.} \bibinfo{year}{2000}\natexlab{}.
+\newblock \showarticletitle{Efficiently Building a Parse Tree from a Regular
+  Expression}.
+\newblock \bibinfo{journal}{\emph{Acta Inf.}} \bibinfo{volume}{37},
+  \bibinfo{number}{2} (\bibinfo{date}{Oct.} \bibinfo{year}{2000}),
+  \bibinfo{pages}{121--144}.
+\newblock
+\showISSN{0001-5903}
+\urldef\tempurl%
+\url{https://doi.org/10.1007/s002360000037}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Felleisen, Findler, and Flatt}{Felleisen
+  et~al\mbox{.}}{2009}]%
+        {Felleisen2009}
+\bibfield{author}{\bibinfo{person}{Matthias Felleisen},
+  \bibinfo{person}{Robert~Bruce Findler}, {and} \bibinfo{person}{Matthew
+  Flatt}.} \bibinfo{year}{2009}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Semantics Engineering with PLT Redex}
+  (\bibinfo{edition}{1st} ed.)}.
+\newblock \bibinfo{publisher}{The MIT Press}.
+\newblock
+\showISBNx{0262062755, 9780262062756}
+
+
+\bibitem[\protect\citeauthoryear{Firsov and Uustalu}{Firsov and
+  Uustalu}{2013}]%
+        {Firsov13}
+\bibfield{author}{\bibinfo{person}{Denis Firsov} {and} \bibinfo{person}{Tarmo
+  Uustalu}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Certified Parsing of Regular Languages}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the Third International Conference
+  on Certified Programs and Proofs - Volume 8307}}.
+  \bibinfo{publisher}{Springer-Verlag New York, Inc.}, \bibinfo{address}{New
+  York, NY, USA}, \bibinfo{pages}{98--113}.
+\newblock
+\showISBNx{978-3-319-03544-4}
+\urldef\tempurl%
+\url{https://doi.org/10.1007/978-3-319-03545-1_7}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Fischer, Huch, and Wilke}{Fischer
+  et~al\mbox{.}}{2010}]%
+        {Fischer2010}
+\bibfield{author}{\bibinfo{person}{Sebastian Fischer}, \bibinfo{person}{Frank
+  Huch}, {and} \bibinfo{person}{Thomas Wilke}.}
+  \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{{A play on regular expressions}}.
+\newblock \bibinfo{journal}{\emph{ACM SIGPLAN Notices}} \bibinfo{volume}{45},
+  \bibinfo{number}{9} (\bibinfo{year}{2010}), \bibinfo{pages}{357}.
+\newblock
+\showISBNx{9781605587943}
+\showISSN{03621340}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/1932681.1863594}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Ford}{Ford}{2004}]%
+        {Ford04}
+\bibfield{author}{\bibinfo{person}{Bryan Ford}.}
+  \bibinfo{year}{2004}\natexlab{}.
+\newblock \showarticletitle{Parsing Expression Grammars: A Recognition-based
+  Syntactic Foundation}. In \bibinfo{booktitle}{\emph{Proceedings of the 31st
+  ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages}}
+  \emph{(\bibinfo{series}{POPL '04})}. \bibinfo{publisher}{ACM},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{111--122}.
+\newblock
+\showISBNx{1-58113-729-X}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/964001.964011}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Frisch and Cardelli}{Frisch and
+  Cardelli}{2004}]%
+        {Frisch2004}
+\bibfield{author}{\bibinfo{person}{Alain Frisch} {and} \bibinfo{person}{Luca
+  Cardelli}.} \bibinfo{year}{2004}\natexlab{}.
+\newblock \showarticletitle{{Greedy Regular Expression Matching}}.
+\newblock \bibinfo{journal}{\emph{ICALP 2004 - International Colloquium on
+  Automata, Languages and Programming}}  \bibinfo{volume}{3142}
+  (\bibinfo{year}{2004}), \bibinfo{pages}{618--629}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Gill and Runciman}{Gill and Runciman}{2007}]%
+        {Gill2007}
+\bibfield{author}{\bibinfo{person}{Andy Gill} {and} \bibinfo{person}{Colin
+  Runciman}.} \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{Haskell Program Coverage}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the ACM SIGPLAN Workshop on Haskell
+  Workshop}} \emph{(\bibinfo{series}{Haskell '07})}. \bibinfo{publisher}{ACM},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{1--12}.
+\newblock
+\showISBNx{978-1-59593-674-5}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/1291201.1291203}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Glushkov}{Glushkov}{1961}]%
+        {Gluskov1961}
+\bibfield{author}{\bibinfo{person}{Victor~M. Glushkov}.}
+  \bibinfo{year}{1961}\natexlab{}.
+\newblock \showarticletitle{The Abstract Theory of Automata}.
+\newblock \bibinfo{journal}{\emph{Russian Mathematical Surveys}}
+  \bibinfo{volume}{16}, \bibinfo{number}{5} (\bibinfo{year}{1961}),
+  \bibinfo{pages}{1--53}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ierusalimschy}{Ierusalimschy}{2009}]%
+        {Ierusalimschy2009}
+\bibfield{author}{\bibinfo{person}{Roberto Ierusalimschy}.}
+  \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{{A text patternmatching tool based on parsing
+  expression grammars}}.
+\newblock \bibinfo{journal}{\emph{Software - Practice and Experience}}
+  (\bibinfo{year}{2009}).
+\newblock
+\showISSN{00380644}
+\urldef\tempurl%
+\url{https://doi.org/10.1002/spe.892}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Knuth}{Knuth}{1971}]%
+        {Knuth71}
+\bibfield{author}{\bibinfo{person}{Donald~E. Knuth}.}
+  \bibinfo{year}{1971}\natexlab{}.
+\newblock \showarticletitle{Top-down Syntax Analysis}.
+\newblock \bibinfo{journal}{\emph{Acta Inf.}} \bibinfo{volume}{1},
+  \bibinfo{number}{2} (\bibinfo{date}{June} \bibinfo{year}{1971}),
+  \bibinfo{pages}{79--110}.
+\newblock
+\showISSN{0001-5903}
+\urldef\tempurl%
+\url{https://doi.org/10.1007/BF00289517}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Lipovaca}{Lipovaca}{2011}]%
+        {Lipovaca2011}
+\bibfield{author}{\bibinfo{person}{Miran Lipovaca}.}
+  \bibinfo{year}{2011}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Learn You a Haskell for Great Good!: A
+  Beginner's Guide} (\bibinfo{edition}{1st} ed.)}.
+\newblock \bibinfo{publisher}{No Starch Press}, \bibinfo{address}{San
+  Francisco, CA, USA}.
+\newblock
+\showISBNx{1593272839, 9781593272838}
+
+
+\bibitem[\protect\citeauthoryear{Loh}{Loh}{[n. d.]}]%
+        {Loh2005}
+\bibfield{author}{\bibinfo{person}{A. Loh}.} \bibinfo{year}{[n.
+  d.]}\natexlab{}.
+\newblock \bibinfo{title}{{Typesetting Haskell and more with lhs2TeX}}.
+\newblock   (\bibinfo{year}{[n. d.]}).
+\newblock
+\urldef\tempurl%
+\url{http://www.cs.uu.nl/\~{}andres/lhs2TeX-IFIP.pdf}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Lopes, Ribeiro, and Camar{\~{a}}o}{Lopes
+  et~al\mbox{.}}{2016}]%
+        {Lopes2016}
+\bibfield{author}{\bibinfo{person}{Raul Lopes}, \bibinfo{person}{Rodrigo
+  Ribeiro}, {and} \bibinfo{person}{Carlos Camar{\~{a}}o}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Certified Derivative-Based Parsing of Regular
+  Expressions}. In \bibinfo{booktitle}{\emph{Programming Languages --- Lecture
+  Notes in Computer Science 9889}}. \bibinfo{publisher}{Springer},
+  \bibinfo{pages}{95--109}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Lopes}{Lopes}{2018}]%
+        {Lopes2018}
+\bibfield{author}{\bibinfo{person}{Raul Felipe~Pimenta Lopes}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{{Certi ed Derivative-based Parsing of Regular
+  Expressions}}.
+\newblock  (\bibinfo{year}{2018}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{McBride}{McBride}{2008}]%
+        {McBride08}
+\bibfield{author}{\bibinfo{person}{Conor McBride}.}
+  \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{Clowns to the left of me, jokers to the right
+  (pearl): dissecting data structures}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 35th {ACM} {SIGPLAN-SIGACT}
+  Symposium on Principles of Programming Languages, {POPL} 2008, San Francisco,
+  California, USA, January 7-12, 2008}}. \bibinfo{pages}{287--295}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/1328438.1328474}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{McBride}{McBride}{2015}]%
+        {McBride15}
+\bibfield{author}{\bibinfo{person}{Conor McBride}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Turing-Completeness Totally Free}. In
+  \bibinfo{booktitle}{\emph{Mathematics of Program Construction - 12th
+  International Conference, {MPC} 2015, K{\"{o}}nigswinter, Germany, June 29 -
+  July 1, 2015. Proceedings}} \emph{(\bibinfo{series}{Lecture Notes in Computer
+  Science})}, \bibfield{editor}{\bibinfo{person}{Ralf Hinze} {and}
+  \bibinfo{person}{Janis Voigtl{\"{a}}nder}} (Eds.),
+  Vol.~\bibinfo{volume}{9129}. \bibinfo{publisher}{Springer},
+  \bibinfo{pages}{257--275}.
+\newblock
+\showISBNx{978-3-319-19796-8}
+\urldef\tempurl%
+\url{https://doi.org/10.1007/978-3-319-19797-5\_13}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Medeiros and Ierusalimschy}{Medeiros and
+  Ierusalimschy}{2008}]%
+        {Medeiros2008}
+\bibfield{author}{\bibinfo{person}{S{\'{e}}rgio Medeiros} {and}
+  \bibinfo{person}{Roberto Ierusalimschy}.} \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{{A parsing machine for PEGs}}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the 2008 symposium on Dynamic
+  languages - DLS '08}} (\bibinfo{year}{2008}), \bibinfo{pages}{1--12}.
+\newblock
+\showISBNx{9781605582702}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/1408681.1408683}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Nielsen and Henglein}{Nielsen and
+  Henglein}{2011}]%
+        {Lasse2011}
+\bibfield{author}{\bibinfo{person}{Lasse Nielsen} {and} \bibinfo{person}{Fritz
+  Henglein}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Bit-coded Regular Expression Parsing}. In
+  \bibinfo{booktitle}{\emph{Language and Automata Theory and Applications}},
+  \bibfield{editor}{\bibinfo{person}{Adrian-Horia Dediu},
+  \bibinfo{person}{Shunsuke Inenaga}, {and} \bibinfo{person}{Carlos
+  Mart{\'i}n-Vide}} (Eds.). \bibinfo{publisher}{Springer Berlin Heidelberg},
+  \bibinfo{address}{Berlin, Heidelberg}, \bibinfo{pages}{402--413}.
+\newblock
+\showISBNx{978-3-642-21254-3}
+
+
+\bibitem[\protect\citeauthoryear{Rathnayake and Thielecke}{Rathnayake and
+  Thielecke}{2011}]%
+        {Rathnayake2011}
+\bibfield{author}{\bibinfo{person}{Asiri Rathnayake} {and}
+  \bibinfo{person}{Hayo Thielecke}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{{Regular Expression Matching and Operational
+  Semantics}}.
+\newblock \bibinfo{journal}{\emph{Electronic Proceedings in Theoretical
+  Computer Science}} \bibinfo{volume}{62}, \bibinfo{number}{Sos}
+  (\bibinfo{year}{2011}), \bibinfo{pages}{31--45}.
+\newblock
+\showISSN{2075-2180}
+\urldef\tempurl%
+\url{https://doi.org/10.4204/EPTCS.62.3}
+\showDOI{\tempurl}
+\showeprint[arxiv]{1108.3126}
+
+
+\bibitem[\protect\citeauthoryear{Ribeiro and Bois}{Ribeiro and Bois}{2017}]%
+        {Ribeiro2017}
+\bibfield{author}{\bibinfo{person}{Rodrigo Ribeiro} {and}
+  \bibinfo{person}{Andr{\'{e}}~Du Bois}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{{Certified Bit-Coded Regular Expression Parsing}}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the 21st Brazilian Symposium
+  on Programming Languages - SBLP 2017}} (\bibinfo{year}{2017}),
+  \bibinfo{pages}{1--8}.
+\newblock
+\showISBNx{9781450353892}
+\urldef\tempurl%
+\url{http://dl.acm.org/citation.cfm?doid=3125374.3125381}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{S{\o}rensen and Urzyczyn}{S{\o}rensen and
+  Urzyczyn}{2006}]%
+        {Sorensen2006}
+\bibfield{author}{\bibinfo{person}{Morten~Heine S{\o}rensen} {and}
+  \bibinfo{person}{Pawel Urzyczyn}.} \bibinfo{year}{2006}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Lectures on the Curry-Howard Isomorphism,
+  Volume 149 (Studies in Logic and the Foundations of Mathematics)}}.
+\newblock \bibinfo{publisher}{Elsevier Science Inc.}, \bibinfo{address}{New
+  York, NY, USA}.
+\newblock
+\showISBNx{0444520775}
+
+
+\bibitem[\protect\citeauthoryear{Sulzmann and Lu}{Sulzmann and Lu}{2014}]%
+        {Sulzmann14}
+\bibfield{author}{\bibinfo{person}{Martin Sulzmann} {and}
+  \bibinfo{person}{Kenny Zhuo~Ming Lu}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{POSIX Regular Expression Parsing with Derivatives}.
+  In \bibinfo{booktitle}{\emph{Functional and Logic Programming}},
+  \bibfield{editor}{\bibinfo{person}{Michael Codish} {and}
+  \bibinfo{person}{Eijiro Sumii}} (Eds.). \bibinfo{publisher}{Springer
+  International Publishing}, \bibinfo{address}{Cham},
+  \bibinfo{pages}{203--220}.
+\newblock
+\showISBNx{978-3-319-07151-0}
+
+
+\bibitem[\protect\citeauthoryear{Thompson}{Thompson}{1968}]%
+        {Thompson1968}
+\bibfield{author}{\bibinfo{person}{Ken Thompson}.}
+  \bibinfo{year}{1968}\natexlab{}.
+\newblock \showarticletitle{Programming Techniques: Regular Expression Search
+  Algorithm}.
+\newblock \bibinfo{journal}{\emph{Commun. ACM}} \bibinfo{volume}{11},
+  \bibinfo{number}{6} (\bibinfo{date}{June} \bibinfo{year}{1968}),
+  \bibinfo{pages}{419--422}.
+\newblock
+\showISSN{0001-0782}
+
+
+\end{thebibliography}

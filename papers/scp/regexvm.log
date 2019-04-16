@@ -1,0 +1,2086 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.12.27)  28 FEB 2019 20:53
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**regexvm.tex
+(./regexvm.tex
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/elsarticle/elsarticle.cls
+Document Class: elsarticle 2009/09/17, 1.2.0: Elsevier Ltd
+\@bls=\dimen102
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen103
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+\c@tnote=\count87
+\c@fnote=\count88
+\c@cnote=\count89
+\c@ead=\count90
+\c@author=\count91
+\@eadauthor=\toks15
+\c@affn=\count92
+\absbox=\box26
+\keybox=\box27
+\Columnwidth=\dimen106
+\space@left=\dimen107
+\els@boxa=\box28
+\els@boxb=\box29
+\leftMargin=\dimen108
+\@enLab=\toks16
+\@sep=\skip43
+\@@sep=\skip44
+ (./regexvm.spl)
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip45
+\bibsep=\skip46
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count93
+)
+\splwrite=\write3
+\openout3 = `regexvm.spl'.
+
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (./coqdoc.sty
+Package: coqdoc 2002/02/11
+\coqdocbaseindent=\skip47
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen109
+\Hy@linkcounter=\count94
+\Hy@pagecounter=\count95
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count96
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count97
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5115.
+\XeTeXLinkMargin=\dimen110
+\Fld@menulength=\count98
+\Field@Width=\dimen111
+\Fld@charsize=\dimen112
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count99
+\c@Item=\count100
+\c@Hfootnote=\count101
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count102
+\c@bookmark@seq@number=\count103
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip48
+)
+Package hyperref Info: Option `raiselinks' set `true' on input line 113.
+Package hyperref Info: Option `colorlinks' set `true' on input line 113.
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xr.sty
+Package: xr 1994/05/28 v5.02 eXternal References (DPC)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count104
+\output=\toks17
+\linenoprevgraf=\count105
+\linenumbersep=\dimen113
+\linenumberwidth=\dimen114
+\c@linenumber=\count106
+\c@pagewiselinenumber=\count107
+\c@LN@truepage=\count108
+\c@internallinenumber=\count109
+\c@internallinenumbers=\count110
+\quotelinenumbersep=\dimen115
+\bframerule=\dimen116
+\bframesep=\dimen117
+\bframebox=\box30
+LaTeX Info: Redefining \\ on input line 3056.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count111
+\float@exts=\toks18
+\float@box=\box31
+\@float@everytoks=\toks19
+\@floatcapt=\box32
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lkproof/proof.sty
+\inferLineSkip=\dimen118
+\inferLabelSkip=\dimen119
+\@LeftOffset=\dimen120
+\@RightOffset=\dimen121
+\@SavedLeftOffset=\dimen122
+\UpperWidth=\dimen123
+\LowerWidth=\dimen124
+\LowerHeight=\dimen125
+\UpperLeftOffset=\dimen126
+\UpperRightOffset=\dimen127
+\UpperCenter=\dimen128
+\LowerCenter=\dimen129
+\UpperAdjust=\dimen130
+\RuleAdjust=\dimen131
+\LowerAdjust=\dimen132
+\RuleWidth=\dimen133
+\HLabelAdjust=\dimen134
+\VLabelAdjust=\dimen135
+\WidthAdjust=\dimen136
+\@UpperPart=\box33
+\@LowerPart=\box34
+\@LabelPart=\box35
+\ResultBox=\box36
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks20
+\pgfutil@tempdima=\dimen137
+\pgfutil@tempdimb=\dimen138
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box37
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks21
+\pgfkeys@temptoks=\toks22
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks23
+))
+\pgf@x=\dimen139
+\pgf@y=\dimen140
+\pgf@xa=\dimen141
+\pgf@ya=\dimen142
+\pgf@xb=\dimen143
+\pgf@yb=\dimen144
+\pgf@xc=\dimen145
+\pgf@yc=\dimen146
+\w@pgf@writea=\write4
+\r@pgf@reada=\read1
+\c@pgf@counta=\count112
+\c@pgf@countb=\count113
+\c@pgf@countc=\count114
+\c@pgf@countd=\count115
+\t@pgf@toka=\toks24
+\t@pgf@tokb=\toks25
+\t@pgf@tokc=\toks26
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count116
+\pgfsyssoftpath@bigbuffer@items=\count117
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen147
+\pgfmath@count=\count118
+\pgfmath@box=\box38
+\pgfmath@toks=\toks27
+\pgfmath@stack@operand=\toks28
+\pgfmath@stack@operation=\toks29
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count119
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen148
+\pgf@picmaxx=\dimen149
+\pgf@picminy=\dimen150
+\pgf@picmaxy=\dimen151
+\pgf@pathminx=\dimen152
+\pgf@pathmaxx=\dimen153
+\pgf@pathminy=\dimen154
+\pgf@pathmaxy=\dimen155
+\pgf@xx=\dimen156
+\pgf@xy=\dimen157
+\pgf@yx=\dimen158
+\pgf@yy=\dimen159
+\pgf@zx=\dimen160
+\pgf@zy=\dimen161
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen162
+\pgf@path@lasty=\dimen163
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen164
+\pgf@shorten@start@additional=\dimen165
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box39
+\pgf@hbox=\box40
+\pgf@layerbox@main=\box41
+\pgf@picture@serial@count=\count120
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen166
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen167
+\pgf@pt@y=\dimen168
+\pgf@pt@temp=\dimen169
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen170
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen171
+\pgf@sys@shading@range@num=\count121
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box42
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box43
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen172
+\pgf@nodesepend=\dimen173
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen174
+\pgffor@skip=\dimen175
+\pgffor@stack=\toks30
+\pgffor@toks=\toks31
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count122
+\pgfplotmarksize=\dimen176
+)
+\tikz@lastx=\dimen177
+\tikz@lasty=\dimen178
+\tikz@lastxsaved=\dimen179
+\tikz@lastysaved=\dimen180
+\tikzleveldistance=\dimen181
+\tikzsiblingdistance=\dimen182
+\tikz@figbox=\box44
+\tikz@figbox@bg=\box45
+\tikz@tempbox=\box46
+\tikz@tempbox@bg=\box47
+\tikztreelevel=\count123
+\tikznumberofchildren=\count124
+\tikznumberofcurrentchild=\count125
+\tikz@fig@count=\count126
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count127
+\pgfmatrixcurrentcolumn=\count128
+\pgf@matrix@numberofcolumns=\count129
+)
+\tikz@expandcount=\count130
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/minted/minted.sty
+Package: minted 2017/07/19 v2.5 Yet another Pygments shim for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2017/07/08 v1.3.1 fvextra - extensions and patches for fancyvr
+b
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count131
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count132
+\FV@InFile=\read2
+\FV@TabBox=\box48
+\c@FancyVerbLine=\count133
+\FV@StepNumber=\count134
+\FV@OutFile=\write5
+)
+(/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
+\c@FV@TrueTabGroupLevel=\count135
+\c@FV@TrueTabCounter=\count136
+\FV@TabBox@Group=\box49
+\FV@TmpLength=\skip49
+\c@FV@HighlightLinesStart=\count137
+\c@FV@HighlightLinesStop=\count138
+\FV@LoopCount=\count139
+\FV@NCharsBox=\box50
+\FV@BreakIndent=\dimen183
+\FV@BreakIndentNChars=\count140
+\FV@BreakSymbolSepLeft=\dimen184
+\FV@BreakSymbolSepLeftNChars=\count141
+\FV@BreakSymbolSepRight=\dimen185
+\FV@BreakSymbolSepRightNChars=\count142
+\FV@BreakSymbolIndentLeft=\dimen186
+\FV@BreakSymbolIndentLeftNChars=\count143
+\FV@BreakSymbolIndentRight=\dimen187
+\FV@BreakSymbolIndentRightNChars=\count144
+\c@FancyVerbLineBreakLast=\count145
+\FV@LineBox=\box51
+\FV@LineIndentBox=\box52
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count146
+\calc@Bcount=\count147
+\calc@Adimen=\dimen188
+\calc@Bdimen=\dimen189
+\calc@Askip=\skip50
+\calc@Bskip=\skip51
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count148
+\calc@Cskip=\skip52
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 67.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/catchfile.sty
+Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
+)
+runsystem(uname -s > "regexvm.w18")...executed.
+
+
+(./regexvm.w18)
+runsystem(rm -- "regexvm.w18")...executed.
+
+) (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty (/usr/share/te
+xlive/texmf-dist/tex/generic/xstring/xstring.tex
+\@xs@message=\write6
+\integerpart=\count149
+\decimalpart=\count150
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip53
+\fb@frw=\dimen190
+\fb@frh=\dimen191
+\FrameRule=\dimen192
+\FrameSep=\dimen193
+)
+\minted@appexistsfile=\read3
+\minted@bgbox=\box53
+\minted@code=\write7
+\c@minted@FancyVerbLineTemp=\count151
+\c@minted@pygmentizecounter=\count152
+\@float@every@listing=\toks32
+\c@listing=\count153
+)
+runsystem(mkdir -p _minted-regexvm)...executed.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks33
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks34
+\thm@bodyfont=\toks35
+\thm@headfont=\toks36
+\thm@notefont=\toks37
+\thm@headpunct=\toks38
+\thm@preskip=\skip54
+\thm@postskip=\skip55
+\thm@headsep=\skip56
+\dth@everypar=\toks39
+LaTeX Info: Redefining \qed on input line 274.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
+Package: stmaryrd 1994/03/03 St Mary's Road symbol package
+\symstmry=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
+(Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryautomata.code.tex
+File: tikzlibraryautomata.code.tex 2008/07/14 v3.0.1a (rcs-revision 1.3)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
+
+\pgfnodepartlowerbox=\box54
+\pgfnodeparttwobox=\box55
+\pgfnodepartthreebox=\box56
+\pgfnodepartfourbox=\box57
+\pgfnodeparttwentybox=\box58
+\pgfnodepartnineteenbox=\box59
+\pgfnodeparteighteenbox=\box60
+\pgfnodepartseventeenbox=\box61
+\pgfnodepartsixteenbox=\box62
+\pgfnodepartfifteenbox=\box63
+\pgfnodepartfourteenbox=\box64
+\pgfnodepartthirteenbox=\box65
+\pgfnodeparttwelvebox=\box66
+\pgfnodepartelevenbox=\box67
+\pgfnodeparttenbox=\box68
+\pgfnodepartninebox=\box69
+\pgfnodeparteightbox=\box70
+\pgfnodepartsevenbox=\box71
+\pgfnodepartsixbox=\box72
+\pgfnodepartfivebox=\box73
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.5)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.1a (rcs-revision 1.6)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.callouts.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.callouts.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.3)
+\pgf@layerbox@background=\box74
+\pgf@layerboxsaved@background=\box75
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
+tex
+File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
+\arrowsize=\dimen194
+))
+\c@Theorem=\count154
+\c@Example=\count155
+\c@Lemma=\count156
+runsystem(which pygmentize && touch regexvm.aex)...executed.
+
+runsystem(rm regexvm.aex)...executed.
+
+ (./regexvm.aux)
+\openout1 = `regexvm.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count157
+\scratchdimen=\dimen195
+\scratchbox=\box76
+\nofMPsegments=\count158
+\nofMParguments=\count159
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count160
+\MPscratchDim=\dimen196
+\MPnumerator=\count161
+\makeMPintoPDFobject=\count162
+\everyMPtoPDFconversion=\toks41
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box77
+Package hyperref Info: Link coloring ON on input line 92.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count163
+)
+LaTeX Info: Redefining \ref on input line 92.
+LaTeX Info: Redefining \pageref on input line 92.
+LaTeX Info: Redefining \nameref on input line 92.
+
+(./regexvm.out) (./regexvm.out)
+\@outlinefile=\write8
+\openout8 = `regexvm.out'.
+
+ ABD: EveryShipout initializing macros
+LaTeX Font Info:    Try loading font information for U+msa on input line 130.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 130.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+stmry on input line 130.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd) [1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 190.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 190.
+ [3] [4]
+Overfull \hbox (8.84782pt too wide) in paragraph at lines 232--243
+\OT1/cmr/m/n/10 The-o-rem prov-ing in Coq fol-lows the ideas of the so-called `
+`BHK-correspondence''[][][][][],
+ []
+
+\openout7 = `regexvm.pyg'.
+
+(./_minted-regexvm/default-pyg-prefix.pygstyle)
+(./_minted-regexvm/default.pygstyle)
+(./_minted-regexvm/3EC0BD81CA7ABFF15BC99F0FC432AE47463B62A200762E8192B57C0AEA09
+C88C.pygtex
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 2.
+)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/96E8E302ABCCAED1DB53CE29467159F8463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/96E8E302ABCCAED1DB53CE29467159F8463B62A200762E8192B57C0AEA09
+C88C.pygtex
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <8> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 2.
+)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/B47E606903BC9F02DBC184BECA1446BD463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/3EC0BD81CA7ABFF15BC99F0FC432AE47463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/D47336D969BACA890EE24730A37B0435463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/65DB27307AA0CDF0B3C0323431E08A15463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout5 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/086DFB607178E0CE553590A1FC668679463B62A200762E8192B57C0AEA09
+C88C.pygtex [5])
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/34047C38C37B79FD4191F13D45ADCC92463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/523BDC6B1A4148B2E5BB82A9702DA250463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/3EC0BD81CA7ABFF15BC99F0FC432AE47463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/523BDC6B1A4148B2E5BB82A9702DA250463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/B4CCD5D28B4E29500CD9AE0D7ED7E63B463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/FE13119FB084FE8BBF5FE3AB7CC89B3B463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/3EC0BD81CA7ABFF15BC99F0FC432AE47463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/CAD2B2823484703E9DE1D7E96878654F463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/898EDA83DF86BBA03873BD1394AB886D463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/E8D5636CC0E741BC001206A319A08F92463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/FE13119FB084FE8BBF5FE3AB7CC89B3B463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/4423006316948A6FACBA166776606F94463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/9717B20D352F24F9AA34D1626154801F463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/60AB48A13ACCAA59A0B3EDADC7D5ED56463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout5 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/D58A620B9C6A9B86B4285774179FC653463B62A200762E8192B57C0AEA09
+C88C.pygtex [6])
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/5C6D81C07F7C268CA6A5C4A9C829DD97463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/D982DF59CDB18AACCBDDC3A595D4ABF9463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/5C6D81C07F7C268CA6A5C4A9C829DD97463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/8AFC31D7DE8D5230E67073F23053F254463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/5C6D81C07F7C268CA6A5C4A9C829DD97463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/FE13119FB084FE8BBF5FE3AB7CC89B3B463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/FFC04EEBE98AE478ECF3473031D50006463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/7EBDFDE1BE8DA6B41C8ECBD67171DD21463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/60AB48A13ACCAA59A0B3EDADC7D5ED56463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/E8D5636CC0E741BC001206A319A08F92463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/11FC6FAD34C688C257558D2C878FFA4C463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/4423006316948A6FACBA166776606F94463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/3AAE49DAC62EEDD73D726C3AA21C7E5A463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/9717B20D352F24F9AA34D1626154801F463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/3AAE49DAC62EEDD73D726C3AA21C7E5A463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/6AD61B9B339EE2B8102F48E73656A71B463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/C8DE02312A448D39711CE000470DF83D463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/AB48A55C2899C8683484EFA1B0AB205A463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout5 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/E9181FD9249E751DAEF9611A1A060296463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/B8D3CFDB19429D1B4B124AAB239D16B1463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/1499E9D1E27B0B873931387D1DADFCED463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout5 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/67A5EAFBCDE612ECDB0F0F0163CB3600463B62A200762E8192B57C0AEA09
+C88C.pygtex [7])
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/1499E9D1E27B0B873931387D1DADFCED463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/97E8429C647DC1A526D6B992C384962C463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/401636D744B615F5F018B4B4B1647870463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/C8DE02312A448D39711CE000470DF83D463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/401B30E3B8B5D629635A5C613CDB7919463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/5C6D81C07F7C268CA6A5C4A9C829DD97463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout5 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/60C8DAC38AC3F945B1F232919506DCC7463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/FE13119FB084FE8BBF5FE3AB7CC89B3B463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/FE13119FB084FE8BBF5FE3AB7CC89B3B463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/1499E9D1E27B0B873931387D1DADFCED463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout5 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/0F55ADA566D6EF010CF16DF105806548463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/954C2385BF1EE1FC7890BFE18A3D6FCB463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/53B9E68DA11EECBB775AB20BEAB98627463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout5 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/B2CB9FF1D949184C4A31F0F6A5F166E7463B62A200762E8192B57C0AEA09
+C88C.pygtex [8])
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/491F4D68CA5D0B9041159F68F1DAEC4B463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/DBA4CF65D1C82A940243B3490786E353463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/BF072E9119077B4E76437A93986787EF463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/30CF3D7D133B08543CB6C8933C29DFD7463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/53B9E68DA11EECBB775AB20BEAB98627463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout5 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/1FE5D90A920D1F8ACFA4FC3A8EC9F1C7463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/DD88DFA159D418267E710D13BF053F14463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/DD88DFA159D418267E710D13BF053F14463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/4423006316948A6FACBA166776606F94463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/990D3059694002BF2CD33D444008FA22463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout5 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/13D03D90E640C6D4FD666119169D3ECA463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout5 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/D3A14194284E5217AE385A0885A8B9AC463B62A200762E8192B57C0AEA09
+C88C.pygtex [9])
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/411978C5262EE05A3E253C65EAA8264F463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout5 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/EC849C35B197F2B08348BA95D704D17E463B62A200762E8192B57C0AEA09
+C88C.pygtex
+Overfull \hbox (6.5559pt too wide) in paragraph at lines 439--1
+[]\OT1/cmr/m/n/10 Another use-ful type for spec-i-fi-ca-tions is [], which al-l
+ows a proof obligation-
+ []
+
+)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/411978C5262EE05A3E253C65EAA8264F463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout5 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/E636A5D7290B06AC87BCE8B6375754F8463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/FF44F2267A7C5DE84408B83D0888BF76463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/4FDD809432B84402554F5FAA3D7CADA6463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/AFC86B28BE8CACB1266DCEE54B11CA3E463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/4CC726548A6ADA01574F517E52AB3C76463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/18AB33883C88B0D0C5AD97BFB363DD8F463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/508C973AF001439DD63B86CC6FD57D8B463B62A200762E8192B57C0AEA09
+C88C.pygtex) [10]
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/6736F98897A3EFFE84D1F2E4B9F0B973463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+
+LaTeX Warning: Reference `figure:semantics' on page 11 undefined on input line 
+503.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/60B725F10C9C85C70D97880DFE8191B3463B62A200762E8192B57C0AEA09
+C88C.pygtex) [11] [12pdfTeX warning (ext4): destination with the same identifie
+r (name{figure.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.575 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.575 
+      ] [13pdfTeX warning (ext4): destination with the same identifier (name{fi
+gure.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.644 \end{center}
+                  ]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[14] [15pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.739 \]
+        ] [16] [17] [18]
+Overfull \hbox (3.49756pt too wide) detected at line 888
+[]
+ []
+
+[19]
+Overfull \hbox (15.63408pt too wide) detected at line 942
+[]
+ []
+
+[20pdfTeX warning (ext4): destination with the same identifier (name{figure.5})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.959 
+      ]
+\openout5 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/8D0DF25D4018A51AFEAF87859AF72BF9463B62A200762E8192B57C0AEA09
+C88C.pygtex [21])
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/0AFC29B0F401FD47865C752AD298DAEE463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/0AFC29B0F401FD47865C752AD298DAEE463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/8C0B0472BA6DD8F65926459E9C3F0253463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/017E242B761B6AEFAFEDCEC89E627A44463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/1AD06D4A94AC425E3BC461B812AE63E1463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/BE47903447490C648611C2F6003B8D96463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/4E250210D9E010FF8FC7615CAEA21593463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/253FBEB0834B45E382AF5862376A1778463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/FCEDBABDDDD3D75893B9573577349237463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/977D30C434E87C187E8A0727DA58385E463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/9BE2D3FD506A2BF58995746D6CBB466E463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout5 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/3491FECF76C7AFA4B63B88CBD8961BDB463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/0C0E1381A42803719FC5568F75E4B348463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/0E1AED23E0ECAF174FB08C0C5279DB8F463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout5 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/15EDD89C22880B72E49B22951E4FBB4B463B62A200762E8192B57C0AEA09
+C88C.pygtex [22])
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/68D94D2A6E4F582ED7302C66C393732F463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/A7CC03040434DB7B8DEFCF6B41CA764E463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/5C43A2B9A2532373DC16B1C7F7744402463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout5 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/A472479FB8FFBB47367A35A3131581A1463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/674441960CA1BA2DE08AD4E50C9FDE98463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout5 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/D9C7CED533FEDDD33FA247FEBF0BB2C6463B62A200762E8192B57C0AEA09
+C88C.pygtex [23])
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/44BF7A1431483DE5DB2D5EF5F9D5D85A463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/BB92B829452F8D61D7E39F5CD2531F4C463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/DD88DFA159D418267E710D13BF053F14463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/674441960CA1BA2DE08AD4E50C9FDE98463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout5 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/E304F2AE8927FAA7424199C073BB1359463B62A200762E8192B57C0AEA09
+C88C.pygtex [24])
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/83652D23505859A010408C778946D1B1463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/99C419DFC7BB60621D327574340D1B7E463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/83652D23505859A010408C778946D1B1463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/34EBE263104EBD13347E2246397F2D55463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/9FFBF43126E33BE52CD2BF7E01D627F9463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/34EBE263104EBD13347E2246397F2D55463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/9FFBF43126E33BE52CD2BF7E01D627F9463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout5 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/2182E659246BD4F8EF9476E332AA634D463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/674441960CA1BA2DE08AD4E50C9FDE98463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/DD88DFA159D418267E710D13BF053F14463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/83652D23505859A010408C778946D1B1463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout5 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/E314FA9D5FE219337A8C63BE59ECC057463B62A200762E8192B57C0AEA09
+C88C.pygtex [25])
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/575038ADB32AB25D2C7A0E3180CA78FA463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout5 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/492361F36E48C70982B440AB0DCF2EFF463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/86789FD91C4CC0D536FE4A7CCDD00851463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/9FFBF43126E33BE52CD2BF7E01D627F9463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/C2596D5213338265EF2A770B9468A642463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/9FFBF43126E33BE52CD2BF7E01D627F9463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/86789FD91C4CC0D536FE4A7CCDD00851463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/DD88DFA159D418267E710D13BF053F14463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/6A9B8E304D890C71F9AA5C8D00FC7446463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout5 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/243C4BBCD66F5B1E9021A89AB28DB0A5463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/6A9B8E304D890C71F9AA5C8D00FC7446463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/C2596D5213338265EF2A770B9468A642463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/F03E6C4279327970BB4970360C477129463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout5 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/737F2C3BE79E2479D514C7E5E6192AB6463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/3CF0E5F8C98C493C50DBB5197C340F33463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/C6BC3D3208C6D018E53AC19DCED5C8C8463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/8F925699B746FF1589CC7014E9850762463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/CADDF958BB092474F54325E6BD8B5997463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/807DBCB7E6B0D023C3CFF68E9C9AB354463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/49E062E513EA7142618747C33AD51CA1463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/15E9D0F85AE60E274ABA8B013B7BBF23463B62A200762E8192B57C0AEA09
+C88C.pygtex) [26]
+\openout5 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/F98D2D4B12C807B447CDB67F7B4B8882463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout5 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/4422D433DD5CE42182BDF3C7B71DB75F463B62A200762E8192B57C0AEA09
+C88C.pygtex [27])
+\openout5 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/7A989663801F87C1CE2863652F6BDF1F463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout5 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/C3D61D8CF6244406139E799A5B7A96D8463B62A200762E8192B57C0AEA09
+C88C.pygtex [28])
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/AC302D9665F6CCEF4785BB82B012DF41463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout5 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/1310A5C0307907327117247FA9A86D48463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/EFBB51B678AC5EF4C349212AAD599979463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/4C2018A583B94E767E5ADF3809CF328B463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/870683A06F6A8BC821BFB2BF629020F3463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/975B14E9A812E108E38A1672000C0055463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/2B3F663CAC2D8705EF7FB7E825722C70463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/9FFBF43126E33BE52CD2BF7E01D627F9463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/C2596D5213338265EF2A770B9468A642463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/2209F8BCB53915B262670D2D0663CE8A463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/798B30523291973B9EE091F3212A8613463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/9FFBF43126E33BE52CD2BF7E01D627F9463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/C40B748AF55DD0FDC85133002E83C784463B62A200762E8192B57C0AEA09
+C88C.pygtex) [29]
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/AC302D9665F6CCEF4785BB82B012DF41463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout5 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/67FE4830B4B7D63D1A4456DF286FC319463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/9FFBF43126E33BE52CD2BF7E01D627F9463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/AC302D9665F6CCEF4785BB82B012DF41463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout5 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/81F44F1A761B0F17F0094E0EA836CD32463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout5 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/CD17DF758CE0A960A0E259FD596A39D5463B62A200762E8192B57C0AEA09
+C88C.pygtex [30])
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/DC931C7FEC96C0074EC3D67B60D69BAE463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/DB0F0CCF3C63AC767EF3549566BD8402463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/DDE394922A17764E8F5D40148ED1F6A1463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/DC931C7FEC96C0074EC3D67B60D69BAE463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout5 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/E89F098A518E34A4054EED5C4B950A39463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/F4D5D0C0671BE202BC241807C243E80B463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/9FFBF43126E33BE52CD2BF7E01D627F9463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/0C0E1381A42803719FC5568F75E4B348463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/FF8699A4CB0B5F85DC009FCC20CABFB5463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/80D11FF4516263BA92FE106F848525FB463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/39B1F65550814B41BC3C2D4CD7E2D98B463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/F4D5D0C0671BE202BC241807C243E80B463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/519F03D7D7D9A62DB27918DEB6D8A24D463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/80D11FF4516263BA92FE106F848525FB463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/6B4A17BD1F05D3ACF95C7F4F5DA98A12463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/9FFBF43126E33BE52CD2BF7E01D627F9463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/CE80A6A24EEDB335933B442EAA0A0ABB463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+Overfull \hbox (4.2774pt too wide) in paragraph at lines 1363--1370
+\OT1/cmr/m/n/10 Sound-ness the-o-rem says that when-ever we have a deriva-tion 
+[],
+ []
+
+[31]
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/A5B1E83CD0273AEFDF9CCA2994B97C77463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout5 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/C67B1C0573E80645381F2277EBC5B47B463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/A5B1E83CD0273AEFDF9CCA2994B97C77463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/A5B1E83CD0273AEFDF9CCA2994B97C77463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout5 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/169718A74DBD1493E7AFDA224722F649463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/50D7DD3CC949121712848B99828BAE92463B62A200762E8192B57C0AEA09
+C88C.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/DD88DFA159D418267E710D13BF053F14463B62A200762E8192B57C0AEA09
+C88C.pygtex) [32]
+<as.png, id=335, 414.04688pt x 323.70938pt>
+File: as.png Graphic file (type png)
+<use as.png>
+Package pdftex.def Info: as.png  used on input line 1440.
+(pdftex.def)             Requested size: 139.7231pt x 109.23979pt.
+<abs.png, id=336, 414.04688pt x 323.70938pt>
+File: abs.png Graphic file (type png)
+<use abs.png>
+Package pdftex.def Info: abs.png  used on input line 1445.
+(pdftex.def)             Requested size: 139.7231pt x 109.23979pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[33]
+<backtrack.png, id=348, 414.04688pt x 323.70938pt>
+File: backtrack.png Graphic file (type png)
+<use backtrack.png>
+Package pdftex.def Info: backtrack.png  used on input line 1470.
+(pdftex.def)             Requested size: 139.7231pt x 109.23979pt.
+<backtrack1.png, id=349, 414.04688pt x 323.70938pt>
+File: backtrack1.png Graphic file (type png)
+<use backtrack1.png>
+Package pdftex.def Info: backtrack1.png  used on input line 1475.
+(pdftex.def)             Requested size: 139.7231pt x 109.23979pt.
+ [34pdfTeX warning (ext4): destination with the same identifier (name{figure.6}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1488 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1488 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1488 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1488 
+        <./as.png> <./abs.png> <./backtrack.png> <./backtrack1.png>]
+<random.png, id=365, 414.04688pt x 323.70938pt>
+File: random.png Graphic file (type png)
+<use random.png>
+Package pdftex.def Info: random.png  used on input line 1498.
+(pdftex.def)             Requested size: 207.0021pt x 161.83946pt.
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/A705D665DEFD5E6ED24060BC84AF423997B30AB142791A3EF47C6B7BEB02
+B23D.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/A705D665DEFD5E6ED24060BC84AF423997B30AB142791A3EF47C6B7BEB02
+B23D.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/E3E5BE88E2F84FE29333AF8647C396DE97B30AB142791A3EF47C6B7BEB02
+B23D.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/A705D665DEFD5E6ED24060BC84AF423997B30AB142791A3EF47C6B7BEB02
+B23D.pygtex) [35pdfTeX warning (ext4): destination with the same identifier (na
+me{figure.10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1516 
+        <./random.png>]
+\openout5 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/4546D06188E8A1FAD1447F5D88DE457F97B30AB142791A3EF47C6B7BEB02
+B23D.pygtex)
+\openout7 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/6FA19C4E51A4EA1A01737CCD9B12629D97B30AB142791A3EF47C6B7BEB02
+B23D.pygtex)
+\openout5 = `regexvm.pyg'.
+
+
+(./_minted-regexvm/88A32F993C333CDF2C495B27DFB7C7BA97B30AB142791A3EF47C6B7BEB02
+B23D.pygtex) [36] [37] [38]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [39] [40] [41]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+ [42] (./regexvm.bbl
+Overfull \hbox (89.38448pt too wide) in paragraph at lines 46--52
+\OT1/cmr/m/n/10 URL [][]$\OT1/cmtt/m/n/10 papers2 : / / publication / uuid / CE
+64D2A8-[]5A9F-[]444C-[]A677-[]EE49DFF386D2{%}5Cnhttp :
+ []
+
+[43]
+Underfull \hbox (badness 4819) in paragraph at lines 99--107
+\OT1/cmtt/m/n/10 journal / comjnl / 6 / 4 / 10 . 1093 / comjnl / 6 . 4 . 308 / 
+2 / 6-[]4-[]308 . pdf$[][]\OT1/cmr/m/n/10 , [][]$\OT1/cmtt/m/n/10 doi :
+ []
+
+[44]
+Underfull \hbox (badness 10000) in paragraph at lines 127--130
+[]\OT1/cmr/m/n/10 T. Delfino, R. Ribeiro, To-wards cer-ti-fied vir-tual machine
+-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--130
+\OT1/cmr/m/n/10 based reg-u-lar ex-pres-sion pars-ing --- on-line repos-i-tory,
+
+ []
+
+[45] [46]) [47]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1640.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1640.
+ (./regexvm.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1640.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1640.
+
+Package rerunfilecheck Info: File `regexvm.out' has not changed.
+(rerunfilecheck)             Checksum: 17BEF371F90E390DCD20506B78945C5D;678.
+
+
+LaTeX Warning: There were undefined references.
+
+runsystem(rm regexvm.pyg)...executed.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1640.
+ ) 
+Here is how much of TeX's memory you used:
+ 22786 strings out of 492982
+ 497655 string characters out of 6134895
+ 627278 words of memory out of 5000000
+ 25256 multiletter control sequences out of 15000+600000
+ 12257 words of font info for 49 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,18n,67p,1333b,1220s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/stmaryrd/stmary10.pfb>
+Output written on regexvm.pdf (47 pages, 374186 bytes).
+PDF statistics:
+ 646 PDF objects out of 1000 (max. 8388607)
+ 560 compressed objects within 6 object streams
+ 131 named destinations out of 1000 (max. 500000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,83 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: report.aux
+The style file: ACM-Reference-Format.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: references.bib
+A bad cross reference---entry "McBride08"
+refers to entry "DBLP:conf/popl/2008", which doesn't exist
+Warning--I didn't find a database entry for "DBLP:conf/popl/2008"
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty address in AbbottAGM03
+Warning--page numbers missing in both pages and numpages fields in Asperti10
+Warning--empty address in Bertot2010
+Warning--numpages field, but no articleno or eid field, in Claessen2000
+Warning--no journal in Cox2009
+Warning--no number and no volume in Cox2009
+Warning--page numbers missing in both pages and numpages fields in Cox2009
+Warning--numpages field, but no articleno or eid field, in Dube2000
+Warning--empty address in Felleisen2009
+Warning--numpages field, but no articleno or eid field, in Firsov13
+Warning--numpages field, but no articleno or eid field, in Ford04
+Warning--numpages field, but no articleno or eid field, in Gill2007
+Warning--no number and no volume in Ierusalimschy2009
+Warning--page numbers missing in both pages and numpages fields in Ierusalimschy2009
+Warning--numpages field, but no articleno or eid field, in Knuth71
+Warning--empty year in Loh2005
+Warning--empty address in Lopes2016
+Warning--no journal in Lopes2018
+Warning--no number and no volume in Lopes2018
+Warning--page numbers missing in both pages and numpages fields in Lopes2018
+Warning--empty publisher in McBride08
+Warning--empty address in McBride08
+Warning--empty address in McBride15
+Warning--no number and no volume in Medeiros2008
+Warning--no number and no volume in Ribeiro2017
+Warning--numpages field, but no articleno or eid field, in Thompson1968
+You've used 31 entries,
+            5733 wiz_defined-function locations,
+            1577 strings with 21587 characters,
+and the built_in function-call counts, 34610 in all, are:
+= -- 4455
+> -- 1043
+< -- 0
++ -- 329
+- -- 392
+* -- 2371
+:= -- 3468
+add.period$ -- 160
+call.type$ -- 31
+change.case$ -- 188
+chr.to.int$ -- 31
+cite$ -- 57
+duplicate$ -- 3136
+empty$ -- 2216
+format.name$ -- 472
+if$ -- 8316
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 116
+newline$ -- 357
+num.names$ -- 256
+pop$ -- 1100
+preamble$ -- 1
+purify$ -- 456
+quote$ -- 0
+skip$ -- 1085
+stack$ -- 0
+substring$ -- 2623
+swap$ -- 321
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 659
+warning$ -- 26
+while$ -- 281
+width$ -- 0
+write$ -- 661
+(There was 1 error message)

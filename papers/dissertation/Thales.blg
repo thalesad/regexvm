@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Thales.aux
+The style file: plain.bst
+Database file #1: Thales.bib
+A bad cross reference---entry "McBride08"
+refers to entry "DBLP:conf/popl/2008", which doesn't exist
+A bad cross reference---entry "AbbottAGM03"
+refers to entry "DBLP:conf/tlca/2003", which doesn't exist
+Warning--I didn't find a database entry for "DBLP:conf/popl/2008"
+Warning--I didn't find a database entry for "DBLP:conf/tlca/2003"
+Warning--empty journal in Cox2009
+Warning--can't use both volume and number fields in Pierce2000
+Warning--empty publisher in Pierce2000
+You've used 51 entries,
+            2118 wiz_defined-function locations,
+            857 strings with 12834 characters,
+and the built_in function-call counts, 16788 in all, are:
+= -- 1725
+> -- 669
+< -- 16
++ -- 261
+- -- 208
+* -- 1074
+:= -- 2744
+add.period$ -- 164
+call.type$ -- 51
+change.case$ -- 247
+chr.to.int$ -- 0
+cite$ -- 54
+duplicate$ -- 704
+empty$ -- 1374
+format.name$ -- 208
+if$ -- 3607
+int.to.chr$ -- 0
+int.to.str$ -- 51
+missing$ -- 55
+newline$ -- 258
+num.names$ -- 111
+pop$ -- 267
+preamble$ -- 1
+purify$ -- 201
+quote$ -- 0
+skip$ -- 508
+stack$ -- 0
+substring$ -- 1041
+swap$ -- 164
+text.length$ -- 16
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 186
+warning$ -- 3
+while$ -- 185
+width$ -- 53
+write$ -- 582
+(There were 2 error messages)
