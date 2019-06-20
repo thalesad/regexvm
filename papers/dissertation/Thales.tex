@@ -416,6 +416,7 @@
 \newtheorem{Definition}{Definition}
 
 \usepackage{color}
+\usepackage{pdfpages}
 
 \begin{document}
 
@@ -439,7 +440,7 @@ Departamento de Computação
 Universidade Federal de Ouro Preto
 \par
 \vspace{0.5in}
-\today
+\today 
 \par
 \end{titlepage}
 
@@ -448,6 +449,9 @@ Universidade Federal de Ouro Preto
 \tableofcontents
 
 %----------------------------------------------------------------------------------------------
+
+\includepdf[pages=-]{ficha}
+\includepdf[pages=-]{ata}
 
 \chapter{Abstract}\label{chapter:abstract}
 
@@ -464,6 +468,7 @@ Regular expressions (REs) are pervasive in computing. We use REs in text editors
 %Regular expressions (REs) are pervasive in computing. We use REs in text editors, string search tools (like GNU-Grep) and lexical analyzers generators. Most of these tools rely on converting REs to its corresponding finite state machine or use REs derivatives for directly parse an input string. In this work, we investigated the suitability of another approach: instead of using derivatives or generating a finite state machine for a given RE, we developed a certified virtual machine-based algorithm (VM) for parsing REs, in such a way that a RE is merely a program executed by the VM over the input string. First, we developed a primary semantics for the algorithm (a small-step semantics), implemented it in Haskell, tested it using QuickCheck and provided proof sketches of its correctness with respect to RE standard inductive semantics. After that, we developed another semantics (a big-step semantics). Unlike the previous one, the new semantics can deal with problematic REs. We showed that the new semantics for our VM is also sound and complete with regard to a standard inductive semantics for REs and that the evidence produced by it denotes a valid parsing result. All of our results regarding the proposed big step semantics are formalized in Coq proof assistant and from it we extract a certified algorithm which we use to build a RE parsing tool using Haskell programming language. Experiments comparing the efficiency of our algorithm with other approaches implemented using Haskell are reported.
 
 %----------------------------------------------------------------------------------------------
+
 
 \mainmatter
 
@@ -491,8 +496,7 @@ were the subject of study of several recent research works (e.g ~\cite{Firsov13,
 
 Approaches for RE parsing can use representations of finite state machines (e.g.~\cite{Firsov13}),
 derivatives (e.g.~\cite{Ribeiro2017,Lopes2018,Lopes2016}) or the so-called pointed RE's or its
-variants~\cite{Asperti10,Fischer2010}. Another approach for parsing is based on the so-called
-parsing machines, which dates back to 70's with Knuth's work
+variants~\cite{Asperti10,Fischer2010}. Another approach for parsing is based on parsing machines, which dates back to 70's with Knuth's work
 on top-down syntax analysis for context-free languages~\cite{Knuth71}. Recently, some works
 have tried to revive the use of such machines for parsing: Cox~\cite{Cox2009} defined a VM
 for which a RE can be seen as ``high-level programs'' that can be compiled to a sequence of
@@ -523,7 +527,7 @@ set like syntax and semantics, we use, as inspiration, VMs for the~$\lambda$-cal
 SECD and Krivine machines~\cite{Krivine07,Landin64}. 
 
 One important issue regarding RE parsing is how to deal with the so-called problematic 
-RE\footnote{We say that a RE $e$ is problematic if there's exists $e_1$ s.t. $e = e_1^\star$ and 
+RE\footnote{We say that a RE $e$ is problematic if there is $e_1$ s.t. $e = e_1^\star$ and 
 	$e_1$ accepts the empty string.}\cite{Frisch2004}. In order to avoid the well-known issues with 
 problematic RE, we use a transformation proposed by Medeiros et. al.~\cite{Medeiros14} which turns a
 problematic RE into an equivalent non-problematic one. We proved that this algorithm indeed produces
@@ -554,7 +558,7 @@ Our contributions are:
 	\item We prove that the bit-codes produced by our semantics are valid parsing evidence.
 	%\item We describe an implementation of our semantics in Haskell and formalized it using Coq proof assistant. %and used QuickCheck~\cite{Claessen2000} to test our semantics 	against a simple implementation of RE parsing, presented in~\cite{Fischer2010}, which we prove correct in the Appendix~\ref{appendix:accept}.	Our test cases cover both accepted and rejected strings for randomly generated REs.
 	%\item We showed how our proposed semantics can produce bit codes that denote parse trees~\cite{Lasse2011}. %and test that such generated codes correspond to valid parsing evidence using QuickCheck.
-	\item We extract from our formalization a certified algorithm in Haskell and used it	to build a RE parsing tool. We compare the its performance against a well known Haskell library for RE parsing. 
+	\item We extract from our formalization a certified algorithm in Haskell and used it	to build a RE parsing tool. We compare its performance against a well-known Haskell library for RE parsing. 
 	\begin{comment}
   \item The definition of the VM, its operational semantics and its correctness properties.
   \item Implement the VM-based algorithm and certify that it follows the greedy disambiguation strategy. The algorithm should be included in a tool for RE-based text search in the style of the well-known GNU-grep~\cite{Grep}.
@@ -564,7 +568,7 @@ Our contributions are:
         \end{comment}
 \end{itemize}
 
-\section{Published material}
+\section{Published Material}
 \label{section:published}
 This dissertation is based on two papers: one was published in a peer-reviewed conference and the other was submitted to a journal.
 
@@ -573,7 +577,7 @@ This dissertation is based on two papers: one was published in a peer-reviewed c
 	\item ``Certified Virtual Machine Based Regular Expression Parsing'' is described in a paper submitted to the Science of Computer Programming journal. This paper is under review.
 \end{itemize}
 
-\section{Dissertation structure}\label{section:structure}
+\section{Dissertation Structure}\label{section:structure}
 
 This work is organized as follows. Chapter~\ref{chapter:background} reviews some important concepts about
 formal language theory and other relevant subjects to our research. We present our proposed semantic in Chapter~\ref{chapter:proposedsemantic}. Related works are summarized in Chapter~\ref{chapter:relatedworks} and Chapter~\ref{chapter:conclusion} concludes.
@@ -709,7 +713,7 @@ A DFA that accepts $L$ is presented in Figure \ref{figure:dfa}. From this state 
   \end{table}
 \end{Example}
 
-\section{Regular expressions}\label{section:res}
+\section{Regular Expressions}\label{section:res}
 
 REs are an algebraic and widely used formalism for specifying languages in computer science.
 In this section we will look at the formal syntax and semantics for REs.
@@ -748,7 +752,7 @@ A RE describes a set of strings. This is captured by the following definition:
 	\end{equation*}
 \end{Definition}
 
-After a precise characterization of RE, we can now use it to define the class of RLs.
+After a precise characterization of RE, we can now use it to define the class of Regular Languages (RLs).
 
 \begin{Definition}[Regular language]
 	A language $L \subseteq \Sigma^\star$ is a RL if there is an RE 
@@ -844,22 +848,22 @@ that string $s$ is in the language denoted by RE $e$.
 	\[
 	\begin{array}{cc}
 	\infer[_{\{\Eps\}}]
-	{\epsilon \in \sembrackets{\epsilon}}{} &
+	{\epsilon \in {\epsilon}}{} &
 	\infer[_{\{\Chr\}}]
-	{a \in \sembrackets{a}}{a \in \Sigma} \\ \\
+	{a \in {a}}{a \in \Sigma} \\ \\
 	\infer[_{\{\Left\}}]
-	{s \in \sembrackets{e + e'}}{s \in \sembrackets{e}} &
+	{s \in {e + e'}}{s \in e} &
 	\infer[_{\{\Right\}}]
-	{s' \in \sembrackets{e + e'}}{s' \in \sembrackets{e'}} \\ \\
+	{s' \in {e + e'}}{s' \in {e'}} \\ \\
 	\infer[_{\{\StarBase\}}]
-	{\epsilon \in \sembrackets{e^\star}}{} &
+	{\epsilon \in {e^\star}}{} &
 	\infer[_{\{\StarRec\}}]
-	{ss' \in \sembrackets{e^\star}}
-	{s \in \sembrackets{e} & s' \in \sembrackets{e^\star}} \\ \\
+	{ss' \in {e^\star}}
+	{s \in {e} & s' \in {e^\star}} \\ \\
 	\multicolumn{2}{c}{
 		\infer[_{\{\Catt\}}]
-		{ss' \in \sembrackets{ee'}}
-		{s \in \sembrackets{e} & s' \in \sembrackets{e'}}
+		{ss' \in {ee'}}
+		{s \in {e} & s' \in {e'}}
 	} \\
 	\end{array}
 	\]
@@ -879,13 +883,13 @@ for $e + e'$ from a proof for $e$ ($e'$). Semantics for Kleene star
 is built using the following well known equivalence of REs: $e^\star
 = \epsilon + e\,e^\star$. 
 
-We say that two REs are equivalent, written $e\approx e'$, if the following holds:
+\begin{comment}We say that two REs are equivalent, written $e\approx e'$, if the following holds:
 
 \[
 \forall s. s\in \Sigma^\star \to s \in\sembrackets{e} \leftrightarrow s\in\sembrackets{e'} 
 \]
 
-\begin{comment}Rule $Eps$, together with other rules, specifies that only the empty string is accepted by RE $\epsilon$, while
+Rule $Eps$, together with other rules, specifies that only the empty string is accepted by RE $\epsilon$, while
 rule $Chr$ says that a single symbol string is accepted by the RE formed by it.
 The rules for concatenation and choice are straightforward. For Kleene star,
 we need two rules: the first specifies that the empty string is in the language of RE $e^\star$ and
@@ -1005,7 +1009,7 @@ Using the semantics for RE, we can define formally when two REs are equivalent a
 	Let $e$ be a RE. We say that $e$ is problematic if exists an $e'$, such that $\epsilon\in\sembrackets{e'}$ and $e = e'^\star$. Otherwise, we say that $e$ is unproblematic.
 \end{Definition}
 
-\section{Thompson NFA construction}
+\section{Thompson NFA Construction}
 \label{section:thompsonconstruction}
 
 The Thompson NFA construction is a classical algorithm for building an equivalent
@@ -1217,7 +1221,7 @@ Originally, Thompson formulated his construction as a IBM 7094 program~\cite{Tho
 operational semantics using contexts, modeled as data-type derivatives for RE, as shown in Section \ref{section:smallstepsemantics}.
 
 
-\section{RE parsing and bit-coded parse trees}\label{section:reparsing}
+\section{RE Parsing and Bit-coded Parse Trees}\label{section:reparsing}
 
 \begin{comment}
 We follow the definition of RE parsing as presented by Frisch et. al~\cite{Frisch2004}, where RE are interpreted
@@ -1380,11 +1384,10 @@ $\Vert v \Vert = s$.
 
 
 One way to represent parsing evidence is to build a tree that denotes
-a RE membership proof. Following Frisch et. al. and Nielsen et.
-al.~\cite{Lasse2011,Frisch2004},
-we let parse trees be terms whose type is its underlying RE. The following context-free 
-grammar defines the syntax of parse trees, where we use a Haskell-like syntax for 
-lists.
+a RE membership proof. Following Frisch et. al. \cite{Frisch2004} and Nielsen et.
+al.~\cite{Lasse2011}. We let parse trees be terms whose type is its underlying RE. The following context-free 
+grammar defines the syntax of parse trees. We use a Haskell-like syntax for 
+lists, in which $ts$ represents a list of elements $t$.
 
 \begin{figure}[h]
 	\[
@@ -1551,7 +1554,7 @@ threads the remaining bits in recursive calls.
 \begin{array}{lcl}
 	\decodeo (bs : \epsilon) & = & ((), bs) \\
 	\decodeo (bs : a)        & = & (a , bs) \\
-	\decodeo (0_b\,bs : e_1 + e_2) & = & \let \:(t,bs_1) = \decodeo (bs : e_1)\\
+	\decodeo (0_b\,bs : e_1 + e_2) & = & \leti\:(t,bs_1) = \decodeo (bs : e_1)\\
 	&   & \iin\:(\inl\,t,bs_1)\\ 
 	\decodeo (1_b\,bs : e_1 + e_2) & = & \leti\:(t,bs_2) = \decodeo (bs : e_2)\\
 	&   & \iin\:(\inr\,t,bs_2)\\ 
@@ -1789,11 +1792,11 @@ After defining the syntax of some formal system (e.g. a programming language), t
 \end{enumerate}
 
 Since our main interest is defining VM for RE parsing, we will focus on operational semantics, which is
-a convenient tool for specifying abstract machines of any sort. We finish this section with an example semantics for
+a convenient tool for specifying abstract machines of any sort. We finish this section with an example of semantics for
 a small language which consists solely of addition and natural numbers. While such language is certainly a toy example,
 it is sufficient to illustrate the main concepts used in operational semantics specifications.
 
-\subsection{Operational semantics for a simple language}\label{subsection:simplelanguage}
+\subsection{Operational Semantics for a Simple Language}\label{subsection:simplelanguage}
 
 The language we will use is commonly referred in the literature as Hutton's razor~\cite{Hutton98} (HR) and serves as a minimal
 example to illustrate ideas in formal semantics and compilation. The HR abstract syntax is defined as follows.
@@ -1833,7 +1836,7 @@ In such situation, variables not explicitly listed are mapped to 0.
 In operational semantic, we can use two styles to present the meaning of a formal system: the small-step and
 big-step style. The next sections we present semantic for HR using these styles.
 
-\subsubsection{Small-step semantics for HR}\label{subsubsection:small-step}
+\subsubsection{Small-step Semantics for HR}\label{subsubsection:small-step}
 
 Informally, a small-step operational semantics defines a method to evaluate an expression one-step at time. When considering the HR language, its small step operational semantics will be defined as
 a binary relation between pairs of expressions and an environment as shown in the next definition.
@@ -1941,7 +1944,7 @@ state theorems about the semantics and provide its proof sketches.
 \end{proof}
 
 
-\subsubsection{Big-step semantics for HR}\label{subsubsection:big-step}
+\subsubsection{Big-step Semantics for HR}\label{subsubsection:big-step}
 
 Intuitively, a big-step semantics defines a method to evaluate an expression until it reaches its final value.
 The big-step semantics for HR consists of a binary relation between triples formed by an environment, an
@@ -2120,7 +2123,7 @@ Haskell programs are composed by a sequence of \textit{modules}. Modules provide
 
 On \texttt{Table} module, each definition is preceded by a corresponding \emph{type annotation}.
 
-All the names defined on \texttt{Table} module are \emph{polymorphic}. Por instance, the \texttt{empty} constant is of type \texttt{Table a}, which is synonyms for type \texttt{[(String,a)]}. This means that \texttt{empty} can be used in contexts that require values of types that are instances of type $\forall\texttt{a.$\,$[(String,a)]}$, as for instance \texttt{[(String,Bool)]}, \texttt{[(String,Int)]},\linebreak$\forall\texttt{a.$\,$[(String,[a])]}$ etc
+All the names defined on \texttt{Table} module are \emph{polymorphic}. Por instance, the \texttt{empty} constant is of type \texttt{Table a}, which is synonyms for type \texttt{[(String,a)]}. This means that \texttt{empty} can be used in contexts that require values of types that are instances of type $\forall\texttt{a.$\,$[(String,a)]}$, as for instance \texttt{[(String,Bool)]}, \texttt{[(String,Int)]},\linebreak$\forall\texttt{a.$\,$[(String,[a])]}$ etc.
 
 Functional types specify the types of the parameter and the function result (which can also be functional types). The symbol \texttt{search} has the following type annotation: \texttt{String $\rightarrow$ Table a $\rightarrow$ a}, which specifies that this function receives a value of type \texttt{Sring} as a parameter and returns a function, which receives a list of pairs made by a value of type \texttt{String} and an element of any type and returns as result an element of that type. Generally, we informally say that \texttt{search} receives two parameters (one at a ``time''): a value of type \texttt{String} and a list of pairs.
 
@@ -2366,7 +2369,7 @@ When we execute such property, a counter-example is found and printed as a resul
 	\tt ~~~\char91{}0\char44{}1\char93{}
 \end{tabbing}
 
-\subsection{Data-type derivatives}
+\subsection{Data-type Derivatives}
 \label{subsection:datatypederivatives}
 
 The usage of evaluation contexts is standard in reduction semantics~\cite{Felleisen2009}.
@@ -2401,7 +2404,7 @@ used to store the next subexpressions that need to be evaluated during input str
 Finally, \ensuremath{\C{InStar}} marks that we are currently processing an expression with a Kleene star operator.
 
 
-\section{A tour of Coq proof assistant}\label{section:coq}
+\section{A Tour of Coq Proof Assistant}\label{section:coq}
 
 Coq is a proof assistant based on the calculus of inductive
 constructions (CIC)~\cite{Bertot2010}, a higher-order typed
@@ -2636,12 +2639,12 @@ these will be given in Section \ref{subsection:coqformalization}.
 A detailed discussion on using Coq is out of the scope of this paper. Good introductions
 to Coq proof assistant are available elsewhere~\cite{Bertot2010,Chlipala13}.
 
-\chapter{Proposed semantic}
+\chapter{Proposed Semantic}
 \label{chapter:proposedsemantic}
 
 This chapter presents the two operational semantic we propose in this work. The first one is the small-step operational semantics. This version does not deal with problematic REs. Later, we propose a big-step operational semantics, which can deal correctly with problematic REs and was our basis for the Coq formalization of our algorithm. %The big-step operational semantics can be seen as an evolution of our small-step one.
 
-\section{Small-step operational semantics}
+\section{Small-step Operational Semantics}
 \label{section:smallstepsemantics}
 
 In this section, we present the definition of an operational semantics for RE parsing which is
@@ -2702,7 +2705,7 @@ configuration $\conf{d,e,c,b,s}$ we can give a step to $\conf{d',e',c',b',s'}$ u
 	
 	\\ \\
 	
-	\infer[_{(Right_E)}]{\conf{F,e,c,b,s}\to\conf{F,e+e',c',\ensuremath{\C{1_b}}:b,s}}{c = e + E[\,] : c'}
+	\infer[_{(Right_E)}]{\conf{F,e',c,b,s}\to\conf{F,e+e',c',\ensuremath{\C{1_b}}:b,s}}{c = e + E[\,] : c'}
 	&
 	\infer[_{(Star_{E1})}]{\conf{F,e,\star:c,b,s}\to\conf{B,e,\star:c,\ensuremath{\C{0_b}}:b,s}}{}
 	
@@ -2853,13 +2856,13 @@ The starting state of the semantics is given by the configuration
 $\conf{B,e,[],[],s}$ and the accepting configurations are $\conf{F,e',[],bs,[]}$, for some RE $e'$ and code $bs$.
 Following common practice, we let $\to^\star$ denote the reflexive, transitive closure of the small-step
 semantics defined in Figure~\ref{figure:smallstep}.
-We say that a string $s$ is accepted by RE $e$ if $\conf{B,e,[],[],s}\to^\star\conf{F,e',[],bs,[]}$.
+We say that a string $s$ is accepted by RE $e$ if $\conf{B,e,[],[],s}\to^\star\conf{F,e,[],bs,[]}$.
 The next theorem asserts that our semantics is sound and complete with respect to RE
 inductive semantics (Figure~\ref{figure:resemantics}).
 
 \begin{Theorem}
-	For all strings $s$ and non-problematic REs $e$, $s\in\sembrackets{e}$ if, and only if, $\conf{B,e,[],[],s}\to^\star\conf{F,e',[],b,[]}$ and
-	$\conf{F,e',[],b,[]}$ is an accepting configuration.
+	For all strings $s$ and non-problematic REs $e$, $s\in\sembrackets{e}$ if, and only if, $\conf{B,e,[],[],s}\to^\star\conf{F,e,[],b,[]}$ and
+	$\conf{F,e,[],b,[]}$ is an accepting configuration.
 \end{Theorem}
 \begin{proof}
 	$(\to)$: We proceed by induction on the derivation of $s\in\sembrackets{e}$.
@@ -2867,36 +2870,36 @@ inductive semantics (Figure~\ref{figure:resemantics}).
 		\item Case rule $Eps$: Then, $e = \epsilon$, $s = \epsilon$ and the conclusion is immediate.
 		\item Case rule $Chr$: Then, $e = a$, $s = a$ and the conclusion follows.
 		\item Case rule $Left$: Then, $e = e_1 + e_2$ and $s \in\sembrackets{e_1}$. By the induction hypothesis,
-		we have $\conf{B,e_1,ctx,b,s}\to^\star\conf{E,e',ctx',b',[]}$ and the conclusion follows.
+		we have $\conf{B,e_1,ctx,b,s}\to^\star\conf{F,e,ctx',b',[]}$ and the conclusion follows.
 		\item Case rule $Right$: Then, $e = e_1 + e_2$ and $s \in\sembrackets{e_2}$. By the induction hypothesis,
-		we have $\conf{B,e_2,ctx,b,s}\to^\star\conf{E,e',ctx',b',[]}$ and the conclusion follows.
+		we have $\conf{B,e_2,ctx,b,s}\to^\star\conf{F,e,ctx',b',[]}$ and the conclusion follows.
 		\item Case rule $Cat$: Then, $e = e_1\:e_2$, $s_1 \in\sembrackets{e_1}$, $s_2\in\sembrackets{e_2}$ and
 		$s = s_1\,s_2$. By the induction hypothesis on $s_1 \in\sembrackets{e_1}$ we have that
-		$\conf{B,e_1,ctx,b,s}\to^\star\conf{E,e',E[\,]\,e_2 : ctx,b',[]}$ and by
+		$\conf{B,e_1,ctx,b,s}\to^\star\conf{F,e,E[\,]\,e_2 : ctx,b',[]}$ and by
 		induction hypothesis on $s_2\in\sembrackets{e_2}$, we have
-		$\conf{B,e_2,e_1\,E[\,]:ctx,b,s}\to^\star\conf{E,e',ctx,b',[]}$ and the conclusion follows.
+		$\conf{B,e_2,e_1\,E[\,]:ctx,b,s}\to^\star\conf{F,e,ctx,b',[]}$ and the conclusion follows.
 		\item Case rule $StarBase$: Then, $e = e_1^\star$ and $s = \epsilon$. The conclusion is immediate.
 		\item Case rule $StarRec$: Then, $e = e_1^\star$, $s = s_1s_2$, $s_1 \in \sembrackets{e_1}$ and
 		$s_2\in\sembrackets{e_1^\star}$. By the induction hypothesis on  $s_1 \in \sembrackets{e_1}$, we
-		have $\conf{B,e_1,\star : ctx,b,s_1}\to^\star\conf{E,e', \star: ctx,b',[]}$, the induction
-		hypothesis on $s_2\in\sembrackets{e_1^\star}$ give us $\conf{B,e_1^\star,\star : ctx,b,s_2}\to^\star\conf{E,e', \star: ctx,b',[]}$
+		have $\conf{B,e_1,\star : ctx,b,s_1}\to^\star\conf{F,e, \star: ctx,b',[]}$, the induction
+		hypothesis on $s_2\in\sembrackets{e_1^\star}$ give us $\conf{B,e_1^\star,\star : ctx,b,s_2}\to^\star\conf{F,e, \star: ctx,b',[]}$
 		and conclusion follows.
 	\end{enumerate}
 	$(\leftarrow)$: We proceed by induction on $e$.
 	\begin{enumerate}
 		\item Case $e = \epsilon$. Then, we have
-		$\conf{B,\epsilon,ctx,b,s}\to^\star\conf{E,e',ctx',b',[]}$ and $s = \epsilon$. Conclusion follows by rule $Eps$.
+		$\conf{B,\epsilon,ctx,b,s}\to^\star\conf{F,e,ctx',b',[]}$ and $s = \epsilon$. Conclusion follows by rule $Eps$.
 		\item Case $e = a$. Then
-		$\conf{B,a,ctx,b,s}\to^\star\conf{E,e',ctx',b',[]}$ and $s = a$. Conclusion follows by rule $Chr$.
+		$\conf{B,a,ctx,b,s}\to^\star\conf{F,e,ctx',b',[]}$ and $s = a$. Conclusion follows by rule $Chr$.
 		\item Case $e = e_1 + e_2$. Now, we consider the following cases.
 		\begin{enumerate}
 			\item $s$ is accepted by $e_1$. Then, we have the following derivation:
-			\[\conf{B,e_1 + e_2,ctx,b,s}\to\conf{B,e_1,E[\,] + e_2 : ctx,b,s} \to^\star\conf{E,e',ctx',b',[]}\]
-			By induction hypothesis on $e_1$ and the derivation $\conf{B,e_1,E[\,] + e_2 : ctx,b,s} \to^\star\conf{E,e',ctx',b',[]}$
+			\[\conf{B,e_1 + e_2,ctx,b,s}\to\conf{B,e_1,E[\,] + e_2 : ctx,b,s} \to^\star\conf{F,e,ctx',b',[]}\]
+			By induction hypothesis on $e_1$ and the derivation $\conf{B,e_1,E[\,] + e_2 : ctx,b,s} \to^\star\conf{F,e,ctx',b',[]}$
 			we have $s \in\sembrackets{e_1}$ and the conclusion follows by rule $Left$.
 			\item $s$ is accepted by $e_2$. Then, we have the following derivation:
-			\[\conf{B,e_2,ctx,b,s}\to\conf{B,e_1,e_1 + E[\,] : ctx,b,s} \to^\star\conf{E,e',ctx',b',[]}\]
-			By induction hypothesis on $e_2$ and the derivation $\conf{B,e_1,e_1 + E[\,] : ctx,b,s} \to^\star\conf{E,e',ctx',b',[]}$,
+			\[\conf{B,e_2,ctx,b,s}\to\conf{B,e_1,e_1 + E[\,] : ctx,b,s} \to^\star\conf{F,e,ctx',b',[]}\]
+			By induction hypothesis on $e_2$ and the derivation $\conf{B,e_1,e_1 + E[\,] : ctx,b,s} \to^\star\conf{F,e,ctx',b',[]}$,
 			we have $s \in\sembrackets{e_2}$ and conclusion follows by rule $Right$.
 		\end{enumerate}
 	\end{enumerate}
@@ -2904,7 +2907,7 @@ inductive semantics (Figure~\ref{figure:resemantics}).
 
 
 
-\subsection{Implementation details}\label{subsection:smallstepimplementation}
+\subsection{Implementation Details}\label{subsection:smallstepimplementation}
 
 We chose Haskell to implement the first version of our VM-based algorithm due to Haskell's easiness on quickly prototyping an interpreter for our small-step semantics. Thus, it could be easier and faster to discover errors in our semantics formulation, mainly because of QuickCheck (Section \ref{subsection:quickcheck}).
 
@@ -3348,13 +3351,13 @@ is indeed correct. All top level definitions and function alternatives are actua
 and just two expressions are marked as non-executed by HPC.
 
 
-\section{Big-step operational semantics}\label{section:bigstepsemantics}
+\section{Big-step Operational Semantics}\label{section:bigstepsemantics}
 
 The small-step semantics presented in Section \ref{section:smallstepsemantics} was our first attempt to develop a VM-based algorithm for the RE parsing problem. Despite its high coverage results when submitted to QuickCheck, that semantics has some issues. As we stated previously, it does not work with problematic REs.
 
 To solve the first problem, we adopted a function which converts a problematic RE into an equivalent non-problematic one, as proposed by Medeiros et al. \cite{Medeiros14}. In order to formalize our small-step operational semantics in Coq, we now propose a big-step one for it, which is easier to understand and formalize in Coq and behaves the same way as the small-step one. In fact, we consider the small-step version as an intermediate step to achieve the big-step one presented in this section.
 
-\subsection{Dealing with problematic REs}\label{subsection:problematic}
+\subsection{Dealing With Problematic REs}\label{subsection:problematic}
 
 A known problem in RE parsing is how to deal with the so-called problematic REs. A naive approach for 
 parsing problematic REs can make the algorithm loop~\cite{Frisch2004}. Medeiros et al. \cite{Medeiros14}
@@ -3459,7 +3462,7 @@ This result is proved (informally\footnote{By ``informally'', we mean that the
 in Coq, we needed to prove several theorems about RE equivalence. We postpone the discussion on some details
 of our formalization to Section \ref{subsection:coqformalization}.
 
-\subsection{Big-step operational semantics}\label{subsection:bigstep}
+\subsection{Big-step Operational Semantics}\label{subsection:bigstep}
 
 We now present the definition of a big step operational semantics
 for a RE parsing VM.
@@ -3538,7 +3541,7 @@ semantics and only produces valid parsing evidence.
 \end{proof}
 
 
-\subsection{Coq formalization}\label{subsection:coqformalization}
+\subsection{Coq Formalization}\label{subsection:coqformalization}
 
 In this subsection, we describe the main design decisions in our formalization. At
 the end of this subsection, we discuss how we extract a Haskell implementation from
@@ -3964,7 +3967,7 @@ The extracted Haskell code for our VM interpreter has 259 lines. In order to use
 the algorithm, we build a grep-like command line tool, which is available at 
 project's online repository~\cite{regexvm-rep}. 
 
-\subsection{Experimental results}\label{subsection:bigstepexperiments}
+\subsection{Experimental Results}\label{subsection:bigstepexperiments}
 
 We use the formalized algorithm to build a Haskell tool for RE parsing and
 compare its performance against the library
@@ -4104,7 +4107,7 @@ randomMatches m e'
 			    (randomMatches (m - 1) e')
 \end{minted}
 
-\chapter{Related works}\label{chapter:relatedworks}
+\chapter{Related Works}\label{chapter:relatedworks}
 %Starting missing references in October/November 2018 according Rodrigo's task board in Trello
 
 A new technique for constructing a finite deterministic automaton from a RE was presented by Asperti et al. in \cite{Asperti10}. It's based on the idea of marking a suitable set of positions inside the RE, intuitively representing the possible points reached after the processing of an initial prefix of the input string. In other words, the points mark positions inside the RE which have been reached after reading some prefix of the input string, or better positions where the processing of remaining string has to be started. Each pointed expression for a RE $e$ represents a state of the deterministic automaton associated with $e$; since there is obviously only a finite number of possible labellings, the number of states of the automaton is finite. The authors argued that Pointed REs join the elegance and the symbolic appealingness of Brzozowski's derivatives with the effectiveness of McNaughton and Yamada's labelling technique, essentially combining the best of both approaches, allowing a direct, intuitive and easily verifiable construction of the deterministic automaton for $e$. The authors said that pointed expressions can provide a more compact description for RLs than traditional REs. However, the authors do not discuss the usage of pointed REs for parsing or matching. %however, despite the many proofs presented in their paper, the authors did not show any evidence about that statement.
@@ -4140,7 +4143,7 @@ parser to signal failure with the empty list of results, an unambiguous success 
 
 
 
-The main goal of Medeiros et al. \cite{Mascarenhas2011} is to present a new formalization of REs via transformation to PEGs and to show that their formalization accommodates some of regex \footnote{Regexes add several ad-hoc extensions to REs. They may look like REs, but can have syntactical and semantical extensions that are difficult - or impossible - to express through pure REs.} extensions. They present formalizations of both REs and PEGs in the framework of natural semantics and use these to show the similarities and differences between REs and PEGs. Then, they define a transformation that converts a RE to a PEG and prove its correctness. Finally, they show how this transformation can be adapted to accommodate some regex extensions. One of many interesting points of their work is that they also show how to obtain a well-formed \footnote{A RE $e$ that has a subexpression $e^*_i$ where $e_i$ can match the empty string is not well-formed.} RE that recognizes the same language as non-well-formed REs.
+The main goal of Medeiros et al. \cite{Mascarenhas2011} is to present a new formalization of REs via transformation to PEGs and to show that their formalization accommodates some of regex \footnote{Regexes add several ad-hoc extensions to REs. They may look like REs, but can have syntactical and semantical extensions that are difficult - or impossible - to express through pure REs.} extensions. They present formalizations of both REs and PEGs in the framework of natural semantics and use these to show the similarities and differences between REs and PEGs. Then, they define a transformation that converts a RE to a PEG and prove its correctness. Finally, they show how this transformation can be adapted to accommodate some regex extensions. One of many interesting points of their work is that they also show how to obtain a well-formed \footnote{A RE $e$ that has a subexpression $e^*_i$ where $e_i$ can match the empty string is not well-formed.} RE that recognizes the same language as non-well-formed REs (details in Subsection \ref{subsection:problematic}).
  
 
 %End of references in September 2018.
@@ -4154,7 +4157,7 @@ They showed how to transform PEGs to parsing machine programs, and gave a correc
 
 
 %\section{Regular ExpressionMatching and Operational Semantics}
-Rathnayake and Thielecke~\cite{Rathnayake2011} formalized a VM implementation for RE matching using operational semantics. Specifically, they derived a series of abstract machines, moving from the abstract definition of matching to realistic machines. First, a continuation is added to the operational semantics to describe what remains to be matched after the current expression. Next, they represented the expression as a data structure using pointers, which enables redundant searches to be eliminated via testing for pointer equality. Although their work has some similarities with ours (a VM-based parsing of REs), they did not present any evidence or proofs that their VM is correct.
+Rathnayake and Thielecke~\cite{Rathnayake2011} formalized a VM implementation for RE matching using operational semantics. Specifically, they derived a series of abstract machines, moving from the abstract definition of matching to realistic machines. First, a continuation is added to the operational semantics to describe what remains to be matched after the current expression. Next, they represented the expression as a data structure using pointers, which enables redundant searches to be eliminated via testing for pointer equality. Although their work has some similarities with ours (a VM-based RE parsing algorithm), they did not present any evidence or proofs that their VM is correct.
 
 %\section{A Play on Regular Expressions}
 
@@ -4207,7 +4210,7 @@ As future work, we intend to extend our semantics with some real-world regex fea
 
 
 
-\chapter{Correctness of the \ensuremath{\F{accept}} function}\label{appendix:accept}
+\chapter{Correctness of the \ensuremath{\F{accept}} Function}\label{appendix:accept}
 
 
 Fisher et. al.~\cite{Fischer2010} presents a simple and elegant function for parsing a string using a RE. It relies on two

@@ -1,18 +1,18 @@
-\contentsline {chapter}{\nonumberline Abstract}{ii}{chapter*.2}
+\contentsline {chapter}{\nonumberline Abstract}{iv}{chapter*.2}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Objectives}{2}{section.1.1}
 \contentsline {section}{\numberline {1.2}Contributions}{2}{section.1.2}
-\contentsline {section}{\numberline {1.3}Published material}{3}{section.1.3}
-\contentsline {section}{\numberline {1.4}Dissertation structure}{3}{section.1.4}
+\contentsline {section}{\numberline {1.3}Published Material}{3}{section.1.3}
+\contentsline {section}{\numberline {1.4}Dissertation Structure}{3}{section.1.4}
 \contentsline {chapter}{\numberline {2}Background}{4}{chapter.2}
 \contentsline {section}{\numberline {2.1}Formal Language Theory}{4}{section.2.1}
-\contentsline {section}{\numberline {2.2}Regular expressions}{6}{section.2.2}
-\contentsline {section}{\numberline {2.3}Thompson NFA construction}{10}{section.2.3}
-\contentsline {section}{\numberline {2.4}RE parsing and bit-coded parse trees}{13}{section.2.4}
+\contentsline {section}{\numberline {2.2}Regular Expressions}{6}{section.2.2}
+\contentsline {section}{\numberline {2.3}Thompson NFA Construction}{10}{section.2.3}
+\contentsline {section}{\numberline {2.4}RE Parsing and Bit-coded Parse Trees}{13}{section.2.4}
 \contentsline {section}{\numberline {2.5}Formal Semantics}{16}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Operational semantics for a simple language}{17}{subsection.2.5.1}
-\contentsline {subsubsection}{\nonumberline Small-step semantics for HR}{18}{section*.3}
-\contentsline {subsubsection}{\nonumberline Big-step semantics for HR}{19}{section*.4}
+\contentsline {subsection}{\numberline {2.5.1}Operational Semantics for a Simple Language}{17}{subsection.2.5.1}
+\contentsline {subsubsection}{\nonumberline Small-step Semantics for HR}{18}{section*.3}
+\contentsline {subsubsection}{\nonumberline Big-step Semantics for HR}{19}{section*.4}
 \contentsline {subsection}{\numberline {2.5.2}Operational Semantics for REs}{20}{subsection.2.5.2}
 \contentsline {section}{\numberline {2.6}An Overview of Haskell}{22}{section.2.6}
 \contentsline {paragraph}{\nonumberline Modules}{22}{section*.5}
@@ -22,26 +22,26 @@
 \contentsline {paragraph}{\nonumberline Guards}{25}{section*.9}
 \contentsline {paragraph}{\nonumberline Algebraic datatypes}{25}{section*.10}
 \contentsline {subsection}{\numberline {2.6.1}An Overview of QuickCheck}{25}{subsection.2.6.1}
-\contentsline {subsection}{\numberline {2.6.2}Data-type derivatives}{26}{subsection.2.6.2}
-\contentsline {section}{\numberline {2.7}A tour of Coq proof assistant}{27}{section.2.7}
-\contentsline {chapter}{\numberline {3}Proposed semantic}{32}{chapter.3}
-\contentsline {section}{\numberline {3.1}Small-step operational semantics}{32}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Implementation details}{36}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {2.6.2}Data-type Derivatives}{26}{subsection.2.6.2}
+\contentsline {section}{\numberline {2.7}A Tour of Coq Proof Assistant}{27}{section.2.7}
+\contentsline {chapter}{\numberline {3}Proposed Semantic}{32}{chapter.3}
+\contentsline {section}{\numberline {3.1}Small-step Operational Semantics}{32}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Implementation Details}{36}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Experiments}{38}{subsection.3.1.2}
 \contentsline {paragraph}{\nonumberline Test case generators.}{38}{section*.11}
 \contentsline {paragraph}{\nonumberline Properties considered.}{39}{section*.12}
 \contentsline {paragraph}{\nonumberline Code coverage results.}{41}{section*.13}
-\contentsline {section}{\numberline {3.2}Big-step operational semantics}{42}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Dealing with problematic REs}{42}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Big-step operational semantics}{44}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Coq formalization}{45}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.2}Big-step Operational Semantics}{42}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Dealing With Problematic REs}{42}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Big-step Operational Semantics}{44}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Coq Formalization}{45}{subsection.3.2.3}
 \contentsline {paragraph}{\nonumberline RE syntax and semantics}{46}{section*.14}
 \contentsline {paragraph}{\nonumberline RE equivalence}{46}{section*.15}
 \contentsline {paragraph}{\nonumberline Converting problematic REs}{47}{section*.16}
 \contentsline {paragraph}{\nonumberline Parse trees and bit-code representation}{49}{section*.17}
 \contentsline {paragraph}{\nonumberline Formalizing the proposed semantics and its interpreter}{52}{section*.18}
 \contentsline {paragraph}{\nonumberline Extracting a certified implementation}{53}{section*.19}
-\contentsline {subsection}{\numberline {3.2.4}Experimental results}{54}{subsection.3.2.4}
-\contentsline {chapter}{\numberline {4}Related works}{57}{chapter.4}
+\contentsline {subsection}{\numberline {3.2.4}Experimental Results}{54}{subsection.3.2.4}
+\contentsline {chapter}{\numberline {4}Related Works}{57}{chapter.4}
 \contentsline {chapter}{\numberline {5}Conclusion}{63}{chapter.5}
-\contentsline {chapter}{\numberline {A}Correctness of the \ensuremath {\leavevmode {\color [rgb]{0,0.4,0}\mathsf {accept}}} function}{69}{appendix.A}
+\contentsline {chapter}{\numberline {A}Correctness of the \ensuremath {\leavevmode {\color [rgb]{0,0.4,0}\mathsf {accept}}} Function}{69}{appendix.A}

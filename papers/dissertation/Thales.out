@@ -1,0 +1,30 @@
+\BOOKMARK [0][-]{chapter*.2}{Abstract}{}% 1
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 2
+\BOOKMARK [1][-]{section.1.1}{Objectives}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.2}{Contributions}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.3}{Published Material}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.4}{Dissertation Structure}{chapter.1}% 6
+\BOOKMARK [0][-]{chapter.2}{Background}{}% 7
+\BOOKMARK [1][-]{section.2.1}{Formal Language Theory}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.2}{Regular Expressions}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.3}{Thompson NFA Construction}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.4}{RE Parsing and Bit-coded Parse Trees}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.5}{Formal Semantics}{chapter.2}% 12
+\BOOKMARK [2][-]{subsection.2.5.1}{Operational Semantics for a Simple Language}{section.2.5}% 13
+\BOOKMARK [2][-]{subsection.2.5.2}{Operational Semantics for REs}{section.2.5}% 14
+\BOOKMARK [1][-]{section.2.6}{An Overview of Haskell}{chapter.2}% 15
+\BOOKMARK [2][-]{subsection.2.6.1}{An Overview of QuickCheck}{section.2.6}% 16
+\BOOKMARK [2][-]{subsection.2.6.2}{Data-type Derivatives}{section.2.6}% 17
+\BOOKMARK [1][-]{section.2.7}{A Tour of Coq Proof Assistant}{chapter.2}% 18
+\BOOKMARK [0][-]{chapter.3}{Proposed Semantic}{}% 19
+\BOOKMARK [1][-]{section.3.1}{Small-step Operational Semantics}{chapter.3}% 20
+\BOOKMARK [2][-]{subsection.3.1.1}{Implementation Details}{section.3.1}% 21
+\BOOKMARK [2][-]{subsection.3.1.2}{Experiments}{section.3.1}% 22
+\BOOKMARK [1][-]{section.3.2}{Big-step Operational Semantics}{chapter.3}% 23
+\BOOKMARK [2][-]{subsection.3.2.1}{Dealing With Problematic REs}{section.3.2}% 24
+\BOOKMARK [2][-]{subsection.3.2.2}{Big-step Operational Semantics}{section.3.2}% 25
+\BOOKMARK [2][-]{subsection.3.2.3}{Coq Formalization}{section.3.2}% 26
+\BOOKMARK [2][-]{subsection.3.2.4}{Experimental Results}{section.3.2}% 27
+\BOOKMARK [0][-]{chapter.4}{Related Works}{}% 28
+\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 29
+\BOOKMARK [0][-]{appendix.A}{Correctness of the accept Function}{}% 30

@@ -1,0 +1,3061 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.3.16)  20 JUN 2019 11:21
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**Thales.tex
+(./Thales.tex
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbook.cls
+Document Class: scrbook 2017/09/07 v3.24 KOMA-Script document class (book)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2017/09/07 v3.24 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2017/09/07 v3.24 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2017/09/07 v3.24 KOMA-Script package (loading files)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2017/09/07 v3.24 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip41
+\scr@dte@tocline@numbox=\box26
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 135.
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 137.
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 138.
+Package tocbasic Info: defining new hook before heading of `' on input line 162
+3.
+Class scrbook Info: You've used standard option `oneside'.
+(scrbook)           This is correct!
+(scrbook)           Internally I'm using `twoside=false'.
+(scrbook)           If you'd like to set the option with \KOMAoptions,
+(scrbook)           you'd have to use `twoside=false' there
+(scrbook)           instead of `oneside', too.
+Package scrbook Info: You've used standard option `12pt'.
+(scrbook)             This is correct!
+(scrbook)             Internally I'm using `fontsize=12pt'.
+(scrbook)             If you'd like to set the option with \KOMAoptions,
+(scrbook)             you'd have to use `fontsize=12pt' there
+(scrbook)             instead of `12pt', too.
+Class scrbook Info: File `scrsize12pt.clo' used to setup font sizes on input li
+ne 2296.
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrsize12pt.clo
+File: scrsize12pt.clo 2017/09/07 v3.24 KOMA-Script font size class option (12pt
+)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2017/09/07 v3.24 KOMA-Script package (type area)
+\ta@bcor=\skip42
+\ta@div=\count79
+Package typearea Info: You've used standard option `oneside'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `twoside=false'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `twoside=false' there
+(typearea)             instead of `oneside', too.
+\ta@hblk=\skip43
+\ta@vblk=\skip44
+\ta@temp=\skip45
+\footheight=\skip46
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 12
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 448.13095pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 2.4185pt
+(typearea)              \oddsidemargin  = 2.4185pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 635.5pt
+(typearea)              \topmargin      = -41.72441pt
+(typearea)              \headheight     = 18.125pt
+(typearea)              \headsep        = 21.75pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 50.75pt
+(typearea)              \baselineskip   = 14.5pt
+(typearea)              on input line 1686.
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\scr@dte@part@maxnumwidth=\skip47
+\scr@dte@chapter@maxnumwidth=\skip48
+\scr@dte@section@maxnumwidth=\skip49
+\scr@dte@subsection@maxnumwidth=\skip50
+\scr@dte@subsubsection@maxnumwidth=\skip51
+\scr@dte@paragraph@maxnumwidth=\skip52
+\scr@dte@subparagraph@maxnumwidth=\skip53
+LaTeX Info: Redefining \textsubscript on input line 4966.
+\abovecaptionskip=\skip54
+\belowcaptionskip=\skip55
+\c@pti@nb@sid@b@x=\box27
+\c@figure=\count87
+\c@table=\count88
+Class scrbook Info: Redefining `\numberline' on input line 6142.
+\bibindent=\dimen102
+)
+LaTeX Info: Redefining \rm on input line 4.
+LaTeX Info: Redefining \sf on input line 5.
+LaTeX Info: Redefining \tt on input line 6.
+LaTeX Info: Redefining \bf on input line 7.
+LaTeX Info: Redefining \it on input line 8.
+LaTeX Info: Redefining \sl on input line 9.
+LaTeX Info: Redefining \sc on input line 10.
+
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen103
+\lightrulewidth=\dimen104
+\cmidrulewidth=\dimen105
+\belowrulesep=\dimen106
+\belowbottomsep=\dimen107
+\aboverulesep=\dimen108
+\abovetopsep=\dimen109
+\cmidrulesep=\dimen110
+\cmidrulekern=\dimen111
+\defaultaddspace=\dimen112
+\@cmidla=\count89
+\@cmidlb=\count90
+\@aboverulesep=\dimen113
+\@belowrulesep=\dimen114
+\@thisruleclass=\count91
+\@lastruleclass=\count92
+\@thisrulewidth=\dimen115
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen116
+\Gin@req@width=\dimen117
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen118
+\Hy@linkcounter=\count93
+\Hy@pagecounter=\count94
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count95
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count96
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5115.
+\XeTeXLinkMargin=\dimen119
+\Fld@menulength=\count97
+\Field@Width=\dimen120
+\Fld@charsize=\dimen121
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count98
+\c@Item=\count99
+\c@Hfootnote=\count100
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count101
+\c@bookmark@seq@number=\count102
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip56
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count103
+\float@exts=\toks15
+\float@box=\box28
+\@float@everytoks=\toks16
+\@floatcapt=\box29
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lkproof/proof.sty
+\inferLineSkip=\dimen122
+\inferLabelSkip=\dimen123
+\@LeftOffset=\dimen124
+\@RightOffset=\dimen125
+\@SavedLeftOffset=\dimen126
+\UpperWidth=\dimen127
+\LowerWidth=\dimen128
+\LowerHeight=\dimen129
+\UpperLeftOffset=\dimen130
+\UpperRightOffset=\dimen131
+\UpperCenter=\dimen132
+\LowerCenter=\dimen133
+\UpperAdjust=\dimen134
+\RuleAdjust=\dimen135
+\LowerAdjust=\dimen136
+\RuleWidth=\dimen137
+\HLabelAdjust=\dimen138
+\VLabelAdjust=\dimen139
+\WidthAdjust=\dimen140
+\@UpperPart=\box30
+\@LowerPart=\box31
+\@LabelPart=\box32
+\ResultBox=\box33
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks17
+\pgfutil@tempdima=\dimen141
+\pgfutil@tempdimb=\dimen142
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box34
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks18
+\pgfkeys@temptoks=\toks19
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks20
+))
+\pgf@x=\dimen143
+\pgf@y=\dimen144
+\pgf@xa=\dimen145
+\pgf@ya=\dimen146
+\pgf@xb=\dimen147
+\pgf@yb=\dimen148
+\pgf@xc=\dimen149
+\pgf@yc=\dimen150
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count104
+\c@pgf@countb=\count105
+\c@pgf@countc=\count106
+\c@pgf@countd=\count107
+\t@pgf@toka=\toks21
+\t@pgf@tokb=\toks22
+\t@pgf@tokc=\toks23
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count108
+\pgfsyssoftpath@bigbuffer@items=\count109
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen151
+\pgfmath@count=\count110
+\pgfmath@box=\box35
+\pgfmath@toks=\toks24
+\pgfmath@stack@operand=\toks25
+\pgfmath@stack@operation=\toks26
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count111
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen152
+\pgf@picmaxx=\dimen153
+\pgf@picminy=\dimen154
+\pgf@picmaxy=\dimen155
+\pgf@pathminx=\dimen156
+\pgf@pathmaxx=\dimen157
+\pgf@pathminy=\dimen158
+\pgf@pathmaxy=\dimen159
+\pgf@xx=\dimen160
+\pgf@xy=\dimen161
+\pgf@yx=\dimen162
+\pgf@yy=\dimen163
+\pgf@zx=\dimen164
+\pgf@zy=\dimen165
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen166
+\pgf@path@lasty=\dimen167
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen168
+\pgf@shorten@start@additional=\dimen169
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box36
+\pgf@hbox=\box37
+\pgf@layerbox@main=\box38
+\pgf@picture@serial@count=\count112
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen170
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen171
+\pgf@pt@y=\dimen172
+\pgf@pt@temp=\dimen173
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen174
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen175
+\pgf@sys@shading@range@num=\count113
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box39
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box40
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen176
+\pgf@nodesepend=\dimen177
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen178
+\pgffor@skip=\dimen179
+\pgffor@stack=\toks27
+\pgffor@toks=\toks28
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count114
+\pgfplotmarksize=\dimen180
+)
+\tikz@lastx=\dimen181
+\tikz@lasty=\dimen182
+\tikz@lastxsaved=\dimen183
+\tikz@lastysaved=\dimen184
+\tikzleveldistance=\dimen185
+\tikzsiblingdistance=\dimen186
+\tikz@figbox=\box41
+\tikz@figbox@bg=\box42
+\tikz@tempbox=\box43
+\tikz@tempbox@bg=\box44
+\tikztreelevel=\count115
+\tikznumberofchildren=\count116
+\tikznumberofcurrentchild=\count117
+\tikz@fig@count=\count118
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count119
+\pgfmatrixcurrentcolumn=\count120
+\pgf@matrix@numberofcolumns=\count121
+)
+\tikz@expandcount=\count122
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks29
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks30
+\thm@bodyfont=\toks31
+\thm@headfont=\toks32
+\thm@notefont=\toks33
+\thm@headpunct=\toks34
+\thm@preskip=\skip57
+\thm@postskip=\skip58
+\thm@headsep=\skip59
+\dth@everypar=\toks35
+)
+(/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
+Package: stmaryrd 1994/03/03 St Mary's Road symbol package
+\symstmry=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
+(Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/minted/minted.sty
+Package: minted 2017/07/19 v2.5 Yet another Pygments shim for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2017/07/08 v1.3.1 fvextra - extensions and patches for fancyvr
+b
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count123
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count124
+\FV@InFile=\read2
+\FV@TabBox=\box45
+\c@FancyVerbLine=\count125
+\FV@StepNumber=\count126
+\FV@OutFile=\write4
+)
+(/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count127
+\output=\toks36
+\linenoprevgraf=\count128
+\linenumbersep=\dimen187
+\linenumberwidth=\dimen188
+\c@linenumber=\count129
+\c@pagewiselinenumber=\count130
+\c@LN@truepage=\count131
+\c@internallinenumber=\count132
+\c@internallinenumbers=\count133
+\quotelinenumbersep=\dimen189
+\bframerule=\dimen190
+\bframesep=\dimen191
+\bframebox=\box46
+LaTeX Info: Redefining \\ on input line 3056.
+)
+\c@FV@TrueTabGroupLevel=\count134
+\c@FV@TrueTabCounter=\count135
+\FV@TabBox@Group=\box47
+\FV@TmpLength=\skip60
+\c@FV@HighlightLinesStart=\count136
+\c@FV@HighlightLinesStop=\count137
+\FV@LoopCount=\count138
+\FV@NCharsBox=\box48
+\FV@BreakIndent=\dimen192
+\FV@BreakIndentNChars=\count139
+\FV@BreakSymbolSepLeft=\dimen193
+\FV@BreakSymbolSepLeftNChars=\count140
+\FV@BreakSymbolSepRight=\dimen194
+\FV@BreakSymbolSepRightNChars=\count141
+\FV@BreakSymbolIndentLeft=\dimen195
+\FV@BreakSymbolIndentLeftNChars=\count142
+\FV@BreakSymbolIndentRight=\dimen196
+\FV@BreakSymbolIndentRightNChars=\count143
+\c@FancyVerbLineBreakLast=\count144
+\FV@LineBox=\box49
+\FV@LineIndentBox=\box50
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count145
+\calc@Bcount=\count146
+\calc@Adimen=\dimen197
+\calc@Bdimen=\dimen198
+\calc@Askip=\skip61
+\calc@Bskip=\skip62
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count147
+\calc@Cskip=\skip63
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 67.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/catchfile.sty
+Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
+)
+runsystem(uname -s > "Thales.w18")...executed.
+
+
+(./Thales.w18)
+runsystem(rm -- "Thales.w18")...executed.
+
+) (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
+\@xs@message=\write5
+\integerpart=\count148
+\decimalpart=\count149
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip64
+\fb@frw=\dimen199
+\fb@frh=\dimen256
+\FrameRule=\dimen257
+\FrameSep=\dimen258
+)
+\minted@appexistsfile=\read3
+\minted@bgbox=\box51
+\minted@code=\write6
+\c@minted@FancyVerbLineTemp=\count150
+\c@minted@pygmentizecounter=\count151
+\@float@every@listing=\toks37
+\c@listing=\count152
+)
+runsystem(mkdir -p _minted-Thales)...executed.
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
+tex
+File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
+\arrowsize=\dimen259
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks38
+\ex@=\dimen260
+))
+(/usr/share/texmf/tex/latex/polytable/polytable.sty
+Package: polytable 2013/07/18 v0.8.5 `polytable' package (Andres Loeh)
+
+(/usr/share/texmf/tex/latex/polytable/lazylist.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen261
+\extrarowheight=\dimen262
+\NC@list=\toks39
+\extratabsurround=\skip65
+\backup@length=\skip66
+)
+\PT@colwidth=\dimen263
+\PT@cols=\count153
+\PT@table=\count154
+\PT@toks=\toks40
+\PT@in=\read4
+\PT@out=\write7
+)
+\mathindent=\dimen264
+\blanklineskip=\skip67
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryautomata.code.tex
+File: tikzlibraryautomata.code.tex 2008/07/14 v3.0.1a (rcs-revision 1.3)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
+
+\pgfnodepartlowerbox=\box52
+\pgfnodeparttwobox=\box53
+\pgfnodepartthreebox=\box54
+\pgfnodepartfourbox=\box55
+\pgfnodeparttwentybox=\box56
+\pgfnodepartnineteenbox=\box57
+\pgfnodeparteighteenbox=\box58
+\pgfnodepartseventeenbox=\box59
+\pgfnodepartsixteenbox=\box60
+\pgfnodepartfifteenbox=\box61
+\pgfnodepartfourteenbox=\box62
+\pgfnodepartthirteenbox=\box63
+\pgfnodeparttwelvebox=\box64
+\pgfnodepartelevenbox=\box65
+\pgfnodeparttenbox=\box66
+\pgfnodepartninebox=\box67
+\pgfnodeparteightbox=\box68
+\pgfnodepartsevenbox=\box69
+\pgfnodepartsixbox=\box70
+\pgfnodepartfivebox=\box71
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.5)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.1a (rcs-revision 1.6)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.callouts.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.callouts.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.3)
+\pgf@layerbox@background=\box72
+\pgf@layerboxsaved@background=\box73
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
+)
+\c@Lemma=\count155
+\c@Theorem=\count156
+\c@Example=\count157
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrhack.sty
+Package: scrhack 2017/09/07 v3.24 KOMA-Script package 
+
+(/usr/share/texlive/texmf-dist/tex/latex/xpatch/xpatch.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2018/02/21 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2018/02/21 L3 programming layer (code)
+\c_max_int=\count158
+\l_tmpa_int=\count159
+\l_tmpb_int=\count160
+\g_tmpa_int=\count161
+\g_tmpb_int=\count162
+\g__intarray_font_int=\count163
+\g__prg_map_int=\count164
+\c_log_iow=\count165
+\l_iow_line_count_int=\count166
+\l__iow_line_target_int=\count167
+\l__iow_one_indent_int=\count168
+\l__iow_indent_int=\count169
+\c_zero_dim=\dimen265
+\c_max_dim=\dimen266
+\l_tmpa_dim=\dimen267
+\l_tmpb_dim=\dimen268
+\g_tmpa_dim=\dimen269
+\g_tmpb_dim=\dimen270
+\c_zero_skip=\skip68
+\c_max_skip=\skip69
+\l_tmpa_skip=\skip70
+\l_tmpb_skip=\skip71
+\g_tmpa_skip=\skip72
+\g_tmpb_skip=\skip73
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
+\l_keys_choice_int=\count170
+\c__fp_leading_shift_int=\count171
+\c__fp_middle_shift_int=\count172
+\c__fp_trailing_shift_int=\count173
+\c__fp_big_leading_shift_int=\count174
+\c__fp_big_middle_shift_int=\count175
+\c__fp_big_trailing_shift_int=\count176
+\c__fp_Bigg_leading_shift_int=\count177
+\c__fp_Bigg_middle_shift_int=\count178
+\c__fp_Bigg_trailing_shift_int=\count179
+\c__fp_rand_size_int=\count180
+\c__fp_rand_four_int=\count181
+\c__fp_rand_eight_int=\count182
+\l__sort_length_int=\count183
+\l__sort_min_int=\count184
+\l__sort_top_int=\count185
+\l__sort_max_int=\count186
+\l__sort_true_max_int=\count187
+\l__sort_block_int=\count188
+\l__sort_begin_int=\count189
+\l__sort_end_int=\count190
+\l__sort_A_int=\count191
+\l__sort_B_int=\count192
+\l__sort_C_int=\count193
+\l__tl_build_start_index_int=\count194
+\l__tl_build_index_int=\count195
+\l__tl_analysis_normal_int=\count196
+\l__tl_analysis_index_int=\count197
+\l__tl_analysis_nesting_int=\count198
+\l__tl_analysis_type_int=\count199
+\l__regex_internal_a_int=\count266
+\l__regex_internal_b_int=\count267
+\l__regex_internal_c_int=\count268
+\l__regex_balance_int=\count269
+\l__regex_group_level_int=\count270
+\l__regex_mode_int=\count271
+\c__regex_cs_in_class_mode_int=\count272
+\c__regex_cs_mode_int=\count273
+\l__regex_catcodes_int=\count274
+\l__regex_default_catcodes_int=\count275
+\c__regex_catcode_D_int=\count276
+\c__regex_catcode_S_int=\count277
+\c__regex_catcode_L_int=\count278
+\c__regex_catcode_O_int=\count279
+\c__regex_catcode_A_int=\count280
+\c__regex_all_catcodes_int=\count281
+\l__regex_show_lines_int=\count282
+\l__regex_min_state_int=\count283
+\l__regex_max_state_int=\count284
+\l__regex_left_state_int=\count285
+\l__regex_right_state_int=\count286
+\l__regex_capturing_group_int=\count287
+\l__regex_min_pos_int=\count288
+\l__regex_max_pos_int=\count289
+\l__regex_curr_pos_int=\count290
+\l__regex_start_pos_int=\count291
+\l__regex_success_pos_int=\count292
+\l__regex_curr_char_int=\count293
+\l__regex_curr_catcode_int=\count294
+\l__regex_last_char_int=\count295
+\l__regex_case_changed_char_int=\count296
+\l__regex_curr_state_int=\count297
+\l__regex_step_int=\count298
+\l__regex_min_active_int=\count299
+\l__regex_max_active_int=\count300
+\l__regex_replacement_csnames_int=\count301
+\l__regex_match_count_int=\count302
+\l__regex_min_submatch_int=\count303
+\l__regex_submatch_int=\count304
+\l__regex_zeroth_submatch_int=\count305
+\g__regex_trace_regex_int=\count306
+\c_empty_box=\box74
+\l_tmpa_box=\box75
+\l_tmpb_box=\box76
+\g_tmpa_box=\box77
+\g_tmpb_box=\box78
+\l__box_top_dim=\dimen271
+\l__box_bottom_dim=\dimen272
+\l__box_left_dim=\dimen273
+\l__box_right_dim=\dimen274
+\l__box_top_new_dim=\dimen275
+\l__box_bottom_new_dim=\dimen276
+\l__box_left_new_dim=\dimen277
+\l__box_right_new_dim=\dimen278
+\l__box_internal_box=\box79
+\l__coffin_internal_box=\box80
+\l__coffin_internal_dim=\dimen279
+\l__coffin_offset_x_dim=\dimen280
+\l__coffin_offset_y_dim=\dimen281
+\l__coffin_x_dim=\dimen282
+\l__coffin_y_dim=\dimen283
+\l__coffin_x_prime_dim=\dimen284
+\l__coffin_y_prime_dim=\dimen285
+\c_empty_coffin=\box81
+\l__coffin_aligned_coffin=\box82
+\l__coffin_aligned_internal_coffin=\box83
+\l_tmpa_coffin=\box84
+\l_tmpb_coffin=\box85
+\l__coffin_display_coffin=\box86
+\l__coffin_display_coord_coffin=\box87
+\l__coffin_display_pole_coffin=\box88
+\l__coffin_display_offset_dim=\dimen286
+\l__coffin_display_x_dim=\dimen287
+\l__coffin_display_y_dim=\dimen288
+\l__coffin_bounding_shift_dim=\dimen289
+\l__coffin_left_corner_dim=\dimen290
+\l__coffin_right_corner_dim=\dimen291
+\l__coffin_bottom_corner_dim=\dimen292
+\l__coffin_top_corner_dim=\dimen293
+\l__coffin_scaled_total_height_dim=\dimen294
+\l__coffin_scaled_width_dim=\dimen295
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count307
+\l__driver_tmp_box=\box89
+))
+Package: xpatch 2012/10/02 v0.3 Extending etoolbox patching commands
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2018/02/21 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count308
+\g__xparse_grabber_int=\count309
+\l__xparse_m_args_int=\count310
+\l__xparse_mandatory_args_int=\count311
+\l__xparse_v_nesting_int=\count312
+)
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchcmd with sig. '' on line 125.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretocmd with sig. '' on line 126.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptocmd with sig. '' on line 127.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowcmd with sig. '' on line 128.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchbibmacro with sig. 'm' on line 131.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretobibmacro with sig. 'm' on line 133.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptobibmacro with sig. 'm' on line 135.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowbibmacro with sig. 'm' on line 137.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchfieldformat with sig. 'O{*}m' on line 139.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretofieldformat with sig. 'O{*}m' on line 141.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptofieldformat with sig. 'O{*}m' on line 143.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowfieldformat with sig. 'O{*}m' on line 145.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchnameformat with sig. 'O{*}m' on line 147.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretonameformat with sig. 'O{*}m' on line 149.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptonameformat with sig. 'O{*}m' on line 151.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshownameformat with sig. 'O{*}m' on line 153.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchlistformat with sig. 'O{*}m' on line 155.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretolistformat with sig. 'O{*}m' on line 157.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptolistformat with sig. 'O{*}m' on line 159.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowlistformat with sig. 'O{*}m' on line 161.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchindexfieldformat with sig. 'O{*}m' on line 163.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretoindexfieldformat with sig. 'O{*}m' on line 165.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptoindexfieldformat with sig. 'O{*}m' on line 167.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowindexfieldformat with sig. 'O{*}m' on line 169.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchindexnameformat with sig. 'O{*}m' on line 171.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretoindexnameformat with sig. 'O{*}m' on line 173.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptoindexnameformat with sig. 'O{*}m' on line 175.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowindexnameformat with sig. 'O{*}m' on line 177.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchindexlistformat with sig. 'O{*}m' on line 179.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretoindexlistformat with sig. 'O{*}m' on line 181.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xappindextolistformat with sig. 'O{*}m' on line 183.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowindexlistformat with sig. 'O{*}m' on line 185.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchbibdriver with sig. 'm' on line 187.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretobibdriver with sig. 'm' on line 189.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptobibdriver with sig. 'm' on line 191.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowbibdriver with sig. 'm' on line 193.
+.................................................
+)
+Package scrhack Info: hyperref hack deactivated because of
+(scrhack)             detection of hyperref version, that doesn't
+(scrhack)             need that hack, on input line 160.
+Package scrhack Info: loading float hack on input line 167.
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/float.hak
+File: float.hak 2017/09/07 v3.24 KOMA-Script package (hacking package float)
+Package scrhack Info: redefining \newfloat on input line 161.
+Package scrhack Info: redefining \listof on input line 161.
+Package scrhack Info: undefining \float@addtolists on input line 161.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/ucs.sty
+Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
+
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-global.def
+File: uni-global.def 2013/05/13 UCS: Unicode global data
+)
+\uc@secondtry=\count313
+\uc@combtoks=\toks41
+\uc@combtoksb=\toks42
+\uc@temptokena=\toks43
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks44
+\inpenc@posthook=\toks45
+
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/utf8x.def
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip74
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen296
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count314
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count315
+\leftroot@=\count316
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count317
+\DOTSCASE@=\count318
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box90
+\strutbox@=\box91
+\big@size=\dimen297
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count319
+\c@MaxMatrixCols=\count320
+\dotsspace@=\muskip17
+\c@parentequation=\count321
+\dspbrk@lvl=\count322
+\tag@help=\toks46
+\row@=\count323
+\column@=\count324
+\maxfields@=\count325
+\andhelp@=\toks47
+\eqnshift@=\dimen298
+\alignsep@=\dimen299
+\tagshift@=\dimen300
+\tagwidth@=\dimen301
+\totwidth@=\dimen302
+\lineht@=\dimen303
+\@envbody=\toks48
+\multlinegap=\skip75
+\multlinetaggap=\skip76
+\mathdisplay@stack=\toks49
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+Package scrhack Info: loading setspace hack on input line 388.
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/setspace.hak
+File: setspace.hak 2017/09/07 v3.24 KOMA-Script package (hacking package setspa
+ce)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count326
+\lst@gtempboxa=\box92
+\lst@token=\toks50
+\lst@length=\count327
+\lst@currlwidth=\dimen304
+\lst@column=\count328
+\lst@pos=\count329
+\lst@lostspace=\dimen305
+\lst@width=\dimen306
+\lst@newlines=\count330
+\lst@lineno=\count331
+\lst@maxwidth=\dimen307
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count332
+\lst@skipnumbers=\count333
+\lst@framebox=\box93
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package scrhack Info: loading listings hack on input line 389.
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/listings.hak
+File: listings.hak 2017/09/07 v3.24 KOMA-Script package (hacking package listin
+gs)
+Package tocbasic Info: setting babel extension for `lol' on input line 137.
+Package scrhack Info: redefining \lstlistoflistings on input line 137.
+)
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/epigraph/epigraph.sty
+Package: epigraph 2009/09/02 v1.5c typesetting epigraphs
+\beforeepigraphskip=\skip77
+\afterepigraphskip=\skip78
+\epigraphwidth=\skip79
+\epigraphrule=\skip80
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks51
+\verbatim@line=\toks52
+\verbatim@in@stream=\read5
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytrees.code.tex
+File: tikzlibrarytrees.code.tex 2008/02/24 v3.0.1a (rcs-revision 1.2)
+)
+LaTeX Font Info:    Redeclaring math alphabet \mathkw on input line 403.
+LaTeX Font Info:    Overwriting math alphabet `\mathkw' in version `normal'
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 403.
+LaTeX Font Info:    Overwriting math alphabet `\mathkw' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 403.
+\c@Definition=\count334
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
+
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+)
+\AM@pagewidth=\dimen308
+\AM@pageheight=\dimen309
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box94
+\AM@global@opts=\toks53
+\AM@toc@title=\toks54
+\c@AM@survey=\count335
+\AM@templatesizebox=\box95
+)
+runsystem(which pygmentize && touch Thales.aex)...executed.
+
+runsystem(rm Thales.aex)...executed.
+
+ (./Thales.aux)
+\openout1 = `Thales.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 421.
+LaTeX Font Info:    ... okay on input line 421.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 421.
+LaTeX Font Info:    ... okay on input line 421.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 421.
+LaTeX Font Info:    ... okay on input line 421.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 421.
+LaTeX Font Info:    ... okay on input line 421.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 421.
+LaTeX Font Info:    ... okay on input line 421.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 421.
+LaTeX Font Info:    ... okay on input line 421.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 421.
+LaTeX Font Info:    ... okay on input line 421.
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count336
+\scratchdimen=\dimen310
+\scratchbox=\box96
+\nofMPsegments=\count337
+\nofMParguments=\count338
+\everyMPshowfont=\toks55
+\MPscratchCnt=\count339
+\MPscratchDim=\dimen311
+\MPnumerator=\count340
+\makeMPintoPDFobject=\count341
+\everyMPtoPDFconversion=\toks56
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box97
+Package hyperref Info: Link coloring OFF on input line 421.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count342
+)
+LaTeX Info: Redefining \ref on input line 421.
+LaTeX Info: Redefining \pageref on input line 421.
+LaTeX Info: Redefining \nameref on input line 421.
+
+(./Thales.out) (./Thales.out)
+\@outlinefile=\write8
+\openout8 = `Thales.out'.
+
+ ABD: EveryShipout initializing macros
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
+File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+\c@lstlisting=\count343
+Package scrhack Info: undefining \float@addtolists on input line 421.
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package scrhack Info: loading lscape hack on input line 76.
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/lscape.hak
+File: lscape.hak 2017/09/07 v3.24 KOMA-Script package (hacking package lscape)
+Package scrhack Info: \landscape patched to make \textheight change optional on
+ input line 90.
+\scrh@LT@textheight=\skip81
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
+File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
+) [1
+
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Thales.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+stmry on input line 3.
+
+(/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd))
+\tf@toc=\write9
+\openout9 = `Thales.toc'.
+
+<ficha.pdf, id=164, 597.51233pt x 845.0471pt>
+File: ficha.pdf Graphic file (type pdf)
+<use ficha.pdf>
+Package pdftex.def Info: ficha.pdf  used on input line 453.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+File: ficha.pdf Graphic file (type pdf)
+<use ficha.pdf>
+Package pdftex.def Info: ficha.pdf  used on input line 453.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+<ficha.pdf, id=167, page=1, 597.51233pt x 845.0471pt>
+File: ficha.pdf Graphic file (type pdf)
+<use ficha.pdf, page 1>
+Package pdftex.def Info: ficha.pdf , page1 used on input line 453.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+File: ficha.pdf Graphic file (type pdf)
+<use ficha.pdf, page 1>
+Package pdftex.def Info: ficha.pdf , page1 used on input line 453.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+ [1
+
+
+
+]
+File: ficha.pdf Graphic file (type pdf)
+<use ficha.pdf, page 1>
+Package pdftex.def Info: ficha.pdf , page1 used on input line 453.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: ficha.pdf Graphic file (type pdf)
+<use ficha.pdf, page 1>
+Package pdftex.def Info: ficha.pdf , page1 used on input line 453.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: ficha.pdf Graphic file (type pdf)
+<use ficha.pdf, page 1>
+Package pdftex.def Info: ficha.pdf , page1 used on input line 453.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+ [2 <./ficha.pdf>]
+<ata.pdf, id=183, 598.1045pt x 846.14116pt>
+File: ata.pdf Graphic file (type pdf)
+<use ata.pdf>
+Package pdftex.def Info: ata.pdf  used on input line 454.
+(pdftex.def)             Requested size: 598.10304pt x 846.1391pt.
+File: ata.pdf Graphic file (type pdf)
+<use ata.pdf>
+Package pdftex.def Info: ata.pdf  used on input line 454.
+(pdftex.def)             Requested size: 598.10304pt x 846.1391pt.
+<ata.pdf, id=186, page=1, 598.1045pt x 846.14116pt>
+File: ata.pdf Graphic file (type pdf)
+<use ata.pdf, page 1>
+Package pdftex.def Info: ata.pdf , page1 used on input line 454.
+(pdftex.def)             Requested size: 598.10304pt x 846.1391pt.
+File: ata.pdf Graphic file (type pdf)
+<use ata.pdf, page 1>
+Package pdftex.def Info: ata.pdf , page1 used on input line 454.
+(pdftex.def)             Requested size: 597.42769pt x 845.18367pt.
+File: ata.pdf Graphic file (type pdf)
+<use ata.pdf, page 1>
+Package pdftex.def Info: ata.pdf , page1 used on input line 454.
+(pdftex.def)             Requested size: 597.42769pt x 845.18367pt.
+File: ata.pdf Graphic file (type pdf)
+<use ata.pdf, page 1>
+Package pdftex.def Info: ata.pdf , page1 used on input line 454.
+(pdftex.def)             Requested size: 597.42769pt x 845.18367pt.
+File: ata.pdf Graphic file (type pdf)
+<use ata.pdf, page 1>
+Package pdftex.def Info: ata.pdf , page1 used on input line 454.
+(pdftex.def)             Requested size: 597.42769pt x 845.18367pt.
+ [3 <./ata.pdf>]
+chapter without number
+[4
+
+
+]
+chapter 1.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.528 
+       [1
+
+
+
+]
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 544.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+) [2]
+[3]
+chapter 2.
+[4
+
+
+]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5] [6pdfTeX warning (ext4): destination with the same identifier (name{figure.
+2.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.752 	\end{equation*}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{table.2.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.752 	\end{equation*}
+                      ]
+\openout6 = `Thales.pyg'.
+
+ (./_minted-Thales/default-pyg-prefix.pygstyle)
+(./_minted-Thales/default.pygstyle)
+(./_minted-Thales/6736F98897A3EFFE84D1F2E4B9F0B973175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 2.
+)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/506A1E0619DF677194C32FBC25248993CF5ABC2E82D3CC884855F5D4BDA5B
+405.pygtex) [7]
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/60B725F10C9C85C70D97880DFE8191B3175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex) [8pdfTeX warning (ext4): destination with the same identifier (name
+{figure.2.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.944 			\end{align*}
+                     ] [9] [10] [11] [12] [13pdfTeX warning (ext4): destination
+ with the same identifier (name{figure.2.3}) has been already used, duplicate i
+gnored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1453 	\begin{center}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{figure.2.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1453 	\begin{center}
+                      ] [14pdfTeX warning (ext4): destination with the same ide
+ntifier (name{figure.2.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1532 
+       ] [15] (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
+File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
+)
+[16] [17] [18] [19] [20] [21]
+Overfull \hbox (0.90475pt too wide) in paragraph at lines 2077--2079
+\OT1/cmr/m/n/12 a mod-ule sys-tem, a monadic I/O sys-tem, and a rich set of pri
+m-i-tive datatypes,
+ []
+
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/1A663A180DF939EBBA9FFAEE03C04CA0CF5ABC2E82D3CC884855F5D4BDA5B
+405.pygtex)
+Underfull \hbox (badness 10000) in paragraph at lines 2126--2127
+\OMS/cmsy/m/n/12 8[]$\OT1/cmr/m/n/12 , as for in-stance \OT1/cmtt/m/n/12 [(Stri
+ng,Bool)]\OT1/cmr/m/n/12 , \OT1/cmtt/m/n/12 [(String,Int)]\OT1/cmr/m/n/12 ,
+ []
+
+[22] [23pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.2.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2136 
+       ]
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/9ABB6DC02EBEDEFA9CE0BBAB1E9E6EC4CF5ABC2E82D3CC884855F5D4BDA5B
+405.pygtex)
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/D4EBD95005588CCF444672CC8A233B78CF5ABC2E82D3CC884855F5D4BDA5B
+405.pygtex) [24]
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/3D2ECD9993C07FFAADAE0464CBF04365CF5ABC2E82D3CC884855F5D4BDA5B
+405.pygtex)
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/A83984713A9082C1FCFD76246C8671E6CF5ABC2E82D3CC884855F5D4BDA5B
+405.pygtex) [25pdfTeX warning (ext4): destination with the same identifier (nam
+e{figure.2.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2320 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.2.8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2320 
+       ]
+\openout7 = `Thales.ptb'.
+
+\openout7 = `Thales.ptb'.
+
+\openout7 = `Thales.ptb'.
+
+ [26]
+\openout7 = `Thales.ptb'.
+
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/3EC0BD81CA7ABFF15BC99F0FC432AE47175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/96E8E302ABCCAED1DB53CE29467159F8175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/96E8E302ABCCAED1DB53CE29467159F8175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 2.
+)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/B47E606903BC9F02DBC184BECA1446BD175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/3EC0BD81CA7ABFF15BC99F0FC432AE47175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/D47336D969BACA890EE24730A37B0435175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/65DB27307AA0CDF0B3C0323431E08A15175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/086DFB607178E0CE553590A1FC668679175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex [27])
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/34047C38C37B79FD4191F13D45ADCC92175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/523BDC6B1A4148B2E5BB82A9702DA250175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/3EC0BD81CA7ABFF15BC99F0FC432AE47175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/523BDC6B1A4148B2E5BB82A9702DA250175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/B4CCD5D28B4E29500CD9AE0D7ED7E63B175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/FE13119FB084FE8BBF5FE3AB7CC89B3B175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/3EC0BD81CA7ABFF15BC99F0FC432AE47175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/CAD2B2823484703E9DE1D7E96878654F175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/898EDA83DF86BBA03873BD1394AB886D175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/E8D5636CC0E741BC001206A319A08F92175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/FE13119FB084FE8BBF5FE3AB7CC89B3B175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/4423006316948A6FACBA166776606F94175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/9717B20D352F24F9AA34D1626154801F175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/60AB48A13ACCAA59A0B3EDADC7D5ED56175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/2802CD64F8206BAE633448EAF4FD9E5B175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/5C6D81C07F7C268CA6A5C4A9C829DD97175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/D982DF59CDB18AACCBDDC3A595D4ABF9175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/5C6D81C07F7C268CA6A5C4A9C829DD97175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/8AFC31D7DE8D5230E67073F23053F254175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/5C6D81C07F7C268CA6A5C4A9C829DD97175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/FE13119FB084FE8BBF5FE3AB7CC89B3B175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/FFC04EEBE98AE478ECF3473031D50006175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/7EBDFDE1BE8DA6B41C8ECBD67171DD21175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/60AB48A13ACCAA59A0B3EDADC7D5ED56175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/E8D5636CC0E741BC001206A319A08F92175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/11FC6FAD34C688C257558D2C878FFA4C175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/4423006316948A6FACBA166776606F94175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/3AAE49DAC62EEDD73D726C3AA21C7E5A175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/9717B20D352F24F9AA34D1626154801F175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/3AAE49DAC62EEDD73D726C3AA21C7E5A175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/6AD61B9B339EE2B8102F48E73656A71B175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/C8DE02312A448D39711CE000470DF83D175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/AB48A55C2899C8683484EFA1B0AB205A175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/6E1868634CCDD3E127D3076DFEA520AA175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex [28])
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/B8D3CFDB19429D1B4B124AAB239D16B1175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/1499E9D1E27B0B873931387D1DADFCED175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/67A5EAFBCDE612ECDB0F0F0163CB3600175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/1499E9D1E27B0B873931387D1DADFCED175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/97E8429C647DC1A526D6B992C384962C175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/401636D744B615F5F018B4B4B1647870175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/C8DE02312A448D39711CE000470DF83D175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/401B30E3B8B5D629635A5C613CDB7919175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/5C6D81C07F7C268CA6A5C4A9C829DD97175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/60C8DAC38AC3F945B1F232919506DCC7175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/FE13119FB084FE8BBF5FE3AB7CC89B3B175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/FE13119FB084FE8BBF5FE3AB7CC89B3B175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/1499E9D1E27B0B873931387D1DADFCED175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/0F55ADA566D6EF010CF16DF105806548175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/954C2385BF1EE1FC7890BFE18A3D6FCB175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/53B9E68DA11EECBB775AB20BEAB98627175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/B2CB9FF1D949184C4A31F0F6A5F166E7175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/491F4D68CA5D0B9041159F68F1DAEC4B175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/DBA4CF65D1C82A940243B3490786E353175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/BF072E9119077B4E76437A93986787EF175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/30CF3D7D133B08543CB6C8933C29DFD7175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/53B9E68DA11EECBB775AB20BEAB98627175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/916D65F8FFB6337B8D6FE357467486B4175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex [29])
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/DD88DFA159D418267E710D13BF053F14175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/DD88DFA159D418267E710D13BF053F14175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/4423006316948A6FACBA166776606F94175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/990D3059694002BF2CD33D444008FA22175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/13D03D90E640C6D4FD666119169D3ECA175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/E110201E5D226A848F93862D56A18D2A175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/411978C5262EE05A3E253C65EAA8264F175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/EC849C35B197F2B08348BA95D704D17E175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/411978C5262EE05A3E253C65EAA8264F175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/E636A5D7290B06AC87BCE8B6375754F8175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex [30])
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/FF44F2267A7C5DE84408B83D0888BF76175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/4FDD809432B84402554F5FAA3D7CADA6175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/AFC86B28BE8CACB1266DCEE54B11CA3E175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/4CC726548A6ADA01574F517E52AB3C76175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/18AB33883C88B0D0C5AD97BFB363DD8F175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/508C973AF001439DD63B86CC6FD57D8B175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex) [31]
+chapter 3.
+
+Overfull \hbox (28.56238pt too wide) detected at line 2722
+[]
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[32
+
+
+] [33pdfTeX warning (ext4): destination with the same identifier (name{figure.3
+.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2765 \end{center}
+                   ] [34] [35]
+\openout7 = `Thales.ptb'.
+
+\openout7 = `Thales.ptb'.
+
+\openout7 = `Thales.ptb'.
+
+\openout7 = `Thales.ptb'.
+
+ [36]
+\openout7 = `Thales.ptb'.
+
+\openout7 = `Thales.ptb'.
+
+\openout7 = `Thales.ptb'.
+
+\openout7 = `Thales.ptb'.
+
+
+Overfull \hbox (10.39476pt too wide) in paragraph at lines 3026--3029
+\OT1/cmr/m/n/12 Whenever we are in a fin-ish-ing con-fig-u-ra-tion with a right
+ con-cate-na-tion con-text, ($[][] [][]$),
+ []
+
+\openout7 = `Thales.ptb'.
+
+\openout7 = `Thales.ptb'.
+
+\openout7 = `Thales.ptb'.
+
+[37]
+\openout7 = `Thales.ptb'.
+
+\openout7 = `Thales.ptb'.
+
+\openout7 = `Thales.ptb'.
+
+\openout7 = `Thales.ptb'.
+
+ [38]
+\openout7 = `Thales.ptb'.
+
+ [39]
+\openout7 = `Thales.ptb'.
+
+\openout7 = `Thales.ptb'.
+
+\openout7 = `Thales.ptb'.
+
+ [40]
+<coverage-results.png, id=610, 663.47874pt x 177.66376pt>
+File: coverage-results.png Graphic file (type png)
+<use coverage-results.png>
+Package pdftex.def Info: coverage-results.png  used on input line 3344.
+(pdftex.def)             Requested size: 448.13095pt x 119.99918pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[41] [42pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.3.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.3386 \]
+          <./coverage-results.png>] [43]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[44]
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/8D0DF25D4018A51AFEAF87859AF72BF9175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex [45pdfTeX warning (ext4): destination with the same identifier (name
+{figure.3.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.5 ... \PYG{o}{\PYGZhy{}\PYGZgt{}} \PYG{n}{regex}
+                                                  ])
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/0AFC29B0F401FD47865C752AD298DAEE175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/0AFC29B0F401FD47865C752AD298DAEE175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/8C0B0472BA6DD8F65926459E9C3F0253175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/017E242B761B6AEFAFEDCEC89E627A44175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/1AD06D4A94AC425E3BC461B812AE63E1175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/BE47903447490C648611C2F6003B8D96175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/4E250210D9E010FF8FC7615CAEA21593175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/253FBEB0834B45E382AF5862376A1778175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/FCEDBABDDDD3D75893B9573577349237175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/977D30C434E87C187E8A0727DA58385E175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/9BE2D3FD506A2BF58995746D6CBB466E175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/3491FECF76C7AFA4B63B88CBD8961BDB175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/0C0E1381A42803719FC5568F75E4B348175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/0E1AED23E0ECAF174FB08C0C5279DB8F175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/15EDD89C22880B72E49B22951E4FBB4B175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/68D94D2A6E4F582ED7302C66C393732F175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/A7CC03040434DB7B8DEFCF6B41CA764E175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/5C43A2B9A2532373DC16B1C7F7744402175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex) [46]
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/7BE698CB8B083747F995C9C46963BC12175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/674441960CA1BA2DE08AD4E50C9FDE98175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/D9C7CED533FEDDD33FA247FEBF0BB2C6175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/44BF7A1431483DE5DB2D5EF5F9D5D85A175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/BB92B829452F8D61D7E39F5CD2531F4C175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/DD88DFA159D418267E710D13BF053F14175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/674441960CA1BA2DE08AD4E50C9FDE98175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/E304F2AE8927FAA7424199C073BB1359175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex [47])
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/83652D23505859A010408C778946D1B1175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/99C419DFC7BB60621D327574340D1B7E175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/83652D23505859A010408C778946D1B1175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/34EBE263104EBD13347E2246397F2D55175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/9FFBF43126E33BE52CD2BF7E01D627F9175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/34EBE263104EBD13347E2246397F2D55175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/9FFBF43126E33BE52CD2BF7E01D627F9175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/2182E659246BD4F8EF9476E332AA634D175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/674441960CA1BA2DE08AD4E50C9FDE98175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/DD88DFA159D418267E710D13BF053F14175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/83652D23505859A010408C778946D1B1175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/76EEA8E7617D77EEA76D521B82A9A194175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/575038ADB32AB25D2C7A0E3180CA78FA175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/492361F36E48C70982B440AB0DCF2EFF175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex [48])
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/86789FD91C4CC0D536FE4A7CCDD00851175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/9FFBF43126E33BE52CD2BF7E01D627F9175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/C2596D5213338265EF2A770B9468A642175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/9FFBF43126E33BE52CD2BF7E01D627F9175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/86789FD91C4CC0D536FE4A7CCDD00851175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/DD88DFA159D418267E710D13BF053F14175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/6A9B8E304D890C71F9AA5C8D00FC7446175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/243C4BBCD66F5B1E9021A89AB28DB0A5175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/6A9B8E304D890C71F9AA5C8D00FC7446175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/C2596D5213338265EF2A770B9468A642175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/F03E6C4279327970BB4970360C477129175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/737F2C3BE79E2479D514C7E5E6192AB6175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/3CF0E5F8C98C493C50DBB5197C340F33175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/C6BC3D3208C6D018E53AC19DCED5C8C8175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/8F925699B746FF1589CC7014E9850762175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/CADDF958BB092474F54325E6BD8B5997175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/807DBCB7E6B0D023C3CFF68E9C9AB354175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/49E062E513EA7142618747C33AD51CA1175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/15E9D0F85AE60E274ABA8B013B7BBF23175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/F01F8E82B3A313A7BA04F01F6C494287175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex [49])
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/4422D433DD5CE42182BDF3C7B71DB75F175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/7A989663801F87C1CE2863652F6BDF1F175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/C3D61D8CF6244406139E799A5B7A96D8175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex [50])
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/AC302D9665F6CCEF4785BB82B012DF41175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/1310A5C0307907327117247FA9A86D48175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/EFBB51B678AC5EF4C349212AAD599979175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/4C2018A583B94E767E5ADF3809CF328B175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/870683A06F6A8BC821BFB2BF629020F3175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/975B14E9A812E108E38A1672000C0055175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/2B3F663CAC2D8705EF7FB7E825722C70175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/9FFBF43126E33BE52CD2BF7E01D627F9175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/C2596D5213338265EF2A770B9468A642175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/2209F8BCB53915B262670D2D0663CE8A175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/798B30523291973B9EE091F3212A8613175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/9FFBF43126E33BE52CD2BF7E01D627F9175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/C40B748AF55DD0FDC85133002E83C784175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/AC302D9665F6CCEF4785BB82B012DF41175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/67FE4830B4B7D63D1A4456DF286FC319175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex [51])
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/9FFBF43126E33BE52CD2BF7E01D627F9175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/AC302D9665F6CCEF4785BB82B012DF41175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/81F44F1A761B0F17F0094E0EA836CD32175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/CD17DF758CE0A960A0E259FD596A39D5175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/DC931C7FEC96C0074EC3D67B60D69BAE175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/DB0F0CCF3C63AC767EF3549566BD8402175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/DDE394922A17764E8F5D40148ED1F6A1175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/DC931C7FEC96C0074EC3D67B60D69BAE175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/E89F098A518E34A4054EED5C4B950A39175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex [52])
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/F4D5D0C0671BE202BC241807C243E80B175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/9FFBF43126E33BE52CD2BF7E01D627F9175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/0C0E1381A42803719FC5568F75E4B348175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/FF8699A4CB0B5F85DC009FCC20CABFB5175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/80D11FF4516263BA92FE106F848525FB175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/39B1F65550814B41BC3C2D4CD7E2D98B175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/F4D5D0C0671BE202BC241807C243E80B175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/519F03D7D7D9A62DB27918DEB6D8A24D175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/80D11FF4516263BA92FE106F848525FB175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/6B4A17BD1F05D3ACF95C7F4F5DA98A12175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/9FFBF43126E33BE52CD2BF7E01D627F9175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/CE80A6A24EEDB335933B442EAA0A0ABB175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/A5B1E83CD0273AEFDF9CCA2994B97C77175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/DC18FF34E749D1887714C749718FF9D5175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/A5B1E83CD0273AEFDF9CCA2994B97C77175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/A5B1E83CD0273AEFDF9CCA2994B97C77175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/5DE4B27162469055CDF4697613B77304175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/50D7DD3CC949121712848B99828BAE92175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/DD88DFA159D418267E710D13BF053F14175F8DF37C0B7C83DA5A3CEB1ED4A
+C67.pygtex) [53]
+<as.png, id=728, 414.04688pt x 323.70938pt>
+File: as.png Graphic file (type png)
+<use as.png>
+Package pdftex.def Info: as.png  used on input line 3998.
+(pdftex.def)             Requested size: 181.49055pt x 141.89417pt.
+<abs.png, id=729, 414.04688pt x 323.70938pt>
+File: abs.png Graphic file (type png)
+<use abs.png>
+Package pdftex.def Info: abs.png  used on input line 4003.
+(pdftex.def)             Requested size: 181.49055pt x 141.89417pt.
+ [54pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.4023 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.3.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.4023 
+        <./as.png> <./abs.png>]
+<backtrack.png, id=741, 414.04688pt x 323.70938pt>
+File: backtrack.png Graphic file (type png)
+<use backtrack.png>
+Package pdftex.def Info: backtrack.png  used on input line 4028.
+(pdftex.def)             Requested size: 181.49055pt x 141.89417pt.
+<backtrack1.png, id=742, 414.04688pt x 323.70938pt>
+File: backtrack1.png Graphic file (type png)
+<use backtrack1.png>
+Package pdftex.def Info: backtrack1.png  used on input line 4033.
+(pdftex.def)             Requested size: 181.49055pt x 141.89417pt.
+
+Underfull \hbox (badness 2617) in paragraph at lines 4034--4034
+[][][]\OT1/cmr/m/n/12 Results of ex-per-i-ment 3
+ []
+
+<random.png, id=747, 414.04688pt x 323.70938pt>
+File: random.png Graphic file (type png)
+<use random.png>
+Package pdftex.def Info: random.png  used on input line 4056.
+(pdftex.def)             Requested size: 268.8813pt x 210.2209pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/A705D665DEFD5E6ED24060BC84AF4239CF5ABC2E82D3CC884855F5D4BDA5B
+405.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/A705D665DEFD5E6ED24060BC84AF4239CF5ABC2E82D3CC884855F5D4BDA5B
+405.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/E3E5BE88E2F84FE29333AF8647C396DECF5ABC2E82D3CC884855F5D4BDA5B
+405.pygtex)
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/A705D665DEFD5E6ED24060BC84AF4239CF5ABC2E82D3CC884855F5D4BDA5B
+405.pygtex)
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/4546D06188E8A1FAD1447F5D88DE457FCF5ABC2E82D3CC884855F5D4BDA5B
+405.pygtex [55pdfTeX warning (ext4): destination with the same identifier (name
+{figure.3.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.10 \end{Verbatim}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{figure.3.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.10 \end{Verbatim}
+                    <./backtrack.png> <./backtrack1.png>])
+\openout6 = `Thales.pyg'.
+
+
+(./_minted-Thales/6FA19C4E51A4EA1A01737CCD9B12629DCF5ABC2E82D3CC884855F5D4BDA5B
+405.pygtex)
+\openout4 = `Thales.pyg'.
+
+
+(./_minted-Thales/7AE4AC99550EF21B2F6B441E18CACA07CF5ABC2E82D3CC884855F5D4BDA5B
+405.pygtex) [56pdfTeX warning (ext4): destination with the same identifier (nam
+e{figure.3.8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.4110 \chapter
+               {Related Works}\label{chapter:relatedworks} <./random.png>]
+chapter 4.
+[57
+
+
+] [58] [59] [60] [61] [62]
+chapter 5.
+(./Thales.bbl [63
+
+
+] [64
+
+
+] [65] [66] [67]) [68]
+chapter A.
+\openout7 = `Thales.ptb'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4250--4251
+
+ []
+
+[69
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 4257.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 4257.
+ (./Thales.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 4257.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 4257.
+
+Package rerunfilecheck Info: File `Thales.out' has not changed.
+(rerunfilecheck)             Checksum: 76F63CC354855F78CBB78FB060204101;2040.
+runsystem(rm Thales.pyg)...executed.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 4257.
+ ) 
+Here is how much of TeX's memory you used:
+ 38491 strings out of 492982
+ 829248 string characters out of 6134896
+ 993405 words of memory out of 5000000
+ 40663 multiletter control sequences out of 15000+600000
+ 555632 words of font info for 121 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 64i,25n,68p,10421b,1225s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.14} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.13} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.12} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.11} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.10} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.9} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.8} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.7} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
+, replaced by a fixed one
+
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/c
+m-super/sfrm1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/stmaryrd
+/stmary10.pfb>
+Output written on Thales.pdf (74 pages, 1240074 bytes).
+PDF statistics:
+ 1037 PDF objects out of 1200 (max. 8388607)
+ 897 compressed objects within 9 object streams
+ 275 named destinations out of 1000 (max. 500000)
+ 323 words of extra memory for PDF output out of 10000 (max. 10000000)
+

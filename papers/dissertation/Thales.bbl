@@ -123,11 +123,10 @@ Bryan Ford.
 
 \bibitem{Frisch2004}
 Alain Frisch and Luca Cardelli.
-\newblock {Greedy Regular Expression Matching}.
-\newblock {\em ICALP 2004$\backslash$ifnum$\backslash$shortbib=0{\{}: 31st
-  {\}}$\backslash$fi$\backslash$ifnum$\backslash$shortbib=0{\{}International
-  Colloquium on Automata, Languages and Programming{\}}$\backslash$fi},
-  3142:618--629, 2004.
+\newblock Greedy regular expression matching.
+\newblock In {\em Automata, Languages and Programming: 31st International
+  Colloquium, {ICALP} 2004, Turku, Finland, July 12-16, 2004. Proceedings},
+  pages 618--629, 2004.
 
 \bibitem{Garcia2011}
 Pedro Garc{\'{i}}a, Dami{\'{a}}n L{\'{o}}pez, Jos{\'{e}} Ruiz, and Gloria~I.
@@ -161,7 +160,7 @@ Graham Hutton.
 
 \bibitem{Ierusalimschy2009}
 Roberto Ierusalimschy.
-\newblock {A text patternmatching tool based on parsing expression grammars}.
+\newblock {A Text Pattern-Matching Tool based on Parsing Expression Grammars}.
 \newblock {\em Software - Practice and Experience}, 2009.
 
 \bibitem{Ilie2003}

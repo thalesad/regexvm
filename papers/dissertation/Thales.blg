@@ -3,10 +3,13 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Thales.aux
 The style file: plain.bst
 Database file #1: Thales.bib
+A bad cross reference---entry "Frisch2004"
+refers to entry "DBLP:conf/icalp/2004", which doesn't exist
 A bad cross reference---entry "McBride08"
 refers to entry "DBLP:conf/popl/2008", which doesn't exist
 A bad cross reference---entry "AbbottAGM03"
 refers to entry "DBLP:conf/tlca/2003", which doesn't exist
+Warning--I didn't find a database entry for "DBLP:conf/icalp/2004"
 Warning--I didn't find a database entry for "DBLP:conf/popl/2008"
 Warning--I didn't find a database entry for "DBLP:conf/tlca/2003"
 Warning--empty journal in Cox2009
@@ -14,43 +17,43 @@ Warning--can't use both volume and number fields in Pierce2000
 Warning--empty publisher in Pierce2000
 You've used 51 entries,
             2118 wiz_defined-function locations,
-            857 strings with 12834 characters,
-and the built_in function-call counts, 16788 in all, are:
-= -- 1725
+            858 strings with 12792 characters,
+and the built_in function-call counts, 16911 in all, are:
+= -- 1737
 > -- 669
-< -- 16
+< -- 17
 + -- 261
 - -- 208
-* -- 1074
-:= -- 2744
+* -- 1075
+:= -- 2750
 add.period$ -- 164
 call.type$ -- 51
 change.case$ -- 247
 chr.to.int$ -- 0
 cite$ -- 54
-duplicate$ -- 704
-empty$ -- 1374
+duplicate$ -- 716
+empty$ -- 1389
 format.name$ -- 208
-if$ -- 3607
+if$ -- 3646
 int.to.chr$ -- 0
 int.to.str$ -- 51
 missing$ -- 55
 newline$ -- 258
 num.names$ -- 111
-pop$ -- 267
+pop$ -- 272
 preamble$ -- 1
 purify$ -- 201
 quote$ -- 0
-skip$ -- 508
+skip$ -- 521
 stack$ -- 0
-substring$ -- 1041
-swap$ -- 164
-text.length$ -- 16
+substring$ -- 1048
+swap$ -- 174
+text.length$ -- 17
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 186
 warning$ -- 3
-while$ -- 185
+while$ -- 186
 width$ -- 53
 write$ -- 582
-(There were 2 error messages)
+(There were 3 error messages)
