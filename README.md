@@ -1,4 +1,4 @@
-Certified virtual machine based regular expression parsing.
+Certified Virtual Machine-Based Regular Expression Parsing.
 ==================
 
 Introduction
