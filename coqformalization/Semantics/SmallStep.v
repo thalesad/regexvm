@@ -90,7 +90,7 @@ Inductive step : conf -> conf -> Prop :=
     [[ E, e , c' , b , s ]] ==*> [[ E, e ^*, c , b', s]]
 where "c '==*>' c1" := (step c c1).
 
-Hint Constructors step.
+Hint Constructors step : core.
 
 Definition next (c : conf) : {cs : list conf | forall c', In c' cs -> c ==*> c'}.
   refine (match c with
@@ -133,7 +133,7 @@ Proof.
   intros c c' H ; unfolds ; repeat (econstructor ; eauto).
 Qed.
 
-Hint Resolve step_multi.
+Hint Resolve step_multi : core.
 
 Definition nexts_type cs :=
   {cs' | forall c', In c' cs' -> exists c, In c cs /\ c ==*> c'} + {cs = []}.

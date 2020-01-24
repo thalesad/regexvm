@@ -36,7 +36,7 @@ Inductive is_code_of : code -> regex -> Prop :=
 where "bs ':#' e" := (is_code_of bs e).
 
 
-Hint Constructors is_code_of.
+Hint Constructors is_code_of : core.
 
 
 Fixpoint encode (t : tree) : code :=
@@ -158,7 +158,7 @@ End WF_DECODE.
 
 Hint Resolve decode_lt_lemma1 decode_lt_lemma2
      decode_lt_lemma3 decode_lt_lemma4 decode_lt_lemma5
-     decode_lt_lemma6 wf_decode_input.
+     decode_lt_lemma6 wf_decode_input : core.
 
 Inductive nocode_for : code -> regex -> Prop :=
 | NCEmpty : forall bs, nocode_for bs #0
@@ -183,7 +183,7 @@ Inductive nocode_for : code -> regex -> Prop :=
     nocode_for bs e ->
     nocode_for (O :: bs) (e ^*).
 
-Hint Constructors nocode_for.
+Hint Constructors nocode_for : core.
 
 Definition decode_type bs e :=
   {p : (tree * list bit) | exists bs2 t, p = (t,bs2) /\

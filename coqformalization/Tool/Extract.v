@@ -1,8 +1,3 @@
-From Coq Require Extraction.
-
-Extraction Language Haskell.
-
-
 (** built-in extraction configs for Haskell *)
 
 Require Import
@@ -10,11 +5,13 @@ Require Import
         Coq.extraction.ExtrHaskellNatInt
         Coq.extraction.ExtrHaskellString.
 
+Extraction Language Haskell.
+
 (** More extraction configurations *)
 
 Require Import
         Utils.Notations
-        Semantics.Bigstep
+        Semantics.Greedy
         String.
 
 Extraction "./Tool/regex-vm/src/Semantics.hs" interp.

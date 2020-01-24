@@ -97,4 +97,4 @@ Hint Resolve
      choice_input_lt_l
      choice_input_lt_r
      star_input_lt_1
-     star_input_lt_2.
+     star_input_lt_2 : core.

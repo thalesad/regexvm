@@ -65,5 +65,5 @@ execute (StdInput inp) re
 exec :: Regex -> String -> IO ()
 exec re s
   = case interp re s of
-      Unknown   -> putStrLn "No match"
-      Found _ _ -> putStrLn "Match found" 
+      Nothing   -> putStrLn "No match"
+      Just _    -> putStrLn "Match found" 

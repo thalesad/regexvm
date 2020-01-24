@@ -30,6 +30,19 @@ Proof.
 Qed.
 
 
+Lemma string_app_conv
+  : forall xs ys zs ts, xs ++ ys = zs ++ ts -> exists us, (xs = zs ++ us /\ ts = us ++ ys) \/
+                                             (zs = xs ++ us /\ ys = us ++ ts).
+Proof.
+  induction xs ; destruct zs ; intros ; simpl in * ; substs*.
+  +
+    injects H.
+    lets J : IHxs H0 ; crush.
+    eexists ; eauto.
+    eexists ; eauto.
+Qed.
+
+
 Lemma string_app_assoc : forall s1 s2 s3, s1 ++ s2 ++ s3 = (s1 ++ s2) ++ s3.
 Proof.
   induction s1 ; crush.

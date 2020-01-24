@@ -13,6 +13,18 @@ false_rec :: a1
 false_rec =
   false_rect
 
+eq_rect :: a1 -> a2 -> a1 -> a2
+eq_rect _ f _ =
+  f
+
+eq_rec :: a1 -> a2 -> a1 -> a2
+eq_rec =
+  eq_rect
+
+eq_rec_r :: a1 -> a2 -> a1 -> a2
+eq_rec_r =
+  eq_rec
+
 app :: (([]) a1) -> (([]) a1) -> ([]) a1
 app l m =
   case l of {
@@ -42,10 +54,6 @@ append s1 s2 =
   case s1 of {
    ([]) -> s2;
    (:) c s1' -> (:) c (append s1' s2)}
-
-data Maybe a p =
-   Unknown
- | Found a p
 
 data Regex =
    Empty
@@ -176,86 +184,98 @@ unprob e =
      Prelude.False -> Star (unprob e2)};
    x -> x}
 
-data Result0 =
-   Result Code Prelude.String Prelude.String
+data Output =
+   Ok Prelude.String Prelude.String Code
+ | Error
 
-bitcode :: Result0 -> Code
-bitcode r =
-  case r of {
-   Result bitcode0 _ _ -> bitcode0}
+type Greedy_interp_type = () -> ((,) Prelude.Int Output)
 
-consumed :: Result0 -> Prelude.String
-consumed r =
-  case r of {
-   Result _ consumed0 _ -> consumed0}
-
-remaining :: Result0 -> Prelude.String
-remaining r =
-  case r of {
-   Result _ _ remaining0 -> remaining0}
-
-type Valid_result = Maybe Result0 ()
-
-type Interp_type = () -> Valid_result
-
-interp_F :: Input -> (Input -> () -> Interp_type) -> Valid_result
-interp_F p x =
+greedy_interp_F :: Input -> (Input -> () -> Greedy_interp_type) ->
+                   ((,) Prelude.Int Output)
+greedy_interp_F p x =
   case p of {
    ExistT e s ->
     case e of {
-     Empty -> Unknown;
-     Eps -> Found (Result ([]) ([]) s) __;
-     Chr a' ->
+     Empty -> (,) 0 Error;
+     Eps -> (,) (Prelude.succ 0) (Ok ([]) s ([]));
+     Chr a ->
       case s of {
-       ([]) -> Unknown;
-       (:) a s1 ->
-        case (Prelude.==) a a' of {
-         Prelude.True -> Found (Result ([]) ((:) a' ([])) s1) __;
-         Prelude.False -> Unknown}};
+       ([]) -> (,) (Prelude.succ (Prelude.succ 0)) Error;
+       (:) a' s' ->
+        let {s0 = (Prelude.==) a a'} in
+        case s0 of {
+         Prelude.True ->
+          eq_rec_r a' (\_ _ -> (,) (Prelude.succ (Prelude.succ 0)) (Ok ((:)
+            a' ([])) s' ([]))) a x __;
+         Prelude.False -> (,) (Prelude.succ (Prelude.succ 0)) Error}};
      Cat e1 e2 ->
-      case x (mk_input e1 s) __ __ of {
-       Unknown -> Unknown;
-       Found r1 _ ->
-        case x (mk_input e2 (remaining r1)) __ __ of {
-         Unknown -> Unknown;
-         Found r2 _ -> Found (Result (app (bitcode r1) (bitcode r2))
-          (append (consumed r1) (consumed r2)) (remaining r2)) __}};
+      let {iH1 = x (mk_input e1 s) __ __} in
+      case iH1 of {
+       (,) n1 o1 ->
+        case o1 of {
+         Ok c1 r1 bs1 ->
+          let {iH2 = x (mk_input e2 r1) __ __} in
+          case iH2 of {
+           (,) n2 o2 ->
+            case o2 of {
+             Ok c2 r2 bs2 -> (,)
+              ((Prelude.+) ((Prelude.+) (Prelude.succ 0) n1) n2) (Ok
+              (append c1 c2) r2 (app bs1 bs2));
+             Error -> (,) ((Prelude.+) ((Prelude.+) (Prelude.succ 0) n1) n2)
+              Error}};
+         Error -> (,) ((Prelude.+) (Prelude.succ 0) n1) Error}};
      Choice e1 e2 ->
-      case x (mk_input e1 s) __ __ of {
-       Unknown ->
-        case x (mk_input e2 s) __ __ of {
-         Unknown -> Unknown;
-         Found r1 _ -> Found (Result ((:) I (bitcode r1)) (consumed r1)
-          (remaining r1)) __};
-       Found r1 _ -> Found (Result ((:) O (bitcode r1)) (consumed r1)
-        (remaining r1)) __};
-     Star e1 ->
-      case s of {
-       ([]) -> Found (Result ((:) I ([])) ([]) ([])) __;
-       (:) _ _ ->
-        case x (mk_input e1 s) __ __ of {
-         Unknown -> Found (Result ((:) I ([])) ([]) s) __;
-         Found r1 _ ->
-          case (Prelude.==) (remaining r1) ([]) of {
-           Prelude.True -> Found (Result ((:) O
-            (app (bitcode r1) ((:) I ([])))) (consumed r1) ([])) __;
-           Prelude.False ->
-            case x (mk_input (Star e1) (remaining r1)) __ __ of {
-             Unknown -> Found (Result ((:) O (app (bitcode r1) ((:) I ([]))))
-              (consumed r1) (remaining r1)) __;
-             Found r2 _ -> Found (Result ((:) O
-              (app (bitcode r1) (bitcode r2)))
-              (append (consumed r1) (consumed r2)) (remaining r2)) __}}}}}}
+      let {iH1 = x (mk_input e1 s) __ __} in
+      case iH1 of {
+       (,) n1 o1 ->
+        case o1 of {
+         Ok c1 r1 bs1 -> (,) ((Prelude.+) (Prelude.succ 0) n1) (Ok c1 r1 ((:)
+          O bs1));
+         Error ->
+          let {iH2 = x (mk_input e2 s) __ __} in
+          case iH2 of {
+           (,) n2 o2 ->
+            case o2 of {
+             Ok c2 r2 bs2 -> (,)
+              ((Prelude.+) ((Prelude.+) (Prelude.succ 0) n1) n2) (Ok c2 r2
+              ((:) I bs2));
+             Error -> (,) ((Prelude.+) ((Prelude.+) (Prelude.succ 0) n1) n2)
+              Error}}}};
+     Star e0 ->
+      let {iHe = x (mk_input e0 s) __ __} in
+      case iHe of {
+       (,) ne oe ->
+        case oe of {
+         Ok ce re bse ->
+          case ce of {
+           ([]) -> false_rec;
+           (:) a' s' ->
+            eq_rec_r (append ((:) a' s') re)
+              (let {iH = eq_rec s x (append ((:) a' s') re)} in
+               let {iHes = iH (mk_input (Star e0) re) __ __} in
+               case iHes of {
+                (,) nes oes ->
+                 case oes of {
+                  Ok ces res bses -> (,)
+                   ((Prelude.+) ((Prelude.+) (Prelude.succ 0) ne) nes) (Ok
+                   (append ((:) a' s') ces) res ((:) O (app bse bses)));
+                  Error -> false_rec}}) s};
+         Error -> (,) ((Prelude.+) (Prelude.succ 0) ne) (Ok ([]) s ((:) I
+          ([])))}}}}
 
-interp' :: Input -> Valid_result
-interp' p =
-  well_founded_induction (\x x0 _ -> interp_F x x0) p __
+greedy_interp :: Regex -> Prelude.String -> ((,) Prelude.Int Output)
+greedy_interp e s =
+  well_founded_induction (\x x0 _ -> greedy_interp_F x x0) (mk_input e s) __
 
-interp :: Regex -> Prelude.String -> Maybe Result0 ()
+type Interp_type = Prelude.Maybe Code
+
+interp :: Regex -> Prelude.String -> Interp_type
 interp e s =
-  let {j = unprob e} in
-  let {j0 = interp' (mk_input j s)} in
-  case j0 of {
-   Unknown -> Unknown;
-   Found r _ -> Found r __}
+  let {hu = unprob e} in
+  let {hr = greedy_interp hu s} in
+  case hr of {
+   (,) _ o ->
+    case o of {
+     Ok _ _ bs -> Prelude.Just bs;
+     Error -> Prelude.Nothing}}
 

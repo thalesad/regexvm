@@ -34,6 +34,8 @@ Definition null : forall e, {"" <<- e} + {~ "" <<- e}.
             | [H : "" = _ ++ _ |- _] =>
               apply empty_string_concat in H ; destruct* H ; crush
             | [H : "" <<- (_ :+: _) |- _] => inverts* H
+            | [ |- "" <<- (_ @ _)] => change "" with ("" ++ "") ; eauto
+            | [ H : _ ++ _  = "" |- _] => symmetry in H
             end).
 Defined.
 
@@ -48,14 +50,15 @@ Inductive empty_regex : regex -> Prop :=
 | Emp_Star : forall e, empty_regex e ->
                   empty_regex (e ^*).
 
-Hint Constructors empty_regex.
+Hint Constructors empty_regex : core.
 
 Lemma empty_regex_sem : forall e, empty_regex e -> "" <<- e.
 Proof.
   induction 1 ; crush ; eauto.
+  change "" with ("" ++ "") ; eauto.
 Qed.
 
-Hint Resolve empty_regex_sem.
+Hint Resolve empty_regex_sem : core.
 
 Theorem empty_regex_spec : forall e, empty_regex e -> e === #1.
 Proof.
@@ -112,7 +115,7 @@ Inductive unproblematic : regex -> Prop :=
                     unproblematic (e :+: e')
 | UStar : forall e, ~ ("" <<- e) -> unproblematic e -> unproblematic (Star e).
 
-Hint Constructors unproblematic.
+Hint Constructors unproblematic : core.
     
 Definition problematic_dec : forall e, {unproblematic e} + {~ unproblematic e}.
   refine (fix prob_dec e : {unproblematic e} + {~ unproblematic e} :=
@@ -138,7 +141,7 @@ Definition problematic_dec : forall e, {unproblematic e} + {~ unproblematic e}.
     eauto ; try solve [intro H ; inverts* H].
 Defined.
 
-Hint Rewrite eps_cat_left eps_cat_right eps_star star_involutive.
+Hint Rewrite eps_cat_left eps_cat_right eps_star star_involutive : core.
 
 Definition unprob : forall (e : regex), {e' | e === e' /\ unproblematic e'}.
   refine (fix unprob e : {e' | e === e' /\ unproblematic e'} :=
@@ -252,69 +255,42 @@ Definition unprob : forall (e : regex), {e' | e === e' /\ unproblematic e'}.
          end
       end (eq_refl e)) ; clear unprob ;
         try clear unprob_rec ; try split ; eauto ;
-        try reflexivity. 
-      crush.
-      crush.
-      crush.
-      crush.
+        try reflexivity ; crush. 
       apply empty_regex_spec in e0 ; crush.
-      crush. inverts* Hin.
-      crush.
-      crush.
       inverts* Hin.
-      crush.
+      inverts* Hin.
       apply empty_regex_spec in e0 ; crush.
       apply empty_regex_spec in e0 ; crush.
       apply empty_regex_spec in e0 ; crush.
-      crush. rewrite H in n0 ; crush.
-      crush. apply empty_regex_spec in e0 ; crush.
-      crush.
-
-      crush.
+      rewrite H in n0 ; crush.
+      apply empty_regex_spec in e0 ; crush.
       rewrite choice_star_cat_star ; eauto.
       rewrite choice_star_cat_star_star with (e1 := e1').
       rewrite <- H, <- H1.
       rewrite <- choice_star_cat_star_star.
       reflexivity.
-
-      crush.
-      crush. 
       inverts* H2.
-      crush.
-      crush.
-      crush.
       inverts* Hin.
-      apply empty_string_concat in H9 ; crush.
-      crush.
+      symmetry in H0.
+      apply empty_string_concat in H0 ; crush.
       inverts* Hin.
-      apply empty_string_concat in H10 ; crush.
-      crush.
-      crush.
-      crush.
-      crush.
-      crush.
+      symmetry in H5.
+      apply empty_string_concat in H5 ; crush.
       inverts* Hin.
-      apply empty_string_concat in H6 ; crush.
-      crush.
+      symmetry in H1.
+      apply empty_string_concat in H1 ; crush.
       rewrite H in n0 ; crush.
-      crush.
       inverts* Hin.
-      apply empty_string_concat in H9 ; crush.
-      crush.
+      symmetry in H2.
+      apply empty_string_concat in H2 ; crush.
       inverts* Hin.
-      apply empty_string_concat in H10 ; crush.
-      crush.
-      crush. substs.
+      symmetry in H5. apply empty_string_concat in H5 ; crush.
       inverts* Hin.
-      apply empty_string_concat in H4 ; crush.
-      crush.
+      symmetry in H. apply empty_string_concat in H ; crush.
       inverts* Hin.
-      apply empty_string_concat in H9 ; crush.
-      crush.
+      symmetry in H2. apply empty_string_concat in H2 ; crush.
       inverts* Hin.
-      apply empty_string_concat in H10 ; crush.
-      crush.
-      crush.
+      symmetry in H5. apply empty_string_concat in H5 ; crush.
       inverts* Hin.
       apply empty_regex_spec in e0.
       rewrite e0.
@@ -322,27 +298,19 @@ Definition unprob : forall (e : regex), {e' | e === e' /\ unproblematic e'}.
       apply empty_regex_spec in e0.
       rewrite e0.
       rewrite eps_choice_left_star. auto.
-      crush. crush.
       rewrite <- H.
       apply empty_regex_spec in e0 ; rewrite e0.
       rewrite eps_choice_left_star ; auto.
-      reflexivity. crush.
+      reflexivity. 
       rewrite <- H in H1. crush.
-      crush.
       inverts* Hin.
       apply empty_regex_spec in e0 ; rewrite e0.
       rewrite eps_choice_right_star. auto.
       apply empty_regex_spec in e0 ; rewrite e0.
       rewrite eps_choice_right_star. auto.
-      crush.
-      crush.
       rewrite! choice_star_cat_star_star.
       rewrite H, H1 ; reflexivity.
-      crush.
       inverts* H2.
-      crush.
-      crush.
-      crush.
       rewrite H1 in Hin. inverts* Hin.
       rewrite choice_comm with (e1 := e1)(e2 := e2').
       rewrite choice_comm with (e1 := e1')(e2 := e2').
@@ -352,7 +320,6 @@ Definition unprob : forall (e : regex), {e' | e === e' /\ unproblematic e'}.
       rewrite choice_comm with (e1 := e1')(e2 := e2').
       rewrite! choice_star_cat_star_star.
       rewrite H. reflexivity.
-      crush.
       inverts* H0.
       rewrite <- H1 in H7 ; crush.
       crush.

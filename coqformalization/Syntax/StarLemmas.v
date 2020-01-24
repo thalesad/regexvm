@@ -12,7 +12,9 @@ Lemma eps_cat : #1 @ #1 === #1.
 Proof.
   unfolds ; intros s ; splits ; intros Hs ; inverts* Hs.
   -
-    inverts* H1 ; crush.
+    inverts* H2 ; crush.
+  -
+    change "" with ("" ++ "") ; eauto.
 Qed.
 
 Lemma eps_choice_eps : #1 :+: #1 === #1.
@@ -68,7 +70,7 @@ Hint Resolve
      string_lt_lemma1
      string_lt_lemma2
      string_lt_lemma3
-     string_lt_lemma4.
+     string_lt_lemma4 : core.
 
 
 Lemma choice_comm : forall e1 e2, (e1 :+: e2) === (e2 :+: e1).
@@ -200,7 +202,7 @@ Proof.
   intros e ; unfolds ; intros s ; splits ; intros H.
   -
     inverts* H.
-    inverts* H2.
+    inverts* H3.
   - 
     assert (Hs : "" ++ s = s) by auto.
     rewrite <- Hs. eauto.
@@ -313,15 +315,16 @@ Proof.
       apply InStarRight with (s := String a0 s'0)(s' := s') ; eauto.
     +
       rewrite string_app_rewind.
-      apply InLeft with (e' := e2) in H6.
+      apply InLeft with (e' := e2) in H5.
       apply InRight with (e := e1) in H9.
       assert (Hx : String a0 s1 <<- e1 :+: e2) by auto.
-      apply star_singleton in H6.
-      apply star_singleton in H9.
-      assert (Hs' : s' <<- ((e1 :+: e2) ^*)) by (apply IH ; eauto).
       rewrite string_app_rewind.
       apply star_cat ; eauto.
       apply InStarRight with (s := String a0 s1)(s' := s'0) ; crush.
+      apply star_singleton ; auto.
+      inverts* H5.
+      apply InRight with (e := e1) in H4.
+      apply star_singleton ; auto.
 Qed.
 
 Lemma choice_star_cat_star1
@@ -347,12 +350,17 @@ Lemma choice_star_cat_star2_F
 Proof.
   intros e1 e2 H1 H2 s IH ; unfold choice_star_cat_star2_type in * ; intros H.
   destruct s ; crush.
-  inverts* H. destruct s0 ; crush.
-  inverts* H4.
-  rewrite string_app_rewind.
-  apply InStarRight with (s := String a0 s0)(s' := s') ; eauto.
-  apply InCat with (s := String a0 s0)(s' := "") ; crush.
-  rewrite string_app_nil_end ; auto.
+  -
+    inverts* H. destruct s0 ; crush.
+    inverts* H4.
+    rewrite string_app_rewind.
+    apply InStarRight with (s := String a0 s0)(s' := s') ; eauto.
+    rewrite <- string_app_nil_end with (s := String a0 s0).
+    apply InCat with (s := String a0 s0)(s' := "") ; crush.
+    rewrite string_app_rewind.
+    apply star_cat ; auto.
+    lets J : InCat H1 H6.
+    apply star_singleton in J ; auto.
 Qed.
 
 
@@ -495,6 +503,8 @@ Proof.
       by (rewrite string_app_nil_end ; auto).
     rewrite Hx.
     apply star_cat with (s := String a s0)(s' := "") ; eauto.
+    apply star_singleton.
+    rewrite Hx ; eauto.
   - 
     apply star_singleton in H4.
     rewrite string_app_rewind.
@@ -563,8 +573,8 @@ Proof.
     apply star_cat ; eauto.
   - 
     apply star_incl with (e' := e1) in H6.
-    apply star_incl with (e' := e2) in H4.
-    rewrite choice_comm in H4.
+    apply star_incl with (e' := e2) in H5.
+    rewrite choice_comm in H5.
     rewrite string_app_assoc.
     rewrite string_app_rewind.
     apply star_cat ; eauto.

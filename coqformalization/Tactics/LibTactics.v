@@ -58,7 +58,8 @@ Require Import List.
   Lemma test : forall b, b = false.
   time eauto 7. (* takes over 4 seconds  to fail! *) *)
 
-Remove Hints Bool.trans_eq_bool.
+Remove Hints Bool.trans_eq_bool : core.
+
 
 
 (* ********************************************************************** *)
@@ -603,7 +604,7 @@ Tactic Notation "protects" constr(E) "do" tactic(Tac) "/" :=
 
 Definition eq' := @eq.
 
-Hint Unfold eq'.
+Hint Unfold eq' : core.
 
 Notation "x '='' y" := (@eq' _ x y)
   (at level 70, y at next level).

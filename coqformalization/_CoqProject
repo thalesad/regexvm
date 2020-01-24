@@ -1,7 +1,7 @@
 -R . regexvm
 
-Semantics/Bigstep.v
 Semantics/SmallStep.v
+Semantics/Greedy.v
 Syntax/BitCodes.v
 Syntax/Context.v
 Syntax/Input.v
@@ -15,3 +15,4 @@ Tactics/Tactics.v
 Tool/Extract.v
 Utils/Notations.v
 Utils/StringUtils.v
+Utils/StrongNatInduction.v

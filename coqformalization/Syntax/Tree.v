@@ -39,7 +39,7 @@ Inductive is_tree_of : tree -> regex -> Prop :=
     (TCons t ts) :> (Star e)
 where "t ':>' e" := (is_tree_of t e).
 
-Hint Constructors is_tree_of.
+Hint Constructors is_tree_of : core.
 
 Ltac is_tree_of_inverts :=
   match goal with
