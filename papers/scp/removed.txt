@@ -1,0 +1,179 @@
+(* begin hide *)
+
+(*
+
+** Dependently typed programming
+
+An interesting feature of Coq is the possibility of defining inductive
+types that mix computational and logical parts. Such types are usually
+called %\emph{strong specifications}% %\cite{Bertot2010}%, since they 
+allow the definition of functions that compute values together with a 
+proof that this value has some desired property. As an example, consider type [sig]
+below, also called ``subset type'', that is defined in Coq's standard
+library as:
+*)
+
+Inductive sig1 (A : Set)(P : A -> Prop) : Set :=
+ exist1 : forall x : A, P x -> sig1 P.
+
+(**
+Type [sig] is usually expressed in Coq by using the following
+syntax: [{x : A | P x}]. Constructor [exist] has two
+parameters: [x : A] represents the
+computational part and the other parameter, of type [P x], denotes
+the ``certificate'' that [x] has the property specified by
+predicate [P]. As an example, consider:
+[
+forall n : nat, n <> 0 -> {p | n = S p}
+]
+This type can be used to specify a function that returns the
+predecessor of a natural number [n], together with a proof that
+the returned value really is the predecessor of [n]. The
+definition of a function of type [sig] requires the specification
+of a logical certificate. As occurs in the case of theorems, tactics
+can be used in the definition of such functions. For example, a
+definition of a function that returns the predecessor of a given
+natural number, if it is different from zero, can be given as follows:
+*)
+
+Definition predcert1 : forall n : nat, n <> 0 -> {p | n = S p}.
+  intros n H.
+   destruct n as [ | n'].
+   destruct H. reflexivity.
+   exists n'. reflexivity.
+Defined.
+
+(** 
+While it is possible to write dependently typed functions using tactics,
+it has the inconvenient of ``hiding'' the computational structure of a 
+function definition. A possible way to reconcile the usage of tactics to 
+writing proof terms and functions using normal Gallina expressions is to
+use the tactic [refine],  which allows one to specify a term with
+missing parts (knowns as ``holes'') to be filled latter using tactics.
+
+The next code piece uses the [refine] tactic to build the computational part
+of a certified predecessor function. We use holes (marked, in code, as underlines), 
+to mark positions where proofs are
+expected. Such proof obligations are later filled by tactic [auto] which finishes
+[predcert2] definition.
+*)
+
+Definition predcert2 : forall n : nat, n <> 0 -> {m | n = S m}.
+  refine (fun n =>
+            match n as x return n = x -> x <> 0 -> {m | x = S m} with
+            | O    => fun _ _ => False_rec _ _
+            | S n' => fun _ _ => exist _ n' _
+            end (eq_refl n)) ; auto.            
+Defined.
+
+(**
+When writing functions that use dependent types, like [sig1], we need to 
+annotate matching constructs to specify the relation between the 
+return and the match discriminee type. We specify this relationship using a [return]
+annotation. In [predcert2], we annotate the match with following type: 
+[[
+n = x -> x <> 0 -> {m | x = S m}
+]]
+Note that it was necessary to add an extra equality on the return type in order to 
+provide the needed type refinement on each match equation, i.e. to replace the occurrence 
+of [n] in each equation type for the appropriate value matched as a pattern. This trick is
+known as the convoy-pattern %\cite{Chlipala13}%.
+
+A inconvenient of the previous definition is that it demands a proof of 
+[n <> 0]. A better solution is to use a type that allows the specification
+of sucessful execution while allowing an obligation-free failure, as represented
+by type [maybe], as proposed in %\cite{Chlipala13}%.
+*)
+
+Inductive maybe (A : Set) (P : A -> Prop) : Set :=
+| Unknown : maybe P
+| Found   : forall x : A, P x -> maybe P.
+
+(** In order to ease the task of writing types and terms that use [maybe], 
+    we adopt the following notations: [{{ x : A ** P }}] denote 
+    type [maybe A (fun x => P x)], [ [$ x $] ] represent term [(Found _ x _)] 
+    and [??] denote term [Unknown _]. *)
+
+Definition predcert3 : forall n : nat, {{ m ** n = S m }}.
+  refine (fun n =>
+    match n return {{ m ** n = S m }} with
+    | O => ??
+    | S n' => [$ n'$]
+    end) ; auto.
+Defined.
+
+(**
+   Note that using type [maybe] it is not necessary to provide a proof of
+   [n <> 0] since when [n = 0], we can just return a dummy [Unknown] value. 
+   Using [refine] tactic is a ``low-level'' solution to programming 
+   with dependent types in Coq. Nowadays, Coq supports the experimental 
+   [Program] construct which automates the task of dependently typed 
+   pattern maching. In our development, we stick to a more conservative 
+   approach using [refine] to keep control of generated terms and also to
+   avoid unnecessary type casts inserted by [Program] %\cite{Chlipala13}%.
+*)
+
+(**
+** Well-founded recursion
+
+In order to remain consistent as a logic, Coq's language demands all functions
+to be total. Such restriction is necessary, since any theorem can be proved with 
+an infinite loop %\cite{Chlipala13}%. Coq uses a simple algorithm that restrict 
+recursive function definitions to be structural, i.e., recursive calls can only 
+be made on syntactic subterms of the original primary argument. 
+
+An inconvenient of such restrictions is that many function definitions 
+does not made recursive calls on structurally smaller terms. In order to define 
+such functions in Coq, we can use several techniques: bounded recursion %\cite{Chlipala13}%, 
+well-founded recursion %\cite{BoveKS16}% and monads %\cite{McBride15}% just to name a few. In our 
+development, we use well-founded recursion because: 1) extra parameters used to 
+convince Coq totality check that the defined function terminates lives in [Prop] 
+universe, which are erased by program extraction; 2) the standard library provides 
+several definitions which allows one to define well-founded relations easily.
+
+In order to explain the definition of functions by well-founded recursion, we will 
+using the following coding of list merge function.
+*)
+
+Fixpoint merge1 (xs ys : list nat) : list nat :=
+  match xs, ys with
+  | nil , ys => ys
+  | xs , nil => xs
+  | (x :: xs) , (y :: ys) =>
+    if le_gt_dec x y then
+       x :: (merge1 xs (y :: ys))
+    else y :: (merge1 (x :: xs) ys)
+  end.
+
+(** 
+Coq's totality checker is not able to recognize that [merge1] terminates. In order to 
+define such function by well-founded recursion, we need to define a well-founded relation 
+on its input arguments in such a way that every recursive call is made on a smaller (w.r.t. the 
+well-founded relation) parameter.
+
+Intuitively, we say that a relation is well-founded if all of its elements are accessible. The notion 
+of accessibility is defined in Coq's standard library by the following inductive type.
+ *)
+
+Inductive Acc1 (A:Type) (R:A->A->Prop) (x:A) : Prop :=
+  Acc_intro1 :
+    (forall y : A, R y x -> Acc1 R y) -> Acc1 R x.
+(** 
+Basically, [Acc1 A R x] specifies that a value [x] is accessible if every element related with [x] in 
+[R] is also accesible. Using the accessibility predicate, the definition of well-founded is immediate. 
+*) 
+
+Definition well_founded1 (A:Type) (R:A->A->Prop) :=
+    forall a, Acc R a.
+
+(**
+The Coq standard library provides lemma [ltnat_wf] which states that the less-than ordering on natural numbers 
+[nat] form a well-founded relation. 
+
+*)
+
+(**
+** Generalized rewriting
+*)
+
+(* end hide *)

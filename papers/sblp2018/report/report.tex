@@ -1059,10 +1059,10 @@ starting and accepting states and the necessary $\epsilon$ transitions, as shown
 \end{center}
 
 \begin{Example}
-    In order to show a step-by-step automaton construction following Thompson's algorithm, we take as
+    In order to show a step-by-step automata construction following Thompson's algorithm, we take as
     example the RE $((ab) + c)^* $ over the alphabet $\Sigma = \{a,b,c\}$.
 
-    The first step is to construct an automaton ($S_1$) that accepts the symbol $a$.
+    The first step is to construct an automata ($S_1$) that accepts the symbol $a$.
 
    \begin{center}
 	\begin{tikzpicture}[->,>=stealth',initial text =$S_1:$,shorten >=1pt,auto,node distance=24mm,scale = 1,transform shape]
@@ -1075,7 +1075,7 @@ starting and accepting states and the necessary $\epsilon$ transitions, as shown
 	\end{tikzpicture}
    \end{center}
 
-   Then, we construct another automaton ($S_2$) that accepts the symbol $b$:
+   Then, we construct another automata ($S_2$) that accepts the symbol $b$:
 
    \begin{center}
 	\begin{tikzpicture}[->,>=stealth',initial text =$S_2:$,shorten >=1pt,auto,node distance=24mm,scale = 1,transform shape]
@@ -1088,7 +1088,7 @@ starting and accepting states and the necessary $\epsilon$ transitions, as shown
 	\end{tikzpicture}
    \end{center}
 
-   The concatenation $ab$ is accepted by automaton $S_3$:
+   The concatenation $ab$ is accepted by automata $S_3$:
 
    \begin{center}
 	\begin{tikzpicture}[->,>=stealth',initial text =$S_3:$,shorten >=1pt,auto,node distance=24mm,scale = 1,transform shape]
@@ -1103,7 +1103,7 @@ starting and accepting states and the necessary $\epsilon$ transitions, as shown
 	\end{tikzpicture}
   \end{center}
 
-  Now, we build automaton $S_4$, which recognizes the symbol $c$:
+  Now we build automata $S_4$, which recognizes the symbol $c$:
 
   \begin{center}
 	\begin{tikzpicture}[->,>=stealth',initial text =$S_4:$,shorten >=1pt,auto,node distance=24mm,scale = 1,transform shape]
@@ -1116,7 +1116,7 @@ starting and accepting states and the necessary $\epsilon$ transitions, as shown
 	\end{tikzpicture}
   \end{center}
 
-  The automaton $S_5$ accepts the RE $(ab) + c$:
+  The automata $S_5$ accepts the RE $(ab) + c$:
 
   \begin{center}
 	\begin{tikzpicture}[->,>=stealth',initial text =$S_5:$,shorten >=1pt,auto,node distance=15mm,scale = 1,transform shape]
@@ -1173,7 +1173,7 @@ starting and accepting states and the necessary $\epsilon$ transitions, as shown
    \end{center}
 \end{Example}
 
-Originally, Thompson formulate its construction as a IBM 7094 program~\cite{Thompson1968}. In our work, we reformulate it as a small-step
+Originally, Thompson formulate its construction as a IBM 7094 program~\cite{Thompson1968}. Next we reformulate it as a small-step
 operational semantics using contexts, modeled as data-type derivatives for RE, which is the subject of
 the next section.
 
